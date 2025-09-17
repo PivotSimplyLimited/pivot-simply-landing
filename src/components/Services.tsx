@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Zap, Heart, Target, Brain, Globe, Sparkles } from "lucide-react";
+import { ArrowRight, Zap, Heart, Target, Brain, Globe, Sparkles, Users } from "lucide-react";
 import coachingIcon from "@/assets/coaching-icon-emerald.jpg";
 import wellnessIcon from "@/assets/wellness-icon-emerald.jpg";
 import transformationIcon from "@/assets/transformation-icon-emerald.jpg";
@@ -10,41 +10,26 @@ const Services = () => {
     {
       icon: coachingIcon,
       iconComponent: <Brain className="w-8 h-8 text-primary" />,
-      title: "Inner Mastery Coaching",
-      description: "Develop deep self-awareness and emotional intelligence to unlock your authentic power and lead with confidence.",
-      features: ["1-on-1 Coaching Sessions", "Mindfulness Practices", "Emotional Regulation", "Leadership Development"],
+      title: "Unbound Pivot",
+      description: "A comprehensive platform for inner mastery that helps you break free from limitations and step into your authentic power.",
+      features: ["Self-Discovery Tools", "Inner Mastery Framework", "Personal Transformation", "Authentic Leadership"],
+      link: "https://unboundpivot.com/"
     },
     {
       icon: wellnessIcon,
-      iconComponent: <Heart className="w-8 h-8 text-primary" />,
-      title: "Holistic Wellness Programs",
-      description: "Integrate mind, body, and spirit through comprehensive wellness approaches for sustainable transformation.",
-      features: ["Physical Health Optimization", "Stress Management", "Nutrition Guidance", "Energy Alignment"],
+      iconComponent: <Users className="w-8 h-8 text-primary" />,
+      title: "Conscious Creator Circle",
+      description: "Live group coaching membership to help you release your success saboteurs using science-backed techniques and synchronicity.",
+      features: ["Live Group Coaching", "Success Saboteur Release", "Science-Backed Techniques", "Synchronicity-Based Methods"],
+      link: "https://academy.pivotsimply.com/awakenedyou"
     },
     {
       icon: transformationIcon,
-      iconComponent: <Sparkles className="w-8 h-8 text-primary" />,
-      title: "Life Transformation Journey",
-      description: "Complete life restructuring programs to help you pivot from where you are to where you want to be.",
-      features: ["Goal Setting & Strategy", "Habit Transformation", "Relationship Building", "Career Pivoting"],
-    },
-    {
       iconComponent: <Target className="w-8 h-8 text-primary" />,
-      title: "Business & Wealth Building",
-      description: "Productize your knowledge and skills while building sustainable wealth through aligned business practices.",
-      features: ["Knowledge Monetization", "Business Strategy", "Financial Planning", "Impact Scaling"],
-    },
-    {
-      iconComponent: <Zap className="w-8 h-8 text-primary" />,
-      title: "Creative Breakthrough Sessions",
-      description: "Activate out-of-the-box thinking and unlock your creative potential for innovative problem-solving.",
-      features: ["Creative Thinking Workshops", "Innovation Methods", "Problem-Solving Tools", "Inspiration Techniques"],
-    },
-    {
-      iconComponent: <Globe className="w-8 h-8 text-primary" />,
-      title: "Global Impact Expansion",
-      description: "Expand your reach and amplify your positive impact on the world through strategic growth and influence.",
-      features: ["Platform Building", "Influence Strategies", "Global Networking", "Legacy Creation"],
+      title: "High Impact Business Coaching",
+      description: "Strategic business coaching designed to help entrepreneurs and leaders create high-impact, profitable businesses.",
+      features: ["Business Strategy", "Impact Scaling", "Leadership Development", "Revenue Growth"],
+      link: "https://academy.pivotsimply.com/highimpactbusinessmembership"
     }
   ];
 
@@ -92,7 +77,11 @@ const Services = () => {
                     </li>
                   ))}
                 </ul>
-                <Button variant="outline" className="w-full group">
+                <Button 
+                  variant="outline" 
+                  className="w-full group"
+                  onClick={() => window.open(service.link, '_blank')}
+                >
                   Learn More
                   <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </Button>
