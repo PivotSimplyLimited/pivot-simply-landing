@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Star, Users, Award } from "lucide-react";
-import heroBackground from "@/assets/hero-background.jpg";
+import heroBackground from "@/assets/hero-background-emerald.jpg";
 
 const Hero = () => {
   return (
@@ -10,16 +10,16 @@ const Hero = () => {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${heroBackground})` }}
       >
-        <div className="absolute inset-0 bg-gradient-hero opacity-90"></div>
+        <div className="absolute inset-0 bg-white/20"></div>
       </div>
       
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 text-center text-white">
+      <div className="relative z-10 container mx-auto px-4 text-center text-foreground">
         <div className="max-w-4xl mx-auto animate-fade-in-up">
           {/* Trust indicators */}
           <div className="flex items-center justify-center gap-8 mb-8 opacity-80">
             <div className="flex items-center gap-2">
-              <Star className="w-5 h-5 fill-current text-secondary" />
+              <Star className="w-5 h-5 fill-current text-primary" />
               <span className="text-sm">5-Star Transformations</span>
             </div>
             <div className="flex items-center gap-2">
@@ -39,7 +39,7 @@ const Hero = () => {
             </span>
           </h1>
           
-          <p className="text-xl md:text-2xl mb-8 opacity-90 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl mb-8 opacity-80 max-w-3xl mx-auto leading-relaxed">
             Transform your life through inner mastery. Unlock creative thinking, productize your knowledge, 
             expand your impact, and thrive with science-backed techniques and holistic balance.
           </p>
@@ -56,9 +56,9 @@ const Hero = () => {
           </div>
 
           {/* Value proposition */}
-          <div className="bg-card/10 backdrop-blur-sm rounded-2xl p-8 max-w-2xl mx-auto">
-            <h3 className="text-xl font-semibold mb-4">Holistic Transformation Includes:</h3>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+          <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 max-w-2xl mx-auto shadow-soft">
+            <h3 className="text-xl font-semibold mb-4 text-foreground">Holistic Transformation Includes:</h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm text-muted-foreground">
               <div>Physical Health</div>
               <div>Emotional Intelligence</div>
               <div>Wealth Building</div>
@@ -69,9 +69,9 @@ const Hero = () => {
       </div>
 
       {/* Floating animation elements */}
-      <div className="absolute top-20 left-10 w-20 h-20 bg-secondary/20 rounded-full animate-float"></div>
-      <div className="absolute bottom-32 right-16 w-16 h-16 bg-accent/20 rounded-full animate-float" style={{ animationDelay: '2s' }}></div>
-      <div className="absolute top-1/2 left-20 w-12 h-12 bg-primary-light/20 rounded-full animate-float" style={{ animationDelay: '4s' }}></div>
+      <div className="absolute top-20 left-10 w-20 h-20 bg-primary/20 rounded-full animate-float"></div>
+      <div className="absolute bottom-32 right-16 w-16 h-16 bg-secondary/30 rounded-full animate-float" style={{ animationDelay: '2s' }}></div>
+      <div className="absolute top-1/2 left-20 w-12 h-12 bg-accent/20 rounded-full animate-float" style={{ animationDelay: '4s' }}></div>
     </section>
   );
 };

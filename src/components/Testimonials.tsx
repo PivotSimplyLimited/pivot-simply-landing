@@ -66,10 +66,10 @@ const Testimonials = () => {
                 {/* Quote icon */}
                 <Quote className="w-8 h-8 text-primary/30 mb-4" />
                 
-                {/* Rating */}
+                 {/* Rating */}
                 <div className="flex gap-1 mb-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-secondary text-secondary" />
+                    <Star key={i} className="w-4 h-4 fill-primary text-primary" />
                   ))}
                 </div>
 
@@ -94,21 +94,21 @@ const Testimonials = () => {
         </div>
 
         {/* Bottom CTA */}
-        <div className="text-center bg-gradient-hero rounded-2xl p-12 text-white shadow-glow">
-          <h3 className="text-3xl font-playfair font-bold mb-4">
+        <div className="text-center bg-white rounded-2xl p-12 shadow-soft border border-primary/10">
+          <h3 className="text-3xl font-playfair font-bold mb-4 text-primary">
             Ready to Write Your Success Story?
           </h3>
-          <p className="text-xl opacity-90 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
             Join our community of transformation champions and unlock your full potential with personalized inner mastery coaching.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <div className="bg-white/20 backdrop-blur-sm px-6 py-3 rounded-full text-sm font-medium">
+            <div className="bg-primary/10 text-primary px-6 py-3 rounded-full text-sm font-medium">
               ✓ Free Discovery Call
             </div>
-            <div className="bg-white/20 backdrop-blur-sm px-6 py-3 rounded-full text-sm font-medium">
+            <div className="bg-primary/10 text-primary px-6 py-3 rounded-full text-sm font-medium">
               ✓ Personalized Assessment
             </div>
-            <div className="bg-white/20 backdrop-blur-sm px-6 py-3 rounded-full text-sm font-medium">
+            <div className="bg-primary/10 text-primary px-6 py-3 rounded-full text-sm font-medium">
               ✓ No Commitment Required
             </div>
           </div>

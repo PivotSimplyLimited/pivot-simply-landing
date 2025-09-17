@@ -2,66 +2,66 @@
 @tailwind components;
 @tailwind utilities;
 
-/* PivotSimply Design System - Inner Mastery & Transformation Theme
+/* PivotSimply Design System - Elegant & Fresh Emerald Theme
 All colors MUST be HSL for optimal theme support.
 */
 
 @layer base {
   :root {
-    /* Base colors - Clean, modern foundation */
-    --background: 0 0% 98%;
-    --foreground: 240 10% 15%;
+    /* Base colors - Clean, fresh foundation */
+    --background: 0 0% 100%;
+    --foreground: 158 15% 15%;
 
     /* Card & Surface colors */
     --card: 0 0% 100%;
-    --card-foreground: 240 10% 15%;
+    --card-foreground: 158 15% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 15%;
+    --popover-foreground: 158 15% 15%;
 
-    /* Primary - Deep transformation purple */
-    --primary: 260 60% 45%;
-    --primary-foreground: 0 0% 98%;
-    --primary-light: 260 45% 65%;
-    --primary-dark: 260 75% 25%;
+    /* Primary - Elegant emerald green */
+    --primary: 158 64% 52%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 158 45% 70%;
+    --primary-dark: 158 75% 35%;
 
-    /* Secondary - Warm gold for energy & empowerment */
-    --secondary: 45 90% 60%;
-    --secondary-foreground: 240 15% 20%;
-    --secondary-light: 45 85% 75%;
-    --secondary-dark: 45 95% 45%;
+    /* Secondary - Fresh mint accent */
+    --secondary: 142 76% 73%;
+    --secondary-foreground: 158 25% 20%;
+    --secondary-light: 142 60% 85%;
+    --secondary-dark: 142 85% 60%;
 
-    /* Muted tones */
-    --muted: 240 5% 94%;
-    --muted-foreground: 240 10% 50%;
+    /* Muted tones - Soft and elegant */
+    --muted: 158 8% 96%;
+    --muted-foreground: 158 12% 45%;
 
-    /* Accent - Spiritual violet */
-    --accent: 280 50% 55%;
-    --accent-foreground: 0 0% 98%;
+    /* Accent - Sophisticated sage */
+    --accent: 140 30% 60%;
+    --accent-foreground: 0 0% 100%;
 
     /* Status colors */
     --destructive: 0 75% 55%;
     --destructive-foreground: 0 0% 98%;
 
-    --success: 140 60% 45%;
+    --success: 158 64% 52%;
     --success-foreground: 0 0% 98%;
 
     /* Interface elements */
-    --border: 240 10% 88%;
-    --input: 240 10% 88%;
-    --ring: 260 60% 45%;
+    --border: 158 15% 90%;
+    --input: 158 15% 90%;
+    --ring: 158 64% 52%;
 
-    /* Gradients - Transformation & Growth */
-    --gradient-hero: linear-gradient(135deg, hsl(260 60% 45%) 0%, hsl(280 50% 55%) 50%, hsl(45 90% 60%) 100%);
-    --gradient-section: linear-gradient(180deg, hsl(260 15% 97%) 0%, hsl(280 10% 95%) 100%);
-    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(260 8% 97%) 100%);
-    --gradient-accent: linear-gradient(90deg, hsl(260 60% 45%) 0%, hsl(280 50% 55%) 100%);
+    /* Gradients - Elegant & Fresh */
+    --gradient-hero: linear-gradient(135deg, hsl(158 64% 52%) 0%, hsl(142 76% 73%) 50%, hsl(0 0% 100%) 100%);
+    --gradient-section: linear-gradient(180deg, hsl(158 20% 98%) 0%, hsl(142 15% 96%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(158 10% 98%) 100%);
+    --gradient-accent: linear-gradient(90deg, hsl(158 64% 52%) 0%, hsl(142 76% 73%) 100%);
 
-    /* Shadows - Elegant depth */
-    --shadow-soft: 0 2px 10px hsl(240 10% 15% / 0.1);
-    --shadow-medium: 0 4px 20px hsl(240 10% 15% / 0.15);
-    --shadow-strong: 0 8px 30px hsl(240 10% 15% / 0.2);
-    --shadow-glow: 0 0 40px hsl(260 60% 45% / 0.3);
+    /* Shadows - Soft elegance */
+    --shadow-soft: 0 2px 10px hsl(158 15% 15% / 0.08);
+    --shadow-medium: 0 4px 20px hsl(158 15% 15% / 0.12);
+    --shadow-strong: 0 8px 30px hsl(158 15% 15% / 0.16);
+    --shadow-glow: 0 0 40px hsl(158 64% 52% / 0.25);
 
     --radius: 0.5rem;
 
@@ -83,52 +83,52 @@ All colors MUST be HSL for optimal theme support.
   }
 
   .dark {
-    /* Dark theme - Deep transformation space */
-    --background: 240 15% 8%;
+    /* Dark theme - Elegant emerald in dark mode */
+    --background: 158 25% 8%;
     --foreground: 0 0% 95%;
 
-    --card: 240 15% 10%;
+    --card: 158 20% 12%;
     --card-foreground: 0 0% 95%;
 
-    --popover: 240 15% 10%;
+    --popover: 158 20% 12%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 260 55% 65%;
-    --primary-foreground: 240 15% 8%;
-    --primary-light: 260 40% 75%;
-    --primary-dark: 260 70% 35%;
+    --primary: 158 60% 65%;
+    --primary-foreground: 158 25% 8%;
+    --primary-light: 158 45% 75%;
+    --primary-dark: 158 75% 45%;
 
-    --secondary: 45 85% 65%;
-    --secondary-foreground: 240 15% 8%;
-    --secondary-light: 45 80% 80%;
-    --secondary-dark: 45 90% 50%;
+    --secondary: 142 70% 70%;
+    --secondary-foreground: 158 25% 8%;
+    --secondary-light: 142 60% 80%;
+    --secondary-dark: 142 80% 60%;
 
-    --muted: 240 10% 15%;
-    --muted-foreground: 240 5% 65%;
+    --muted: 158 15% 15%;
+    --muted-foreground: 158 8% 65%;
 
-    --accent: 280 45% 65%;
-    --accent-foreground: 240 15% 8%;
+    --accent: 140 35% 65%;
+    --accent-foreground: 158 25% 8%;
 
     --destructive: 0 70% 60%;
     --destructive-foreground: 0 0% 98%;
 
-    --success: 140 55% 55%;
+    --success: 158 60% 60%;
     --success-foreground: 0 0% 98%;
 
-    --border: 240 10% 20%;
-    --input: 240 10% 20%;
-    --ring: 260 55% 65%;
+    --border: 158 15% 20%;
+    --input: 158 15% 20%;
+    --ring: 158 60% 65%;
 
-    /* Dark gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(260 55% 25%) 0%, hsl(280 45% 35%) 50%, hsl(45 85% 40%) 100%);
-    --gradient-section: linear-gradient(180deg, hsl(240 15% 8%) 0%, hsl(240 12% 12%) 100%);
-    --gradient-card: linear-gradient(145deg, hsl(240 15% 10%) 0%, hsl(240 12% 15%) 100%);
-    --gradient-accent: linear-gradient(90deg, hsl(260 55% 35%) 0%, hsl(280 45% 45%) 100%);
+    /* Dark gradients - Sophisticated emerald */
+    --gradient-hero: linear-gradient(135deg, hsl(158 60% 35%) 0%, hsl(142 70% 45%) 50%, hsl(158 20% 20%) 100%);
+    --gradient-section: linear-gradient(180deg, hsl(158 25% 8%) 0%, hsl(158 20% 12%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(158 20% 12%) 0%, hsl(158 15% 16%) 100%);
+    --gradient-accent: linear-gradient(90deg, hsl(158 60% 35%) 0%, hsl(142 70% 45%) 100%);
 
     --shadow-soft: 0 2px 10px hsl(0 0% 0% / 0.3);
     --shadow-medium: 0 4px 20px hsl(0 0% 0% / 0.4);
     --shadow-strong: 0 8px 30px hsl(0 0% 0% / 0.5);
-    --shadow-glow: 0 0 40px hsl(260 55% 45% / 0.4);
+    --shadow-glow: 0 0 40px hsl(158 60% 45% / 0.4);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;

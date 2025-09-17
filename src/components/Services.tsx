@@ -1,9 +1,9 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Zap, Heart, Target, Brain, Globe, Sparkles } from "lucide-react";
-import coachingIcon from "@/assets/coaching-icon.jpg";
-import wellnessIcon from "@/assets/wellness-icon.jpg";
-import transformationIcon from "@/assets/transformation-icon.jpg";
+import coachingIcon from "@/assets/coaching-icon-emerald.jpg";
+import wellnessIcon from "@/assets/wellness-icon-emerald.jpg";
+import transformationIcon from "@/assets/transformation-icon-emerald.jpg";
 
 const Services = () => {
   const services = [
