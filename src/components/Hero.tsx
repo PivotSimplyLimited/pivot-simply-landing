@@ -57,9 +57,10 @@ const Hero = () => {
           {/* Value proposition */}
           <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 max-w-2xl mx-auto shadow-soft">
             <h3 className="text-xl font-semibold mb-4 text-foreground">Holistic Transformation Includes:</h3>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm text-muted-foreground">
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-4 text-sm text-muted-foreground">
               <div>Physical Health</div>
               <div>Emotional Intelligence</div>
+              <div>Personal Mastery</div>
               <div>Wealth Building</div>
               <div>Personal Relationships</div>
             </div>
