@@ -52,7 +52,7 @@ const Services = () => {
       iconComponent: <Target className="w-8 h-8 text-primary" />,
       title: "Business & Wealth Building",
       price: "£99 Monthly",
-      description: "Strategic business coaching designed to help entrepreneurs and leaders create high-impact, profitable businesses.",
+      description: "Productize your knowledge and skills while building sustainable wealth through aligned business practices.",
       features: [
         "Knowledge Monetization", 
         "Business Strategy", 
