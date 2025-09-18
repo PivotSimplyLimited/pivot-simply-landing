@@ -54,12 +54,25 @@ const Services = () => {
       price: "£99 Monthly",
       description: "Productize your knowledge and skills while building sustainable wealth through aligned business practices.",
       features: [
-        "Knowledge Monetization", 
+        "Business Entrepreneur Mindset",
+        "Knowing Your Business Numbers", 
         "Business Strategy", 
-        "Financial Planning", 
+        "Financial Planning",
+        "Powerful Brand Building",
+        "Building an Unstoppable Brand",
+        "Leadership Building",
+        "The Transformational Leader",
+        "Learning Sales Techniques",
+        "Knowing Your Prospects",
+        "Getting Leads and Sales",
+        "Business Offers",
+        "Business Pitch Deck",
+        "Knowledge Monetization",
+        "Course Pro",
         "Impact Scaling",
-        "Leadership Development",
-        "Revenue Growth"
+        "Revenue Growth",
+        "The Quest for Personal Mastery",
+        "Business Freedom Blueprint for 10k, 100k"
       ],
       link: "https://academy.pivotsimply.com/highimpactbusinessmembership"
     }
