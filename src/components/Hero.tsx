@@ -40,7 +40,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl mb-8 opacity-80 max-w-3xl mx-auto leading-relaxed">
-            Master your mind, monetize your genius, lead with power, nurture healthy relationships, and thrive in harmony.
+            Master Your Mind, Monetize Your Genius, Lead With Power, Nurture Healthy Relationships, and Thrive in Harmony.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
