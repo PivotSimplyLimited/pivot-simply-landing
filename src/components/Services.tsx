@@ -55,6 +55,7 @@ const Services = () => {
       description: "Productize your knowledge and skills while building sustainable wealth through aligned business practices.",
       features: [
         "Business Entrepreneur Mindset",
+        "Business Foundations Training",
         "Knowing Your Business Numbers", 
         "Business Strategy", 
         "Financial Planning",
