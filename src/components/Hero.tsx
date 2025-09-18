@@ -40,8 +40,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl mb-8 opacity-80 max-w-3xl mx-auto leading-relaxed">
-            Transform your life through inner mastery. Unlock creative thinking, productize your knowledge, 
-            expand your impact, and thrive with science-backed techniques and holistic balance.
+            Master your mind, monetize your genius, lead with power, nurture healthy relationships, and thrive in harmony.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
