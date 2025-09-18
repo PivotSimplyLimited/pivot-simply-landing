@@ -11,24 +11,56 @@ const Services = () => {
       icon: coachingIcon,
       iconComponent: <Brain className="w-8 h-8 text-primary" />,
       title: "Unbound Pivot",
-      description: "A comprehensive platform for inner mastery that helps you break free from limitations and step into your authentic power.",
-      features: ["Self-Discovery Tools", "Inner Mastery Framework", "Personal Transformation", "Authentic Leadership"],
+      price: "£44 Monthly",
+      description: "A comprehensive platform for self inner mastery that helps you break free from limitations and step into your authentic power.",
+      features: [
+        "Self-Discovery Tools", 
+        "Inner Mastery Framework", 
+        "Personal Transformation", 
+        "Authentic Leadership",
+        "Inner Mastery Self Coaching",
+        "Mindfulness Practices",
+        "Emotional Regulation",
+        "Leadership Development",
+        "Physical Health Optimization",
+        "Stress Management",
+        "Energy Alignment"
+      ],
       link: "https://unboundpivot.com/"
     },
     {
       icon: wellnessIcon,
       iconComponent: <Users className="w-8 h-8 text-primary" />,
       title: "Conscious Creator Circle",
+      price: "£33 Weekly",
       description: "Live group coaching membership to help you release your success saboteurs using science-backed techniques and synchronicity.",
-      features: ["Live Group Coaching", "Success Saboteur Release", "Science-Backed Techniques", "Synchronicity-Based Methods"],
+      features: [
+        "Live Weekly Group Coaching", 
+        "Success Saboteur Release", 
+        "Science-Backed Techniques", 
+        "Synchronicity-Based Methods",
+        "Goal Setting & Strategy",
+        "Habit Transformation",
+        "Relationship Building",
+        "Career Pivoting",
+        "Manifestation Programs"
+      ],
       link: "https://academy.pivotsimply.com/awakenedyou"
     },
     {
       icon: transformationIcon,
       iconComponent: <Target className="w-8 h-8 text-primary" />,
-      title: "High Impact Business Coaching",
+      title: "Business & Wealth Building",
+      price: "£99 Monthly",
       description: "Strategic business coaching designed to help entrepreneurs and leaders create high-impact, profitable businesses.",
-      features: ["Business Strategy", "Impact Scaling", "Leadership Development", "Revenue Growth"],
+      features: [
+        "Knowledge Monetization", 
+        "Business Strategy", 
+        "Financial Planning", 
+        "Impact Scaling",
+        "Leadership Development",
+        "Revenue Growth"
+      ],
       link: "https://academy.pivotsimply.com/highimpactbusinessmembership"
     }
   ];
@@ -63,7 +95,8 @@ const Services = () => {
                     service.iconComponent
                   )}
                 </div>
-                <CardTitle className="text-xl font-playfair">{service.title}</CardTitle>
+                <CardTitle className="text-xl font-playfair mb-2">{service.title}</CardTitle>
+                <div className="text-2xl font-bold text-primary mb-2">{service.price}</div>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
