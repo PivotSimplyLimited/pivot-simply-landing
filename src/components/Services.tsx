@@ -14,17 +14,20 @@ const Services = () => {
       price: "£44 Monthly",
       description: "A comprehensive platform for self inner mastery that helps you break free from limitations and step into your authentic power.",
       features: [
-        "Self-Discovery Tools", 
-        "Inner Mastery Framework", 
-        "Personal Transformation", 
-        "Authentic Leadership",
+        "Know Your Thyself",
         "Inner Mastery Self Coaching",
+        "Goal Setting & Strategy",
+        "Habit Building and Transformation",
+        "Heal Confidence, Anxiety, Loneliness, Self Doubt Issues",
+        "Build a Resilient Growth Mindset",
         "Mindfulness Practices",
-        "Emotional Regulation",
-        "Leadership Development",
-        "Physical Health Optimization",
         "Stress Management",
-        "Energy Alignment"
+        "Master the Art of Meditation",
+        "Emotional Regulation",
+        "Inner Energy Alignment",
+        "Health Building Exercises",
+        "Personal Transformation",
+        "AI Expert Coach"
       ],
       link: "https://unboundpivot.com/"
     },
