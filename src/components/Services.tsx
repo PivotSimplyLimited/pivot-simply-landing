@@ -35,7 +35,7 @@ const Services = () => {
       icon: wellnessIcon,
       iconComponent: <Users className="w-8 h-8 text-primary" />,
       title: "Conscious Creator Circle",
-      price: "£33 Weekly",
+      price: "£98 Monthly",
       description: "Live group coaching membership to help you release your success saboteurs using science-backed techniques and synchronicity.",
       features: [
         "Live Weekly Group Coaching", 
