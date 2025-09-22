@@ -8,6 +8,8 @@ import NotFound from "./pages/NotFound";
 import UnboundPivot from "./pages/UnboundPivot";
 import ConsciousCreatorCircle from "./pages/ConsciousCreatorCircle";
 import BusinessWealthBuilding from "./pages/BusinessWealthBuilding";
+import Podcast from "./pages/Podcast";
+import Contact from "./pages/Contact";
 
 const queryClient = new QueryClient();
 
@@ -22,6 +24,8 @@ const App = () => (
           <Route path="/unbound-pivot" element={<UnboundPivot />} />
           <Route path="/conscious-creator-circle" element={<ConsciousCreatorCircle />} />
           <Route path="/business-wealth-building" element={<BusinessWealthBuilding />} />
+          <Route path="/podcast" element={<Podcast />} />
+          <Route path="/contact" element={<Contact />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

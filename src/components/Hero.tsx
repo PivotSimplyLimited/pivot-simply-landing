@@ -16,19 +16,30 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center text-foreground">
         <div className="max-w-4xl mx-auto animate-fade-in-up">
-          {/* Trust indicators */}
-          <div className="flex items-center justify-center gap-8 mb-8 opacity-80">
-            <div className="flex items-center gap-2">
-              <Star className="w-5 h-5 fill-current text-primary" />
-              <span className="text-sm">5-Star Transformations</span>
+          {/* Awards and Trust indicators */}
+          <div className="flex flex-col items-center justify-center gap-6 mb-8">
+            <div className="text-center">
+              <h3 className="text-lg font-semibold mb-2 text-primary">Multi Award Winning</h3>
+              <div className="flex flex-wrap justify-center gap-4 text-xs opacity-90 max-w-3xl">
+                <span>🏆 Award Winning Creative Visionary, British Parliament House, London</span>
+                <span>🎖️ Most Transformative Tech Empowerment Champion 2024 - UK</span>
+                <span>🌟 Finalist - Startups Magazine, Hustle Awards 2025</span>
+                <span>🏅 Finalist - British Business Awards 2024</span>
+              </div>
             </div>
-            <div className="flex items-center gap-2">
-              <Users className="w-5 h-5" />
-              <span className="text-sm">1000+ Lives Changed</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Award className="w-5 h-5" />
-              <span className="text-sm">Certified Coaches</span>
+            <div className="flex items-center justify-center gap-8 opacity-80">
+              <div className="flex items-center gap-2">
+                <Star className="w-5 h-5 fill-current text-primary" />
+                <span className="text-sm">5-Star Transformations</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Users className="w-5 h-5" />
+                <span className="text-sm">1000+ Lives Changed</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Award className="w-5 h-5" />
+                <span className="text-sm">Certified Coaches</span>
+              </div>
             </div>
           </div>
 
