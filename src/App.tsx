@@ -10,6 +10,7 @@ import ConsciousCreatorCircle from "./pages/ConsciousCreatorCircle";
 import BusinessWealthBuilding from "./pages/BusinessWealthBuilding";
 import Podcast from "./pages/Podcast";
 import Contact from "./pages/Contact";
+import Blog from "./pages/Blog";
 
 const queryClient = new QueryClient();
 
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/business-wealth-building" element={<BusinessWealthBuilding />} />
           <Route path="/podcast" element={<Podcast />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/blog" element={<Blog />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
