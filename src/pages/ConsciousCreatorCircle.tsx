@@ -93,6 +93,47 @@ const ConsciousCreatorCircle = () => {
         </div>
       </section>
 
+      {/* Pain Points Section */}
+      <section className="py-24">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-6">
+              Ready To Release Your <span className="text-gradient">Success Saboteurs?</span>
+            </h2>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto mb-16">
+            {[
+              "Chronic burnout and overwhelming stress",
+              "Success saboteurs blocking your potential",
+              "Living on autopilot instead of consciously",
+              "Performance anxiety and persistent low mood", 
+              "Loneliness and feeling disconnected from others",
+              "Overthinking that paralyzes your progress",
+              "Self-doubt undermining your achievements",
+              "Struggling to regulate emotions in tough times",
+              "Lack of clear life direction and purpose",
+              "Limiting beliefs keeping you small",
+              "Feeling like you're not living authentically",
+              "Unable to break destructive patterns"
+            ].map((painPoint, index) => (
+              <div key={index} className="p-6 bg-gradient-card rounded-lg border border-destructive/20">
+                <p className="text-destructive font-medium mb-2">✗</p>
+                <p className="text-muted-foreground">{painPoint}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="text-center">
+            <p className="text-xl font-semibold mb-4">Transform these blocks into breakthrough moments...</p>
+            <p className="text-lg text-muted-foreground mb-8">Join our live group coaching community and release what's holding you back.</p>
+            <Button size="lg" className="mx-auto">
+              Join The Circle Today
+            </Button>
+          </div>
+        </div>
+      </section>
+
       {/* Features Section */}
       <section className="py-24 bg-gradient-section">
         <div className="container mx-auto px-4">

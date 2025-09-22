@@ -83,6 +83,50 @@ const BusinessWealthBuilding = () => {
         </div>
       </section>
 
+      {/* Pain Points Section */}
+      <section className="py-24">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-6">
+              Struggling To Build Your <span className="text-gradient">Business Empire?</span>
+            </h2>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto mb-16">
+            {[
+              "Fear of starting your own business",
+              "Don't know how to monetize your skills and expertise",
+              "Struggling with entrepreneurial mindset blocks",
+              "Lack of clear business strategy and direction",
+              "Financial insecurity and money limiting beliefs",
+              "Imposter syndrome in business and leadership",
+              "No idea how to generate leads or find clients",
+              "Overwhelmed by business foundations and systems",
+              "Can't create compelling offers that sell",
+              "Struggling to scale beyond trading time for money",
+              "Lack confidence in sales and presentations",
+              "Don't know how to build a personal brand",
+              "Afraid of failure and judgment from others",
+              "Stuck in analysis paralysis instead of taking action",
+              "No clear path from where you are to £10K+ months"
+            ].map((painPoint, index) => (
+              <div key={index} className="p-6 bg-gradient-card rounded-lg border border-destructive/20">
+                <p className="text-destructive font-medium mb-2">✗</p>
+                <p className="text-muted-foreground text-sm">{painPoint}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="text-center">
+            <p className="text-xl font-semibold mb-4">Ready to transform your expertise into profitable business?</p>
+            <p className="text-lg text-muted-foreground mb-8">Get the complete blueprint to build your £10K-£100K business empire.</p>
+            <Button size="lg" className="mx-auto">
+              Start Building Your Empire
+            </Button>
+          </div>
+        </div>
+      </section>
+
       {/* Features Section */}
       <section className="py-24 bg-gradient-section">
         <div className="container mx-auto px-4">

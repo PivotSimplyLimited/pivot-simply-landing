@@ -76,6 +76,44 @@ const UnboundPivot = () => {
         </div>
       </section>
 
+      {/* Pain Points Section */}
+      <section className="py-24">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-6">
+              Are You Struggling With <span className="text-gradient">Any Of These?</span>
+            </h2>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto mb-16">
+            {[
+              "Feeling stuck and unfulfilled in life",
+              "Self-doubt and imposter syndrome holding you back",
+              "Anxiety and stress overwhelming your daily life",
+              "Lack of clear direction or life purpose",
+              "Struggling with confidence and self-worth",
+              "Feeling disconnected from your authentic self",
+              "Procrastination and lack of motivation",
+              "Negative thought patterns you can't break",
+              "Feeling lost and unsure of your next steps"
+            ].map((painPoint, index) => (
+              <div key={index} className="p-6 bg-gradient-card rounded-lg border border-destructive/20">
+                <p className="text-destructive font-medium mb-2">✗</p>
+                <p className="text-muted-foreground">{painPoint}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="text-center">
+            <p className="text-xl font-semibold mb-4">If any of these resonate with you...</p>
+            <p className="text-lg text-muted-foreground mb-8">Unbound Pivot is designed to help you break free and step into your power.</p>
+            <Button size="lg" className="mx-auto">
+              Transform Your Life Today
+            </Button>
+          </div>
+        </div>
+      </section>
+
       {/* Features Section */}
       <section className="py-24 bg-gradient-section">
         <div className="container mx-auto px-4">
