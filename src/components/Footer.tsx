@@ -2,14 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Heart, Mail, Phone, MapPin, Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 
 const Footer = () => {
-  const quickLinks = [
-    "Inner Mastery Coaching",
-    "Holistic Wellness Programs", 
-    "Transformation Journey",
-    "Business Coaching",
-    "Creative Breakthrough",
-    "Impact Expansion"
-  ];
+  const quickLinks = [];
 
   const resources = [
     "Free Resources",
