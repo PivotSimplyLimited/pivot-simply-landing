@@ -60,11 +60,14 @@ const ConsciousCreatorCircle = () => {
           <Badge variant="secondary" className="mb-6 bg-white/20 text-white border-white/30">
             LIVE GROUP COACHING
           </Badge>
+          <h2 className="text-2xl md:text-3xl font-semibold mb-4 opacity-90">
+            Radical Life Transformation – Live Group Coaching Membership
+          </h2>
           <h1 className="text-5xl md:text-6xl font-playfair font-bold mb-6">
-            Conscious Creator <span className="text-gradient">Circle</span>
+            Aligned Conscious <span className="text-gradient">Creators</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto opacity-90">
-            Live group coaching membership to help you release your success saboteurs using science-backed techniques and synchronicity.
+            A powerful group coaching experience designed to help you identify and release success saboteurs and inner blocks. Align your life with ease and flow using science-backed techniques, practical tools, and the power of synchronicity.
           </p>
           <div className="flex items-center justify-center gap-6 mb-8">
             <div className="flex items-center gap-2">
