@@ -12,6 +12,7 @@ const BlogPost = () => {
   const blogPosts = [
     {
       id: 1,
+      slug: "5-inner-success-saboteurs-you-need-to-overcome",
       title: "5 Inner Success Saboteurs You Need to Overcome",
       excerpt: "Identify and eliminate the hidden internal obstacles that are sabotaging your success and learn how to transform them into stepping stones for achievement.",
       content: `
@@ -46,6 +47,7 @@ const BlogPost = () => {
     },
     {
       id: 2,
+      slug: "16-life-skills-you-need-in-your-life",
       title: "16 Life Skills You Need In Your Life",
       excerpt: "Master the essential life skills that successful people use daily to navigate challenges, build relationships, and create the life they desire.",
       content: `
@@ -121,6 +123,7 @@ const BlogPost = () => {
     },
     {
       id: 3,
+      slug: "energetic-alignment-the-healing-link-between-mind-connection",
       title: "Energetic Alignment: The Healing Link Between Mind-Connection",
       excerpt: "Discover how to align your energy with your desires and create a powerful mind-body connection that accelerates healing and manifestation.",
       content: `
@@ -152,6 +155,7 @@ const BlogPost = () => {
     },
     {
       id: 4,
+      slug: "quantum-manifestation-how-to-collapse-timelines",
       title: "Quantum Manifestation: How to Collapse Timelines",
       excerpt: "Learn advanced manifestation techniques to collapse timelines and bring your desires into reality faster through quantum principles and conscious creation.",
       content: `
@@ -183,6 +187,7 @@ const BlogPost = () => {
     },
     {
       id: 5,
+      slug: "manifestation-and-synchronicity-how-to-recognize-the-signs",
       title: "Manifestation and Synchronicity - How to Recognize the Signs",
       excerpt: "Understand the language of the universe through synchronicities and learn how to recognize and interpret the signs that guide your manifestation journey.",
       content: `
@@ -217,6 +222,7 @@ const BlogPost = () => {
     },
     {
       id: 6,
+      slug: "energy-alchemy-why-becoming-is-the-new-doing",
       title: "Energy Alchemy: Why Becoming Is the New Doing",
       excerpt: "Transform your approach to success by focusing on becoming rather than doing. Learn how to alchemize your energy for effortless achievement.",
       content: `
@@ -251,6 +257,7 @@ const BlogPost = () => {
     },
     {
       id: 7,
+      slug: "the-power-of-pre-deciding-why-most-transformations-fail",
       title: "The Power of Pre-Deciding: Why Most Transformations Fail",
       excerpt: "Discover the critical step most people miss in transformation and how pre-deciding your future self can guarantee lasting change and success.",
       content: `
@@ -285,6 +292,7 @@ const BlogPost = () => {
     },
     {
       id: 8,
+      slug: "why-youre-manifesting-from-your-wound-not-your-power",
       title: "Why You're Manifesting From Your Wound, Not Your Power",
       excerpt: "Uncover how unhealed wounds sabotage your manifestation efforts and learn to manifest from your authentic power instead of unconscious patterns.",
       content: `
@@ -319,6 +327,7 @@ const BlogPost = () => {
     },
     {
       id: 9,
+      slug: "what-to-know-before-you-start-as-a-manifestation-coach",
       title: "What to Know Before You Start as A Manifestation Coach",
       excerpt: "Essential insights for aspiring manifestation coaches including the skills, mindset, and business knowledge needed to help others create their reality.",
       content: `
@@ -356,6 +365,7 @@ const BlogPost = () => {
     },
     {
       id: 10,
+      slug: "top-5-mindset-traps-that-keep-you-from-coaching-success",
       title: "Top 5 Mindset Traps That Keep You From Coaching Success",
       excerpt: "Identify and overcome the most common mindset blocks that prevent coaches from building successful practices and reaching their income goals.",
       content: `
@@ -393,6 +403,7 @@ const BlogPost = () => {
     },
     {
       id: 11,
+      slug: "3-common-business-problems-and-how-manifestation-helps",
       title: "3 Common Business Problems (and How Manifestation Helps)",
       excerpt: "Learn how to solve typical business challenges using manifestation principles and conscious creation techniques for sustainable growth.",
       content: `
@@ -430,6 +441,7 @@ const BlogPost = () => {
     },
     {
       id: 12,
+      slug: "5-hidden-reasons-your-manifestation-isnt-landing",
       title: "5 Hidden Reasons Your Manifestation Isn't Landing",
       excerpt: "Discover the subtle but powerful blocks that prevent your manifestations from coming to fruition and how to clear them for faster results.",
       content: `
@@ -467,6 +479,7 @@ const BlogPost = () => {
     },
     {
       id: 13,
+      slug: "when-belief-becomes-the-blueprint-new-approach-to-success",
       title: "When Belief Becomes the Blueprint: New Approach to Success",
       excerpt: "Transform your relationship with belief and learn how to use your belief system as a blueprint for creating extraordinary success in all areas.",
       content: `
@@ -504,6 +517,7 @@ const BlogPost = () => {
     },
     {
       id: 14,
+      slug: "walk-through-the-wobble-why-fear-isnt-your-enemy",
       title: "Walk Through The Wobble: Why Fear Isn't Your Enemy",
       excerpt: "Reframe your relationship with fear and learn how to navigate uncertainty with grace while staying aligned with your highest vision.",
       content: `
@@ -541,6 +555,7 @@ const BlogPost = () => {
     },
     {
       id: 15,
+      slug: "when-the-light-feels-dim-youre-not-broken",
       title: "When The Light Feels Dim You're Not Broken",
       excerpt: "Find hope and guidance during dark moments on your spiritual journey. Learn why these periods are essential for your growth and transformation.",
       content: `
@@ -578,6 +593,7 @@ const BlogPost = () => {
     },
     {
       id: 16,
+      slug: "permission-to-be-messy-because-progress-isnt-linear",
       title: "Permission to be Messy: Because Progress Isn't Linear",
       excerpt: "Give yourself permission to embrace the messy middle of transformation and understand why non-linear progress is actually a sign of deep change.",
       content: `
@@ -615,6 +631,7 @@ const BlogPost = () => {
     },
     {
       id: 17,
+      slug: "there-is-no-normal-only-whats-aligned",
       title: "There is No Normal - Only What's Aligned",
       excerpt: "Release the pressure to be 'normal' and discover how living in alignment with your authentic self creates a more fulfilling and successful life.",
       content: `
@@ -655,6 +672,7 @@ const BlogPost = () => {
     },
     {
       id: 18,
+      slug: "when-fear-speaks-choose-to-move-anyway",
       title: "When Fear Speaks, Choose to Move Anyway",
       excerpt: "Master the art of taking action despite fear and learn practical strategies to move forward when your comfort zone tries to hold you back.",
       content: `
@@ -695,6 +713,7 @@ const BlogPost = () => {
     },
     {
       id: 19,
+      slug: "top-5-mistakes-new-digital-coaches-make",
       title: "Top 5 Mistakes New Digital Coaches Make",
       excerpt: "Avoid the most common pitfalls that new coaches face when building their online presence and learn how to set yourself up for success from day one.",
       content: `
@@ -735,6 +754,7 @@ const BlogPost = () => {
     },
     {
       id: 20,
+      slug: "8-rules-to-create-unstoppable-hope",
       title: "8 Rules to Create Unstoppable Hope",
       excerpt: "Build unshakeable hope and resilience with these powerful principles that will keep you moving forward no matter what challenges you face.",
       content: `
@@ -778,7 +798,7 @@ const BlogPost = () => {
     }
   ];
 
-  const post = blogPosts.find(p => p.id === parseInt(id || "1"));
+  const post = blogPosts.find(p => p.slug === slug);
 
   if (!post) {
     return (
