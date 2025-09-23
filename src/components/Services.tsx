@@ -161,15 +161,6 @@ const Services = () => {
           ))}
         </div>
 
-        <div className="text-center mb-8">
-          <p className="text-lg font-medium text-foreground">
-            UnboundPivot – Holistic Wellness Platform
-          </p>
-          <p className="text-primary font-medium">
-            unboundpivot.com
-          </p>
-        </div>
-
         <div className="text-center">
           <Button variant="primary" size="lg" className="group">
             Schedule Your Discovery Call

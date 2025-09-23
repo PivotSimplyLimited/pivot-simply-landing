@@ -81,10 +81,37 @@ const Footer = () => {
             </ul>
             
             <div className="mt-6 pt-4 border-t border-background/20">
-              <h5 className="text-sm font-medium mb-2 text-secondary">PivotSimply Services & Platforms</h5>
-              <div className="space-y-1">
-                <p className="text-background/80 text-sm">UnboundPivot – Holistic Wellness Platform</p>
-                <p className="text-secondary text-sm">unboundpivot.com</p>
+              <h5 className="text-sm font-semibold mb-4 text-secondary">PivotSimply Services & Platforms</h5>
+              <div className="space-y-4 text-sm">
+                <div>
+                  <p className="font-medium text-background mb-1">UnboundPivot – Holistic Wellness Platform</p>
+                  <a href="https://unboundpivot.com/" className="text-secondary hover:underline block mb-1">unboundpivot.com</a>
+                  <p className="text-background/70 text-xs italic">Your all-in-one platform for emotional healing, self-mastery, and personal growth resources.</p>
+                </div>
+                
+                <div>
+                  <p className="font-medium text-background mb-1">Conscious Creator Circle – Transformation Journey (Live Weekly Coaching)</p>
+                  <a href="https://academy.pivotsimply.com/awakenedyou" className="text-secondary hover:underline block mb-1">academy.pivotsimply.com/awakenedyou</a>
+                  <p className="text-background/70 text-xs italic">A guided journey of self-discovery, emotional freedom, and empowered living.</p>
+                </div>
+                
+                <div>
+                  <p className="font-medium text-background mb-1">Business & Wealth Building – Live Weekly Coaching</p>
+                  <a href="https://academy.pivotsimply.com/technicalbusinessmembership" className="text-secondary hover:underline block mb-1">academy.pivotsimply.com/technicalbusinessmembership</a>
+                  <p className="text-background/70 text-xs italic">Grow your business with step-by-step strategies, technical guidance, and wealth-building tools.</p>
+                </div>
+                
+                <div>
+                  <p className="font-medium text-background mb-1">PivotSimply Digital – AI Automation Agency</p>
+                  <a href="https://pivotsimplydigital.com/" className="text-secondary hover:underline block mb-1">pivotsimplydigital.com</a>
+                  <p className="text-background/70 text-xs italic">Done-for-you automation, AI workflows, and digital growth systems for entrepreneurs.</p>
+                </div>
+                
+                <div>
+                  <p className="font-medium text-background mb-1">PivotSimply Merch & Templates (Etsy Shop)</p>
+                  <a href="https://www.etsy.com/uk/shop/PivotSimply" className="text-secondary hover:underline block mb-1">etsy.com/uk/shop/PivotSimply</a>
+                  <p className="text-background/70 text-xs italic">Editable templates, workbooks, planners, and digital products to simplify your business and life.</p>
+                </div>
               </div>
             </div>
           </div>
