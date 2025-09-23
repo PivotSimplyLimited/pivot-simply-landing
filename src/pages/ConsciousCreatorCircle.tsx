@@ -161,7 +161,9 @@ const ConsciousCreatorCircle = () => {
           <div className="text-center">
             <Card className="max-w-md mx-auto bg-gradient-card border-0 shadow-strong">
               <CardHeader>
-                <CardTitle className="text-2xl font-playfair">Join the Circle</CardTitle>
+                <CardTitle className="text-2xl font-playfair">Aligned Conscious Creators</CardTitle>
+                <p className="text-sm text-muted-foreground mt-2">Radical Life Transformation – Live Group Coaching Membership</p>
+                <p className="text-xs text-muted-foreground mt-2">A powerful group coaching experience designed to help you identify and release success saboteurs and inner blocks. Align your life with ease and flow using science-backed techniques, practical tools, and the power of synchronicity.</p>
               </CardHeader>
               <CardContent className="text-center">
                 <div className="text-4xl font-bold text-primary mb-2">£98</div>
