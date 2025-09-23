@@ -79,6 +79,14 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
+            
+            <div className="mt-6 pt-4 border-t border-background/20">
+              <h5 className="text-sm font-medium mb-2 text-secondary">PivotSimply Services & Platforms</h5>
+              <div className="space-y-1">
+                <p className="text-background/80 text-sm">UnboundPivot – Holistic Wellness Platform</p>
+                <p className="text-secondary text-sm">unboundpivot.com</p>
+              </div>
+            </div>
           </div>
 
           {/* Resources */}
