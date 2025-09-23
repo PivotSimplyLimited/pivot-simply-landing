@@ -108,7 +108,7 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-6">
-            Our <span className="text-gradient">Transformation Offerings</span>
+            PivotSimply <span className="text-gradient">Services & Platforms</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Choose from our comprehensive range of services designed to facilitate your complete inner mastery and life transformation journey.
@@ -159,6 +159,15 @@ const Services = () => {
               </CardContent>
             </Card>
           ))}
+        </div>
+
+        <div className="text-center mb-8">
+          <p className="text-lg font-medium text-foreground">
+            UnboundPivot – Holistic Wellness Platform
+          </p>
+          <p className="text-primary font-medium">
+            unboundpivot.com
+          </p>
         </div>
 
         <div className="text-center">
