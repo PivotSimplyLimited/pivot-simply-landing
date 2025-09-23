@@ -20,91 +20,135 @@ const Blog = () => {
   const blogPosts = [
     {
       id: 1,
-      title: "The Power of Conscious Leadership in Business Growth",
-      excerpt: "Discover how conscious leadership principles can transform your business approach and create sustainable growth while maintaining authentic values.",
-      category: "business",
+      title: "Manifestation Mastery: The 369 Tesla Method Explained",
+      excerpt: "Discover how Nikola Tesla's 369 method can transform your manifestation practice and accelerate your goal achievement through this powerful numerology technique.",
+      category: "self-development",
       author: "Mithlesh Singh",
-      date: "2024-03-15",
+      date: "2024-08-15",
       readTime: "8 min read",
       image: "/placeholder.svg",
-      tags: ["Leadership", "Business Growth", "Consciousness"]
+      tags: ["Manifestation", "Tesla Method", "Numerology"]
     },
     {
       id: 2,
-      title: "Breaking Through Self-Sabotage: A Conscious Approach",
-      excerpt: "Understand the root causes of self-sabotage and learn practical techniques to overcome limiting patterns that hold you back from your potential.",
-      category: "self-development",
-      author: "Mithlesh Singh",
-      date: "2024-03-12",
+      title: "Building Your Brand: From Vision to Reality",
+      excerpt: "Essential strategies for entrepreneurs looking to create a powerful brand that resonates with their target audience and drives sustainable business growth.",
+      category: "business",
+      author: "Mithlesh Singh", 
+      date: "2024-08-10",
       readTime: "6 min read",
       image: "/placeholder.svg",
-      tags: ["Self-Sabotage", "Personal Growth", "Mindset"]
+      tags: ["Branding", "Business Strategy", "Marketing"]
     },
     {
       id: 3,
-      title: "Monetizing Your Genius: From Passion to Profit",
-      excerpt: "Learn how to identify your unique gifts and transform them into profitable business ventures while staying aligned with your authentic self.",
-      category: "business",
-      author: "Mithlesh Singh",
-      date: "2024-03-10",
-      readTime: "10 min read",
+      title: "The Power of Self-Discovery in Personal Transformation",
+      excerpt: "Learn how understanding your authentic self becomes the foundation for lasting personal and professional growth in this comprehensive guide to self-awareness.",
+      category: "self-development",
+      author: "Content Team",
+      date: "2024-08-05", 
+      readTime: "7 min read",
       image: "/placeholder.svg",
-      tags: ["Monetization", "Business Strategy", "Authentic Success"]
+      tags: ["Self Discovery", "Personal Growth", "Transformation"]
     },
     {
       id: 4,
-      title: "The Art of Spiritual Alignment in Daily Life",
-      excerpt: "Explore practical ways to maintain spiritual alignment in your daily routine and decision-making process for greater fulfillment and purpose.",
-      category: "self-development",
+      title: "Digital Marketing Strategies for Coaches and Entrepreneurs",
+      excerpt: "Practical tips and proven strategies to build your online presence and attract your ideal clients through effective digital marketing channels.",
+      category: "business",
       author: "Mithlesh Singh",
-      date: "2024-03-08",
-      readTime: "7 min read",
+      date: "2024-08-01",
+      readTime: "9 min read", 
       image: "/placeholder.svg",
-      tags: ["Spirituality", "Alignment", "Daily Practice"]
+      tags: ["Digital Marketing", "SEO", "Content Creation"]
     },
     {
       id: 5,
-      title: "Building Wealth with Conscious Money Mindset",
-      excerpt: "Transform your relationship with money by addressing limiting beliefs and developing a conscious approach to wealth building that serves your highest good.",
-      category: "business",
+      title: "Unleashing Your Inner Power: A Guide to Self-Mastery",
+      excerpt: "Discover the tools and techniques needed to unlock your potential and step into your power as a conscious creator in both life and business.",
+      category: "self-development",
       author: "Mithlesh Singh",
-      date: "2024-03-05",
-      readTime: "9 min read",
-      image: "/placeholder.svg",
-      tags: ["Wealth Building", "Money Mindset", "Financial Freedom"]
+      date: "2024-07-28",
+      readTime: "8 min read",
+      image: "/placeholder.svg", 
+      tags: ["Self Mastery", "Personal Power", "Consciousness"]
     },
     {
       id: 6,
-      title: "Shadow Work: Integrating Your Hidden Self",
-      excerpt: "Dive deep into shadow work practices to integrate suppressed aspects of yourself and unlock greater authenticity and personal power.",
-      category: "self-development",
-      author: "Mithlesh Singh",
-      date: "2024-03-03",
-      readTime: "12 min read",
+      title: "Time Management & Productivity Hacks for Busy Entrepreneurs",
+      excerpt: "Master the art of time management with proven productivity techniques that successful entrepreneurs use daily to maximize their effectiveness.",
+      category: "business",
+      author: "Content Team",
+      date: "2024-07-25",
+      readTime: "6 min read",
       image: "/placeholder.svg",
-      tags: ["Shadow Work", "Integration", "Self-Discovery"]
+      tags: ["Time Management", "Productivity", "Entrepreneurship"]
     },
     {
       id: 7,
-      title: "Scaling Your Business Without Losing Your Soul",
-      excerpt: "Strategies for growing your business while maintaining your values, purpose, and authentic connection with your mission and customers.",
-      category: "business",
+      title: "Building Self-Esteem: The Foundation of Success",
+      excerpt: "Explore practical methods to build unshakeable self-confidence and develop a positive self-image that drives success in all areas of life.",
+      category: "self-development",
       author: "Mithlesh Singh",
-      date: "2024-03-01",
-      readTime: "8 min read",
+      date: "2024-07-20",
+      readTime: "7 min read",
       image: "/placeholder.svg",
-      tags: ["Business Scaling", "Authentic Growth", "Values-Based Business"]
+      tags: ["Self Esteem", "Confidence", "Success Mindset"]
     },
     {
       id: 8,
-      title: "The Neuroscience of Transformation",
-      excerpt: "Understanding how your brain creates change and how to work with neuroplasticity to create lasting personal and professional transformation.",
-      category: "self-development",
-      author: "Mithlesh Singh",
-      date: "2024-02-28",
-      readTime: "11 min read",
+      title: "Content Creation Strategies That Drive Engagement",
+      excerpt: "Learn how to create compelling content that connects with your audience and builds a loyal community around your brand and message.",
+      category: "business",
+      author: "Content Team", 
+      date: "2024-07-15",
+      readTime: "8 min read",
       image: "/placeholder.svg",
-      tags: ["Neuroscience", "Transformation", "Brain Training"]
+      tags: ["Content Creation", "Engagement", "Community Building"]
+    },
+    {
+      id: 9,
+      title: "The Entrepreneur's Guide to Business Coaching",
+      excerpt: "Understand how business coaching can accelerate your growth and help you overcome the common challenges and obstacles of entrepreneurship.",
+      category: "business",
+      author: "Mithlesh Singh",
+      date: "2024-07-10",
+      readTime: "9 min read",
+      image: "/placeholder.svg",
+      tags: ["Business Coaching", "Entrepreneurship", "Growth"]
+    },
+    {
+      id: 10,
+      title: "Developing Life Skills for Personal Excellence",
+      excerpt: "Essential life skills that every successful person masters, from emotional intelligence and effective communication to leadership abilities.",
+      category: "self-development",
+      author: "Content Team",
+      date: "2024-07-05",
+      readTime: "6 min read", 
+      image: "/placeholder.svg",
+      tags: ["Life Skills", "Emotional Intelligence", "Leadership"]
+    },
+    {
+      id: 11,
+      title: "SEO Fundamentals for Business Growth",
+      excerpt: "Master the basics of search engine optimization to increase your online visibility and attract more qualified leads to your business.",
+      category: "business",
+      author: "Content Team",
+      date: "2024-07-01",
+      readTime: "8 min read",
+      image: "/placeholder.svg", 
+      tags: ["SEO", "Digital Marketing", "Online Visibility"]
+    },
+    {
+      id: 12,
+      title: "Global Transformation Through Conscious Leadership",
+      excerpt: "How conscious leaders are creating positive change in the world and how you can join this transformative movement for global impact.",
+      category: "self-development", 
+      author: "Mithlesh Singh",
+      date: "2024-06-25",
+      readTime: "10 min read",
+      image: "/placeholder.svg",
+      tags: ["Conscious Leadership", "Global Impact", "Transformation"]
     }
   ];
 
