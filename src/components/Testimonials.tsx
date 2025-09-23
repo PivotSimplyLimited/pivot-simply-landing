@@ -4,25 +4,25 @@ import { Star, Quote } from "lucide-react";
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Sarah Chen",
-      role: "Tech Executive turned Life Coach",
-      content: "PivotSimply helped me transition from a burned-out corporate executive to a thriving life coach. The inner mastery work was transformational - I now operate from a place of authentic power and purpose.",
+      name: "Virgi J",
+      role: "Conscious Creator Circle Member",
+      content: "Something within me is shifting—quietly, but with real power. My world feels lighter, clearer. I approach life and business with a sharper focus and deeper sense of purpose. Mithlesh helped me uncover the part of me I couldn't reach alone and guided me out of unhelpful patterns into a space where joy, clarity, and progress feel natural.",
       rating: 5,
-      transformation: "From Corporate Burnout to Purposeful Leadership"
+      transformation: "From Hidden Potential to Authentic Power"
     },
     {
-      name: "Marcus Rodriguez",
-      role: "Entrepreneur & Author",
-      content: "The holistic approach at PivotSimply integrated my spiritual growth with practical business strategy. I've tripled my income while finding deeper meaning and balance in my life.",
+      name: "Simeon Mihinga",
+      role: "Business Coaching Client",
+      content: "Pivot Simply is really an ideal business coaching programme for both men and women, especially those fearing to start and grow their businesses. Mithlesh has been an outstanding coach and mentor in business with never-doubted outstanding records.",
       rating: 5,
-      transformation: "From Struggling Freelancer to 7-Figure Business Owner"
+      transformation: "From Fear to Flourishing Business"
     },
     {
-      name: "Dr. Priya Patel",
-      role: "Medical Professional & Wellness Expert",
-      content: "As a doctor, I was skeptical of 'transformation' programs. PivotSimply's science-backed approach convinced me. The results speak for themselves - both personally and professionally.",
+      name: "Caroline Beattie",
+      role: "Conscious Creator Circle Member", 
+      content: "I joined the Conscious Creator Membership and this is the best way I have invested in myself. An interesting road to discovery with usable tools for everyday self care and healing. I have achieved some personal goals that I didn't think were possible.",
       rating: 5,
-      transformation: "From Medical Burnout to Integrated Wellness Leader"
+      transformation: "From Self-Doubt to Personal Achievement"
     }
   ];
 
