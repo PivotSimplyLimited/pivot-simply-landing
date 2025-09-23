@@ -2,9 +2,15 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Check, Star, Brain, Zap, Heart, Target } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
+import { useState } from "react";
 import coachingIcon from "@/assets/coaching-icon-emerald.jpg";
 
 const UnboundPivot = () => {
+  const [isYearly, setIsYearly] = useState(false);
+  
+  const monthlyPrice = 44;
+  const yearlyPrice = 411.84;
+  const yearlySavings = (monthlyPrice * 12) - yearlyPrice;
   const features = [
     "Know Your Thyself",
     "Inner Mastery Self Coaching",
@@ -59,9 +65,46 @@ const UnboundPivot = () => {
               <span className="font-semibold">5.0 Rating</span>
             </div>
             <div className="text-lg font-semibold">
-              £44 Monthly
+              {isYearly ? `£${yearlyPrice.toFixed(0)} Yearly` : `£${monthlyPrice} Monthly`}
             </div>
           </div>
+          
+          {/* Pricing Toggle */}
+          <div className="flex items-center justify-center mb-8">
+            <div className="bg-white/10 p-1 rounded-lg flex">
+              <button
+                onClick={() => setIsYearly(false)}
+                className={`px-6 py-2 rounded-md transition-all ${
+                  !isYearly 
+                    ? 'bg-white text-primary font-semibold' 
+                    : 'text-white/80 hover:text-white'
+                }`}
+              >
+                Monthly
+              </button>
+              <button
+                onClick={() => setIsYearly(true)}
+                className={`px-6 py-2 rounded-md transition-all relative ${
+                  isYearly 
+                    ? 'bg-white text-primary font-semibold' 
+                    : 'text-white/80 hover:text-white'
+                }`}
+              >
+                Yearly
+                <span className="absolute -top-2 -right-2 bg-secondary text-xs px-2 py-1 rounded-full text-background font-bold">
+                  22% OFF
+                </span>
+              </button>
+            </div>
+          </div>
+          
+          {isYearly && (
+            <div className="text-center mb-6">
+              <p className="text-white/90 text-lg">
+                Save £{yearlySavings.toFixed(0)} per year with yearly billing!
+              </p>
+            </div>
+          )}
           <Button size="lg" variant="secondary" className="mb-12">
             Start Your Transformation Today
           </Button>
@@ -141,8 +184,17 @@ const UnboundPivot = () => {
                 <CardTitle className="text-2xl font-playfair">Special Launch Price</CardTitle>
               </CardHeader>
               <CardContent className="text-center">
-                <div className="text-4xl font-bold text-primary mb-2">£44</div>
-                <div className="text-muted-foreground mb-6">per month</div>
+                <div className="text-4xl font-bold text-primary mb-2">
+                  £{isYearly ? yearlyPrice.toFixed(0) : monthlyPrice}
+                </div>
+                <div className="text-muted-foreground mb-6">
+                  per {isYearly ? 'year' : 'month'}
+                  {isYearly && (
+                    <div className="text-sm text-secondary font-semibold mt-1">
+                      Save £{yearlySavings.toFixed(0)} yearly!
+                    </div>
+                  )}
+                </div>
                 <Button size="lg" className="w-full">
                   Get Started Now
                 </Button>
@@ -191,7 +243,7 @@ const UnboundPivot = () => {
             Join thousands who have already started their inner mastery journey.
           </p>
           <Button size="lg" variant="secondary">
-            Start Your Transformation - £44/month
+            Start Your Transformation - £{isYearly ? `${yearlyPrice.toFixed(0)}/year` : `${monthlyPrice}/month`}
           </Button>
         </div>
       </section>

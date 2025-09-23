@@ -2,9 +2,15 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Check, Star, Users, Heart, Brain } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
+import { useState } from "react";
 import wellnessIcon from "@/assets/wellness-icon-emerald.jpg";
 
 const ConsciousCreatorCircle = () => {
+  const [isYearly, setIsYearly] = useState(false);
+  
+  const monthlyPrice = 170;
+  const yearlyPrice = 1591.20;
+  const yearlySavings = (monthlyPrice * 12) - yearlyPrice;
   const features = [
     "Live Weekly Group Coaching",
     "Honour Your True Self",
@@ -79,9 +85,46 @@ const ConsciousCreatorCircle = () => {
               <span className="font-semibold">5.0 Google Rating</span>
             </div>
             <div className="text-lg font-semibold">
-              £170 Monthly
+              {isYearly ? `£${yearlyPrice.toFixed(0)} Yearly` : `£${monthlyPrice} Monthly`}
             </div>
           </div>
+          
+          {/* Pricing Toggle */}
+          <div className="flex items-center justify-center mb-8">
+            <div className="bg-white/10 p-1 rounded-lg flex">
+              <button
+                onClick={() => setIsYearly(false)}
+                className={`px-6 py-2 rounded-md transition-all ${
+                  !isYearly 
+                    ? 'bg-white text-primary font-semibold' 
+                    : 'text-white/80 hover:text-white'
+                }`}
+              >
+                Monthly
+              </button>
+              <button
+                onClick={() => setIsYearly(true)}
+                className={`px-6 py-2 rounded-md transition-all relative ${
+                  isYearly 
+                    ? 'bg-white text-primary font-semibold' 
+                    : 'text-white/80 hover:text-white'
+                }`}
+              >
+                Yearly
+                <span className="absolute -top-2 -right-2 bg-secondary text-xs px-2 py-1 rounded-full text-background font-bold">
+                  22% OFF
+                </span>
+              </button>
+            </div>
+          </div>
+          
+          {isYearly && (
+            <div className="text-center mb-6">
+              <p className="text-white/90 text-lg">
+                Save £{yearlySavings.toFixed(0)} per year with yearly billing!
+              </p>
+            </div>
+          )}
           <Button size="lg" variant="secondary" className="mb-12">
             Join the Circle Today
           </Button>
@@ -166,8 +209,17 @@ const ConsciousCreatorCircle = () => {
                 <p className="text-xs text-muted-foreground mt-2">A powerful group coaching experience designed to help you identify and release success saboteurs and inner blocks. Align your life with ease and flow using science-backed techniques, practical tools, and the power of synchronicity.</p>
               </CardHeader>
               <CardContent className="text-center">
-                <div className="text-4xl font-bold text-primary mb-2">£170</div>
-                <div className="text-muted-foreground mb-6">per month</div>
+                <div className="text-4xl font-bold text-primary mb-2">
+                  £{isYearly ? yearlyPrice.toFixed(0) : monthlyPrice}
+                </div>
+                <div className="text-muted-foreground mb-6">
+                  per {isYearly ? 'year' : 'month'}
+                  {isYearly && (
+                    <div className="text-sm text-secondary font-semibold mt-1">
+                      Save £{yearlySavings.toFixed(0)} yearly!
+                    </div>
+                  )}
+                </div>
                 <Button size="lg" className="w-full">
                   Start Your Journey
                 </Button>
@@ -222,7 +274,7 @@ const ConsciousCreatorCircle = () => {
             Experience live group coaching and transform your success saboteurs into strengths.
           </p>
            <Button size="lg" variant="secondary">
-             Join Now - £170/month
+             Join Now - £{isYearly ? `${yearlyPrice.toFixed(0)}/year` : `${monthlyPrice}/month`}
            </Button>
         </div>
       </section>
