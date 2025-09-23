@@ -34,9 +34,9 @@ const Services = () => {
     {
       icon: wellnessIcon,
       iconComponent: <Users className="w-8 h-8 text-primary" />,
-      title: "Conscious Creator Circle",
+      title: "Aligned Conscious Creators",
       price: "£98 Monthly",
-      description: "Live group coaching membership to help you release your success saboteurs using science-backed techniques and synchronicity.",
+      description: "Radical Life Transformation – Live Group Coaching Membership. A powerful group coaching experience designed to help you identify and release success saboteurs and inner blocks. Align your life with ease and flow using science-backed techniques, practical tools, and the power of synchronicity.",
       features: [
         "Live Weekly Group Coaching",
         "Honour Your True Self",
