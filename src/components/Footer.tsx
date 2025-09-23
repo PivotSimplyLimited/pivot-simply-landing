@@ -101,8 +101,8 @@ const Footer = () => {
                 </div>
                 
                 <div>
-                  <a href="https://academy.pivotsimply.com/awakenedyou" target="_blank" rel="noopener noreferrer" className="font-medium text-background mb-1 hover:text-secondary transition-colors block">Conscious Creator Circle – Transformation Journey (Live Weekly Coaching)</a>
-                  <p className="text-background/70 text-xs italic">A guided journey of self-discovery, emotional freedom, and empowered living.</p>
+                  <a href="/conscious-creator-circle" className="font-medium text-background mb-1 hover:text-secondary transition-colors block">Aligned Conscious Creators – Radical Life Transformation</a>
+                  <p className="text-background/70 text-xs italic">A powerful group coaching experience designed to help you identify and release success saboteurs and inner blocks. Align your life with ease and flow using science-backed techniques, practical tools, and the power of synchronicity.</p>
                 </div>
                 
                 <div>
