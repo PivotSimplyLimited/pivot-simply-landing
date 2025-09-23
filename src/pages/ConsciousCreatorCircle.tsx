@@ -101,7 +101,7 @@ const ConsciousCreatorCircle = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-6">
-              Ready To Release Your <span className="text-gradient">Success Saboteurs?</span>
+              Ready For <span className="text-gradient">Radical Life Transformation?</span>
             </h2>
           </div>
 
@@ -128,8 +128,8 @@ const ConsciousCreatorCircle = () => {
           </div>
 
           <div className="text-center">
-            <p className="text-xl font-semibold mb-4">Transform these blocks into breakthrough moments...</p>
-            <p className="text-lg text-muted-foreground mb-8">Join our live group coaching community and release what's holding you back.</p>
+            <p className="text-xl font-semibold mb-4">Transform these blocks into breakthrough moments with Aligned Conscious Creators...</p>
+            <p className="text-lg text-muted-foreground mb-8">A powerful group coaching experience designed to help you identify and release success saboteurs and inner blocks. Align your life with ease and flow using science-backed techniques, practical tools, and the power of synchronicity.</p>
             <Button size="lg" className="mx-auto">
               Join The Circle Today
             </Button>
