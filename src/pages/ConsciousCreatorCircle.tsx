@@ -111,7 +111,7 @@ const ConsciousCreatorCircle = () => {
                 }`}
               >
                 Yearly
-                <span className="absolute -top-2 -right-2 bg-secondary text-xs px-2 py-1 rounded-full text-background font-bold">
+                <span className="absolute -top-2 -right-2 bg-secondary text-xs px-2 py-1 rounded-full text-primary font-bold shadow-lg border border-primary/20">
                   22% OFF
                 </span>
               </button>
