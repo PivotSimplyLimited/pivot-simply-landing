@@ -11,6 +11,11 @@ import BusinessWealthBuilding from "./pages/BusinessWealthBuilding";
 import Podcast from "./pages/Podcast";
 import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsOfService from "./pages/TermsOfService";
+import Copyrights from "./pages/Copyrights";
+import RefundsPolicy from "./pages/RefundsPolicy";
+import Disclaimer from "./pages/Disclaimer";
 
 const queryClient = new QueryClient();
 
@@ -28,6 +33,11 @@ const App = () => (
           <Route path="/podcast" element={<Podcast />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/terms-of-service" element={<TermsOfService />} />
+          <Route path="/copyrights" element={<Copyrights />} />
+          <Route path="/refunds-policy" element={<RefundsPolicy />} />
+          <Route path="/disclaimer" element={<Disclaimer />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

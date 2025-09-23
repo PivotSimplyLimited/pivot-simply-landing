@@ -120,9 +120,20 @@ const Footer = () => {
 
         {/* Bottom */}
         <div className="border-t border-background/20 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <div className="text-background/60 text-sm">
-              © 2024 PivotSimply. All rights reserved. | Privacy Policy | Terms of Service
+          <div className="flex flex-col lg:flex-row justify-between items-center gap-4">
+            <div className="text-background/60 text-sm text-center lg:text-left">
+              © 2024 PivotSimply. All rights reserved.
+            </div>
+            <div className="flex flex-wrap justify-center gap-2 text-background/60 text-sm">
+              <a href="/privacy-policy" className="hover:text-secondary transition-colors">Privacy Policy</a>
+              <span>•</span>
+              <a href="/terms-of-service" className="hover:text-secondary transition-colors">Terms of Service</a>
+              <span>•</span>
+              <a href="/copyrights" className="hover:text-secondary transition-colors">Copyrights</a>
+              <span>•</span>
+              <a href="/refunds-policy" className="hover:text-secondary transition-colors">Refunds Policy</a>
+              <span>•</span>
+              <a href="/disclaimer" className="hover:text-secondary transition-colors">Disclaimer</a>
             </div>
             <div className="flex items-center gap-2 text-background/60 text-sm">
               Made with <Heart className="w-4 h-4 text-secondary fill-current" /> for transformation
