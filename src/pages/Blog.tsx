@@ -13,142 +13,231 @@ const Blog = () => {
   const categories = [
     { id: "all", label: "All Posts" },
     { id: "business", label: "Business Growth" },
-    { id: "self-development", label: "Self Development" },
-    { id: "mindset", label: "Mindset & Success" }
+    { id: "manifestation", label: "Manifestation" },
+    { id: "mindset", label: "Mindset & Success" },
+    { id: "coaching", label: "Coaching" }
   ];
 
   const blogPosts = [
     {
       id: 1,
-      title: "Manifestation Mastery: The 369 Tesla Method Explained",
-      excerpt: "Discover how Nikola Tesla's 369 method can transform your manifestation practice and accelerate your goal achievement through this powerful numerology technique.",
-      category: "self-development",
+      title: "5 Inner Success Saboteurs You Need to Overcome",
+      excerpt: "Identify and eliminate the hidden internal obstacles that are sabotaging your success and learn how to transform them into stepping stones for achievement.",
+      category: "mindset",
+      author: "Mithlesh Singh",
+      date: "2024-09-20",
+      readTime: "8 min read",
+      image: "/placeholder.svg",
+      tags: ["Success", "Inner Work", "Saboteurs"]
+    },
+    {
+      id: 2,
+      title: "16 Life Skills You Need In Your Life",
+      excerpt: "Master the essential life skills that successful people use daily to navigate challenges, build relationships, and create the life they desire.",
+      category: "mindset",
+      author: "Mithlesh Singh",
+      date: "2024-09-18",
+      readTime: "12 min read",
+      image: "/placeholder.svg",
+      tags: ["Life Skills", "Personal Development", "Success"]
+    },
+    {
+      id: 3,
+      title: "Energetic Alignment: The Healing Link Between Mind-Connection",
+      excerpt: "Discover how to align your energy with your desires and create a powerful mind-body connection that accelerates healing and manifestation.",
+      category: "manifestation",
+      author: "Mithlesh Singh",
+      date: "2024-09-15",
+      readTime: "10 min read",
+      image: "/placeholder.svg",
+      tags: ["Energy", "Alignment", "Healing"]
+    },
+    {
+      id: 4,
+      title: "Quantum Manifestation: How to Collapse Timelines",
+      excerpt: "Learn advanced manifestation techniques to collapse timelines and bring your desires into reality faster through quantum principles and conscious creation.",
+      category: "manifestation",
+      author: "Mithlesh Singh",
+      date: "2024-09-12",
+      readTime: "9 min read",
+      image: "/placeholder.svg",
+      tags: ["Quantum", "Manifestation", "Timeline"]
+    },
+    {
+      id: 5,
+      title: "Manifestation and Synchronicity - How to Recognize the Signs",
+      excerpt: "Understand the language of the universe through synchronicities and learn how to recognize and interpret the signs that guide your manifestation journey.",
+      category: "manifestation",
+      author: "Mithlesh Singh",
+      date: "2024-09-10",
+      readTime: "7 min read",
+      image: "/placeholder.svg",
+      tags: ["Synchronicity", "Signs", "Universe"]
+    },
+    {
+      id: 6,
+      title: "Energy Alchemy: Why Becoming Is the New Doing",
+      excerpt: "Transform your approach to success by focusing on becoming rather than doing. Learn how to alchemize your energy for effortless achievement.",
+      category: "manifestation",
+      author: "Mithlesh Singh",
+      date: "2024-09-08",
+      readTime: "8 min read",
+      image: "/placeholder.svg",
+      tags: ["Energy", "Alchemy", "Becoming"]
+    },
+    {
+      id: 7,
+      title: "The Power of Pre-Deciding: Why Most Transformations Fail",
+      excerpt: "Discover the critical step most people miss in transformation and how pre-deciding your future self can guarantee lasting change and success.",
+      category: "mindset",
+      author: "Mithlesh Singh",
+      date: "2024-09-05",
+      readTime: "6 min read",
+      image: "/placeholder.svg",
+      tags: ["Pre-deciding", "Transformation", "Change"]
+    },
+    {
+      id: 8,
+      title: "Why You're Manifesting From Your Wound, Not Your Power",
+      excerpt: "Uncover how unhealed wounds sabotage your manifestation efforts and learn to manifest from your authentic power instead of unconscious patterns.",
+      category: "manifestation",
+      author: "Mithlesh Singh",
+      date: "2024-09-03",
+      readTime: "9 min read",
+      image: "/placeholder.svg",
+      tags: ["Wounds", "Power", "Healing"]
+    },
+    {
+      id: 9,
+      title: "What to Know Before You Start as A Manifestation Coach",
+      excerpt: "Essential insights for aspiring manifestation coaches including the skills, mindset, and business knowledge needed to help others create their reality.",
+      category: "coaching",
+      author: "Mithlesh Singh",
+      date: "2024-09-01",
+      readTime: "11 min read",
+      image: "/placeholder.svg",
+      tags: ["Coaching", "Business", "Manifestation"]
+    },
+    {
+      id: 10,
+      title: "Top 5 Mindset Traps That Keep You From Coaching Success",
+      excerpt: "Identify and overcome the most common mindset blocks that prevent coaches from building successful practices and reaching their income goals.",
+      category: "coaching",
+      author: "Mithlesh Singh",
+      date: "2024-08-28",
+      readTime: "7 min read",
+      image: "/placeholder.svg",
+      tags: ["Mindset", "Coaching", "Success"]
+    },
+    {
+      id: 11,
+      title: "3 Common Business Problems (and How Manifestation Helps)",
+      excerpt: "Learn how to solve typical business challenges using manifestation principles and conscious creation techniques for sustainable growth.",
+      category: "business",
+      author: "Mithlesh Singh",
+      date: "2024-08-25",
+      readTime: "8 min read",
+      image: "/placeholder.svg",
+      tags: ["Business", "Problems", "Solutions"]
+    },
+    {
+      id: 12,
+      title: "5 Hidden Reasons Your Manifestation Isn't Landing",
+      excerpt: "Discover the subtle but powerful blocks that prevent your manifestations from coming to fruition and how to clear them for faster results.",
+      category: "manifestation",
+      author: "Mithlesh Singh",
+      date: "2024-08-22",
+      readTime: "9 min read",
+      image: "/placeholder.svg",
+      tags: ["Manifestation", "Blocks", "Results"]
+    },
+    {
+      id: 13,
+      title: "When Belief Becomes the Blueprint: New Approach to Success",
+      excerpt: "Transform your relationship with belief and learn how to use your belief system as a blueprint for creating extraordinary success in all areas.",
+      category: "mindset",
+      author: "Mithlesh Singh",
+      date: "2024-08-20",
+      readTime: "10 min read",
+      image: "/placeholder.svg",
+      tags: ["Belief", "Blueprint", "Success"]
+    },
+    {
+      id: 14,
+      title: "Walk Through The Wobble: Why Fear Isn't Your Enemy",
+      excerpt: "Reframe your relationship with fear and learn how to navigate uncertainty with grace while staying aligned with your highest vision.",
+      category: "mindset",
+      author: "Mithlesh Singh",
+      date: "2024-08-18",
+      readTime: "6 min read",
+      image: "/placeholder.svg",
+      tags: ["Fear", "Courage", "Growth"]
+    },
+    {
+      id: 15,
+      title: "When The Light Feels Dim You're Not Broken",
+      excerpt: "Find hope and guidance during dark moments on your spiritual journey. Learn why these periods are essential for your growth and transformation.",
+      category: "mindset",
       author: "Mithlesh Singh",
       date: "2024-08-15",
       readTime: "8 min read",
       image: "/placeholder.svg",
-      tags: ["Manifestation", "Tesla Method", "Numerology"]
+      tags: ["Hope", "Healing", "Journey"]
     },
     {
-      id: 2,
-      title: "Building Your Brand: From Vision to Reality",
-      excerpt: "Essential strategies for entrepreneurs looking to create a powerful brand that resonates with their target audience and drives sustainable business growth.",
-      category: "business",
-      author: "Mithlesh Singh", 
+      id: 16,
+      title: "Permission to be Messy: Because Progress Isn't Linear",
+      excerpt: "Give yourself permission to embrace the messy middle of transformation and understand why non-linear progress is actually a sign of deep change.",
+      category: "mindset",
+      author: "Mithlesh Singh",
+      date: "2024-08-12",
+      readTime: "7 min read",
+      image: "/placeholder.svg",
+      tags: ["Progress", "Growth", "Transformation"]
+    },
+    {
+      id: 17,
+      title: "There is No Normal - Only What's Aligned",
+      excerpt: "Release the pressure to be 'normal' and discover how living in alignment with your authentic self creates a more fulfilling and successful life.",
+      category: "mindset",
+      author: "Mithlesh Singh",
       date: "2024-08-10",
       readTime: "6 min read",
       image: "/placeholder.svg",
-      tags: ["Branding", "Business Strategy", "Marketing"]
+      tags: ["Alignment", "Authenticity", "Normal"]
     },
     {
-      id: 3,
-      title: "The Power of Self-Discovery in Personal Transformation",
-      excerpt: "Learn how understanding your authentic self becomes the foundation for lasting personal and professional growth in this comprehensive guide to self-awareness.",
-      category: "self-development",
-      author: "Content Team",
-      date: "2024-08-05", 
-      readTime: "7 min read",
-      image: "/placeholder.svg",
-      tags: ["Self Discovery", "Personal Growth", "Transformation"]
-    },
-    {
-      id: 4,
-      title: "Digital Marketing Strategies for Coaches and Entrepreneurs",
-      excerpt: "Practical tips and proven strategies to build your online presence and attract your ideal clients through effective digital marketing channels.",
-      category: "business",
+      id: 18,
+      title: "When Fear Speaks, Choose to Move Anyway",
+      excerpt: "Master the art of taking action despite fear and learn practical strategies to move forward when your comfort zone tries to hold you back.",
+      category: "mindset",
       author: "Mithlesh Singh",
-      date: "2024-08-01",
-      readTime: "9 min read", 
-      image: "/placeholder.svg",
-      tags: ["Digital Marketing", "SEO", "Content Creation"]
-    },
-    {
-      id: 5,
-      title: "Unleashing Your Inner Power: A Guide to Self-Mastery",
-      excerpt: "Discover the tools and techniques needed to unlock your potential and step into your power as a conscious creator in both life and business.",
-      category: "self-development",
-      author: "Mithlesh Singh",
-      date: "2024-07-28",
-      readTime: "8 min read",
-      image: "/placeholder.svg", 
-      tags: ["Self Mastery", "Personal Power", "Consciousness"]
-    },
-    {
-      id: 6,
-      title: "Time Management & Productivity Hacks for Busy Entrepreneurs",
-      excerpt: "Master the art of time management with proven productivity techniques that successful entrepreneurs use daily to maximize their effectiveness.",
-      category: "business",
-      author: "Content Team",
-      date: "2024-07-25",
-      readTime: "6 min read",
-      image: "/placeholder.svg",
-      tags: ["Time Management", "Productivity", "Entrepreneurship"]
-    },
-    {
-      id: 7,
-      title: "Building Self-Esteem: The Foundation of Success",
-      excerpt: "Explore practical methods to build unshakeable self-confidence and develop a positive self-image that drives success in all areas of life.",
-      category: "self-development",
-      author: "Mithlesh Singh",
-      date: "2024-07-20",
-      readTime: "7 min read",
-      image: "/placeholder.svg",
-      tags: ["Self Esteem", "Confidence", "Success Mindset"]
-    },
-    {
-      id: 8,
-      title: "Content Creation Strategies That Drive Engagement",
-      excerpt: "Learn how to create compelling content that connects with your audience and builds a loyal community around your brand and message.",
-      category: "business",
-      author: "Content Team", 
-      date: "2024-07-15",
+      date: "2024-08-08",
       readTime: "8 min read",
       image: "/placeholder.svg",
-      tags: ["Content Creation", "Engagement", "Community Building"]
+      tags: ["Fear", "Action", "Courage"]
     },
     {
-      id: 9,
-      title: "The Entrepreneur's Guide to Business Coaching",
-      excerpt: "Understand how business coaching can accelerate your growth and help you overcome the common challenges and obstacles of entrepreneurship.",
-      category: "business",
+      id: 19,
+      title: "Top 5 Mistakes New Digital Coaches Make",
+      excerpt: "Avoid the most common pitfalls that new coaches face when building their online presence and learn how to set yourself up for success from day one.",
+      category: "coaching",
       author: "Mithlesh Singh",
-      date: "2024-07-10",
+      date: "2024-08-05",
       readTime: "9 min read",
       image: "/placeholder.svg",
-      tags: ["Business Coaching", "Entrepreneurship", "Growth"]
+      tags: ["Digital", "Coaching", "Mistakes"]
     },
     {
-      id: 10,
-      title: "Developing Life Skills for Personal Excellence",
-      excerpt: "Essential life skills that every successful person masters, from emotional intelligence and effective communication to leadership abilities.",
-      category: "self-development",
-      author: "Content Team",
-      date: "2024-07-05",
-      readTime: "6 min read", 
-      image: "/placeholder.svg",
-      tags: ["Life Skills", "Emotional Intelligence", "Leadership"]
-    },
-    {
-      id: 11,
-      title: "SEO Fundamentals for Business Growth",
-      excerpt: "Master the basics of search engine optimization to increase your online visibility and attract more qualified leads to your business.",
-      category: "business",
-      author: "Content Team",
-      date: "2024-07-01",
-      readTime: "8 min read",
-      image: "/placeholder.svg", 
-      tags: ["SEO", "Digital Marketing", "Online Visibility"]
-    },
-    {
-      id: 12,
-      title: "Global Transformation Through Conscious Leadership",
-      excerpt: "How conscious leaders are creating positive change in the world and how you can join this transformative movement for global impact.",
-      category: "self-development", 
+      id: 20,
+      title: "8 Rules to Create Unstoppable Hope",
+      excerpt: "Build unshakeable hope and resilience with these powerful principles that will keep you moving forward no matter what challenges you face.",
+      category: "mindset",
       author: "Mithlesh Singh",
-      date: "2024-06-25",
-      readTime: "10 min read",
+      date: "2024-08-03",
+      readTime: "7 min read",
       image: "/placeholder.svg",
-      tags: ["Conscious Leadership", "Global Impact", "Transformation"]
+      tags: ["Hope", "Resilience", "Rules"]
     }
   ];
 
