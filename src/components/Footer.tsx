@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Heart, Mail, Phone, MapPin, Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
+import { Heart, Mail, Phone, MapPin, Facebook, Instagram, Linkedin, Twitter, Youtube, Award, Mic } from "lucide-react";
 
 const Footer = () => {
   const quickLinks = [];
@@ -16,7 +16,7 @@ const Footer = () => {
   return (
     <footer className="bg-foreground text-background">
       <div className="container mx-auto px-4 py-16">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
           {/* Brand */}
           <div className="lg:col-span-2">
             <div className="mb-6">
@@ -45,18 +45,37 @@ const Footer = () => {
             </div>
 
             <div className="flex gap-4">
-              <Button variant="ghost" size="sm" className="text-background/80 hover:text-secondary">
-                <Facebook className="w-4 h-4" />
-              </Button>
-              <Button variant="ghost" size="sm" className="text-background/80 hover:text-secondary">
-                <Instagram className="w-4 h-4" />
-              </Button>
-              <Button variant="ghost" size="sm" className="text-background/80 hover:text-secondary">
-                <Linkedin className="w-4 h-4" />
-              </Button>
-              <Button variant="ghost" size="sm" className="text-background/80 hover:text-secondary">
-                <Twitter className="w-4 h-4" />
-              </Button>
+              <a href="https://www.facebook.com/Pivotsimply-102728118717286/" target="_blank" rel="noopener noreferrer">
+                <Button variant="ghost" size="sm" className="text-background/80 hover:text-secondary">
+                  <Facebook className="w-4 h-4" />
+                </Button>
+              </a>
+              <a href="https://www.instagram.com/pivotsimplyofficial" target="_blank" rel="noopener noreferrer">
+                <Button variant="ghost" size="sm" className="text-background/80 hover:text-secondary">
+                  <Instagram className="w-4 h-4" />
+                </Button>
+              </a>
+              <a href="https://www.linkedin.com/in/mithleshsingh/" target="_blank" rel="noopener noreferrer">
+                <Button variant="ghost" size="sm" className="text-background/80 hover:text-secondary">
+                  <Linkedin className="w-4 h-4" />
+                </Button>
+              </a>
+              <a href="https://www.youtube.com/@pivotsimply" target="_blank" rel="noopener noreferrer">
+                <Button variant="ghost" size="sm" className="text-background/80 hover:text-secondary">
+                  <Youtube className="w-4 h-4" />
+                </Button>
+              </a>
+              <a href="https://www.tiktok.com/@pivotsimply" target="_blank" rel="noopener noreferrer">
+                <Button variant="ghost" size="sm" className="text-background/80 hover:text-secondary">
+                  <span className="w-4 h-4 text-xs font-bold">T</span>
+                </Button>
+              </a>
+            </div>
+            
+            <div className="mt-4">
+              <a href="https://youtu.be/pRKppiQYSHM?si=o8ROgVFIPXP4sKCB" target="_blank" rel="noopener noreferrer" className="text-secondary hover:underline text-sm">
+                🎥 Watch Our Mission Statement
+              </a>
             </div>
           </div>
 
@@ -120,6 +139,71 @@ const Footer = () => {
                   </a>
                 </li>
               ))}
+            </ul>
+          </div>
+
+          {/* Awards & Recognition */}
+          <div>
+            <h4 className="text-lg font-semibold mb-4 flex items-center gap-2">
+              <Award className="w-4 h-4" />
+              Awards & Recognition
+            </h4>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <a href="https://smallbusiness.co.uk/british-business-awards-2024-final-shortlist-revealed-2591088/" target="_blank" rel="noopener noreferrer" className="text-background/80 hover:text-secondary transition-colors">
+                  British Business Awards Finalist
+                </a>
+              </li>
+              <li>
+                <a href="https://www.innovationinbusiness.com/winners/pivotsimply/" target="_blank" rel="noopener noreferrer" className="text-background/80 hover:text-secondary transition-colors">
+                  Most Transformative Tech Champion 2024
+                </a>
+              </li>
+              <li>
+                <a href="https://thehustleawards.co.uk/shortlist-2025/" target="_blank" rel="noopener noreferrer" className="text-background/80 hover:text-secondary transition-colors">
+                  Social Impact Heroes Finalist
+                </a>
+              </li>
+              <li>
+                <a href="https://www.retrainexpo.co.uk/speakers/mithlesh-singh" target="_blank" rel="noopener noreferrer" className="text-background/80 hover:text-secondary transition-colors">
+                  Business Show Keynote Speaker
+                </a>
+              </li>
+              <li>
+                <a href="https://londontechweek.com/exhibitor-list/pivotsimply" target="_blank" rel="noopener noreferrer" className="text-background/80 hover:text-secondary transition-colors">
+                  London Tech Week
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Podcasts */}
+          <div>
+            <h4 className="text-lg font-semibold mb-4 flex items-center gap-2">
+              <Mic className="w-4 h-4" />
+              The PivotSimply Podcast
+            </h4>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <a href="https://open.spotify.com/show/4hohCO69KurVGBn9j3TiWZ?si=79c765a96b664562" target="_blank" rel="noopener noreferrer" className="text-background/80 hover:text-secondary transition-colors">
+                  Listen on Spotify
+                </a>
+              </li>
+              <li>
+                <a href="https://podcasts.apple.com/gb/podcast/thepivotsimplypodcast/id1828634193" target="_blank" rel="noopener noreferrer" className="text-background/80 hover:text-secondary transition-colors">
+                  Listen on Apple Podcasts
+                </a>
+              </li>
+              <li>
+                <a href="https://music.amazon.co.uk/podcasts/d11589e1-8995-4333-84bd-94577d1de1e0/thepivotsimplypodcast" target="_blank" rel="noopener noreferrer" className="text-background/80 hover:text-secondary transition-colors">
+                  Listen on Amazon Music
+                </a>
+              </li>
+              <li>
+                <a href="https://music.youtube.com/playlist?list=PL1A95QHNyCgZKG3Vu9VQLs8xEWyKemsx_&si=G16lryUznrPkIxZi" target="_blank" rel="noopener noreferrer" className="text-background/80 hover:text-secondary transition-colors">
+                  Listen on YouTube Music
+                </a>
+              </li>
             </ul>
           </div>
         </div>
