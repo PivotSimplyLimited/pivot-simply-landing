@@ -6,7 +6,7 @@ import { ArrowLeft, Calendar, Clock, User, Tag, Share2 } from "lucide-react";
 import Footer from "@/components/Footer";
 
 const BlogPost = () => {
-  const { id } = useParams();
+  const { slug } = useParams();
 
   // Blog posts data (in a real app, this would come from an API)
   const blogPosts = [
@@ -898,8 +898,8 @@ const BlogPost = () => {
           </div>
           
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            {blogPosts.filter(p => p.id !== post.id).slice(0, 3).map((relatedPost) => (
-              <Link key={relatedPost.id} to={`/blog/${relatedPost.id}`}>
+            {blogPosts.filter(p => p.slug !== post.slug).slice(0, 3).map((relatedPost) => (
+              <Link key={relatedPost.slug} to={`/blog/${relatedPost.slug}`}>
                 <Card className="overflow-hidden hover:shadow-lg transition-shadow group cursor-pointer">
                   <div className="aspect-video bg-muted"></div>
                   <CardContent className="p-6">

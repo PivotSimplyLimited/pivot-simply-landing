@@ -21,224 +21,224 @@ const Blog = () => {
 
   const blogPosts = [
     {
-      id: 1,
-      title: "5 Inner Success Saboteurs You Need to Overcome",
-      excerpt: "Identify and eliminate the hidden internal obstacles that are sabotaging your success and learn how to transform them into stepping stones for achievement.",
+      slug: "5-key-reasons-why-introverts-are-often-misunderstood-by-society",
+      title: "5 Key Reasons Why Introverts Are Often Misunderstood by Society",
+      excerpt: "Introverts are frequently mislabeled as shy or antisocial simply because they are quieter and prefer less social stimulation. However, introversion is not the same as shyness.",
       category: "mindset",
       author: "Mithlesh Singh",
-      date: "2024-09-20",
+      date: "July 11, 2024",
+      readTime: "6 min read",
+      image: "/placeholder.svg",
+      tags: ["Introversion", "Society", "Personality"]
+    },
+    {
+      slug: "5-hidden-success-saboteurs-you-need-to-overcome",
+      title: "5 Hidden Success Saboteurs You Need to Overcome",
+      excerpt: "Are you a goal-oriented professional feeling stuck on your path to success? You might be falling prey to hidden success saboteurs - sneaky mental blocks that can hold you back.",
+      category: "mindset",
+      author: "Mithlesh Singh",
+      date: "July 10, 2024",
       readTime: "8 min read",
       image: "/placeholder.svg",
-      tags: ["Success", "Inner Work", "Saboteurs"]
+      tags: ["Success", "Saboteurs", "Mindset"]
     },
     {
-      id: 2,
-      title: "16 Life Skills You Need In Your Life",
-      excerpt: "Master the essential life skills that successful people use daily to navigate challenges, build relationships, and create the life they desire.",
+      slug: "7-signs-that-shows-you-are-a-great-genuine-person-at-heart",
+      title: "7 Signs That Show You Are a Great, Genuine Person at Heart",
+      excerpt: "You embrace your imperfections. Genuine people are comfortable with their flaws and don't try to hide them from others.",
       category: "mindset",
       author: "Mithlesh Singh",
-      date: "2024-09-18",
+      date: "June 16, 2024",
+      readTime: "5 min read",
+      image: "/placeholder.svg",
+      tags: ["Authenticity", "Character", "Self-Development"]
+    },
+    {
+      slug: "15-life-skills-you-need-in-your-life",
+      title: "15 Life Skills You Need in Your Life",
+      excerpt: "Remember this: Your life skills are challenged as you face the world. School cannot wholly prepare you for the realities of adult life.",
+      category: "mindset",
+      author: "Mithlesh Singh",
+      date: "April 12, 2024",
       readTime: "12 min read",
       image: "/placeholder.svg",
-      tags: ["Life Skills", "Personal Development", "Success"]
+      tags: ["Life Skills", "Personal Development", "Growth"]
     },
     {
-      id: 3,
-      title: "Energetic Alignment: The Healing Link Between Mind-Connection",
-      excerpt: "Discover how to align your energy with your desires and create a powerful mind-body connection that accelerates healing and manifestation.",
+      slug: "energetic-alignment-manifestation-results",
+      title: "Energetic Alignment: The Missing Link Between Manifestation and Results",
+      excerpt: "Ever wondered why some people manifest effortlessly while others keep trying but see little progress? The secret lies in energetic alignment.",
       category: "manifestation",
       author: "Mithlesh Singh",
-      date: "2024-09-15",
+      date: "September 22, 2025",
       readTime: "10 min read",
       image: "/placeholder.svg",
-      tags: ["Energy", "Alignment", "Healing"]
+      tags: ["Energy", "Alignment", "Manifestation"]
     },
     {
-      id: 4,
-      title: "Quantum Manifestation: How to Collapse Timelines",
-      excerpt: "Learn advanced manifestation techniques to collapse timelines and bring your desires into reality faster through quantum principles and conscious creation.",
+      slug: "quantum-manifestation-collapse-timelines",
+      title: "Quantum Manifestation: How to Collapse Timelines and Attract Faster",
+      excerpt: "Most people think manifestation is about waiting - waiting for the universe, waiting for signs, waiting for results. But what if you could collapse timelines?",
       category: "manifestation",
       author: "Mithlesh Singh",
-      date: "2024-09-12",
+      date: "September 21, 2025",
       readTime: "9 min read",
       image: "/placeholder.svg",
-      tags: ["Quantum", "Manifestation", "Timeline"]
+      tags: ["Quantum", "Manifestation", "Timelines"]
     },
     {
-      id: 5,
-      title: "Manifestation and Synchronicity - How to Recognize the Signs",
-      excerpt: "Understand the language of the universe through synchronicities and learn how to recognize and interpret the signs that guide your manifestation journey.",
+      slug: "manifestation-synchronicity-universe-signs",
+      title: "Manifestation and Synchronicity: How to Recognize the Signs the Universe Sends You",
+      excerpt: "When people think of manifestation, they often imagine vision boards, affirmations, or scripting. But what about the signs the universe sends back?",
       category: "manifestation",
       author: "Mithlesh Singh",
-      date: "2024-09-10",
-      readTime: "7 min read",
+      date: "September 18, 2025",
+      readTime: "8 min read",
       image: "/placeholder.svg",
       tags: ["Synchronicity", "Signs", "Universe"]
     },
     {
-      id: 6,
-      title: "Energy Alchemy: Why Becoming Is the New Doing",
-      excerpt: "Transform your approach to success by focusing on becoming rather than doing. Learn how to alchemize your energy for effortless achievement.",
+      slug: "identity-alchemy-manifestation-secret",
+      title: "Identity Alchemy: Why Becoming Is the Real Secret to Manifestation",
+      excerpt: "Most people approach manifestation as if it's a wish-list exercise: write down affirmations, visualize outcomes, hope for the best. But there's a deeper secret.",
       category: "manifestation",
       author: "Mithlesh Singh",
-      date: "2024-09-08",
-      readTime: "8 min read",
-      image: "/placeholder.svg",
-      tags: ["Energy", "Alchemy", "Becoming"]
-    },
-    {
-      id: 7,
-      title: "The Power of Pre-Deciding: Why Most Transformations Fail",
-      excerpt: "Discover the critical step most people miss in transformation and how pre-deciding your future self can guarantee lasting change and success.",
-      category: "mindset",
-      author: "Mithlesh Singh",
-      date: "2024-09-05",
-      readTime: "6 min read",
-      image: "/placeholder.svg",
-      tags: ["Pre-deciding", "Transformation", "Change"]
-    },
-    {
-      id: 8,
-      title: "Why You're Manifesting From Your Wound, Not Your Power",
-      excerpt: "Uncover how unhealed wounds sabotage your manifestation efforts and learn to manifest from your authentic power instead of unconscious patterns.",
-      category: "manifestation",
-      author: "Mithlesh Singh",
-      date: "2024-09-03",
-      readTime: "9 min read",
-      image: "/placeholder.svg",
-      tags: ["Wounds", "Power", "Healing"]
-    },
-    {
-      id: 9,
-      title: "What to Know Before You Start as A Manifestation Coach",
-      excerpt: "Essential insights for aspiring manifestation coaches including the skills, mindset, and business knowledge needed to help others create their reality.",
-      category: "coaching",
-      author: "Mithlesh Singh",
-      date: "2024-09-01",
+      date: "September 15, 2025",
       readTime: "11 min read",
       image: "/placeholder.svg",
-      tags: ["Coaching", "Business", "Manifestation"]
+      tags: ["Identity", "Alchemy", "Becoming"]
     },
     {
-      id: 10,
-      title: "Top 5 Mindset Traps That Keep You From Coaching Success",
-      excerpt: "Identify and overcome the most common mindset blocks that prevent coaches from building successful practices and reaching their income goals.",
-      category: "coaching",
+      slug: "power-of-pre-deciding",
+      title: "The Power of Pre-Deciding: Why Most Manifestations Fail Before They Begin",
+      excerpt: "We often talk about manifesting as if it starts when we decide what we want. But what if the real power lies in what happens before that moment?",
+      category: "manifestation",
       author: "Mithlesh Singh",
-      date: "2024-08-28",
+      date: "September 14, 2025",
       readTime: "7 min read",
       image: "/placeholder.svg",
-      tags: ["Mindset", "Coaching", "Success"]
+      tags: ["Pre-deciding", "Manifestation", "Success"]
     },
     {
-      id: 11,
-      title: "3 Common Business Problems (and How Manifestation Helps)",
-      excerpt: "Learn how to solve typical business challenges using manifestation principles and conscious creation techniques for sustainable growth.",
+      slug: "manifesting-from-your-mind",
+      title: "Why You're Manifesting From Your Mind (Not Your Life) — And How to Shift It",
+      excerpt: "Most people don't realize it, but they're not actually manifesting from their whole self. They're manifesting from their mind alone.",
+      category: "manifestation",
+      author: "Mithlesh Singh",
+      date: "September 11, 2025",
+      readTime: "9 min read",
+      image: "/placeholder.svg",
+      tags: ["Mind", "Embodiment", "Manifestation"]
+    },
+    {
+      slug: "hire-a-manifestation-coach-online",
+      title: "What to Know Before You Hire a Manifestation Coach Online",
+      excerpt: "If you're considering working with a manifestation coach online, you're not alone and you're not crazy. Here's what you need to know first.",
+      category: "coaching",
+      author: "Mithlesh Singh",
+      date: "September 8, 2025",
+      readTime: "10 min read",
+      image: "/placeholder.svg",
+      tags: ["Coaching", "Online", "Manifestation"]
+    },
+    {
+      slug: "mindset-traps-for-coaches",
+      title: "Top 5 Mindset Traps That Keep Coaches Stuck (And How to Shift Them)",
+      excerpt: "You've done the certifications. You've mapped out vision boards. You're journaling affirmations, grounding before every call. So why do you still feel stuck?",
+      category: "coaching",
+      author: "Mithlesh Singh",
+      date: "August 17, 2025",
+      readTime: "8 min read",
+      image: "/placeholder.svg",
+      tags: ["Mindset", "Coaching", "Traps"]
+    },
+    {
+      slug: "5-common-business-problems-and-how-pivotsimply-solves-them",
+      title: "5 Common Business Problems (and How PivotSimply Solves Them)",
+      excerpt: "Running a coaching business shouldn't feel like you're barely keeping up. But for so many coaches and entrepreneurs, that's exactly how it feels.",
       category: "business",
       author: "Mithlesh Singh",
-      date: "2024-08-25",
-      readTime: "8 min read",
+      date: "August 14, 2025",
+      readTime: "9 min read",
       image: "/placeholder.svg",
       tags: ["Business", "Problems", "Solutions"]
     },
     {
-      id: 12,
-      title: "5 Hidden Reasons Your Manifestation Isn't Landing",
-      excerpt: "Discover the subtle but powerful blocks that prevent your manifestations from coming to fruition and how to clear them for faster results.",
+      slug: "manifestation-isnt-landing",
+      title: "5 Hidden Reasons Your Manifestation Isn't Landing (And What to Do Instead)",
+      excerpt: "You're doing the work. You've made the vision boards. You've journaled affirmations. You're showing up with good vibes. So why isn't it working?",
       category: "manifestation",
       author: "Mithlesh Singh",
-      date: "2024-08-22",
-      readTime: "9 min read",
+      date: "August 11, 2025",
+      readTime: "10 min read",
       image: "/placeholder.svg",
       tags: ["Manifestation", "Blocks", "Results"]
     },
     {
-      id: 13,
-      title: "When Belief Becomes the Blueprint: New Approach to Success",
-      excerpt: "Transform your relationship with belief and learn how to use your belief system as a blueprint for creating extraordinary success in all areas.",
+      slug: "optimism-shapes-your-reality",
+      title: "When Belief Becomes the Blueprint: How Optimism Shapes Your Reality",
+      excerpt: "Two people. Same situation. A completely different experience. One feels stuck. The other sees a breakthrough waiting to happen.",
       category: "mindset",
       author: "Mithlesh Singh",
-      date: "2024-08-20",
-      readTime: "10 min read",
-      image: "/placeholder.svg",
-      tags: ["Belief", "Blueprint", "Success"]
-    },
-    {
-      id: 14,
-      title: "Walk Through The Wobble: Why Fear Isn't Your Enemy",
-      excerpt: "Reframe your relationship with fear and learn how to navigate uncertainty with grace while staying aligned with your highest vision.",
-      category: "mindset",
-      author: "Mithlesh Singh",
-      date: "2024-08-18",
-      readTime: "6 min read",
-      image: "/placeholder.svg",
-      tags: ["Fear", "Courage", "Growth"]
-    },
-    {
-      id: 15,
-      title: "When The Light Feels Dim You're Not Broken",
-      excerpt: "Find hope and guidance during dark moments on your spiritual journey. Learn why these periods are essential for your growth and transformation.",
-      category: "mindset",
-      author: "Mithlesh Singh",
-      date: "2024-08-15",
+      date: "August 10, 2025",
       readTime: "8 min read",
       image: "/placeholder.svg",
-      tags: ["Hope", "Healing", "Journey"]
+      tags: ["Belief", "Optimism", "Reality"]
     },
     {
-      id: 16,
-      title: "Permission to be Messy: Because Progress Isn't Linear",
-      excerpt: "Give yourself permission to embrace the messy middle of transformation and understand why non-linear progress is actually a sign of deep change.",
+      slug: "fear-is-a-portal-not-a-problem",
+      title: "Walk Through the Wobble: Why Fear Is a Portal, Not a Problem",
+      excerpt: "Ever feel like fear means you're on the wrong path? What if it's actually the opposite? What if fear is a portal to your next level of growth?",
       category: "mindset",
       author: "Mithlesh Singh",
-      date: "2024-08-12",
+      date: "August 7, 2025",
       readTime: "7 min read",
       image: "/placeholder.svg",
-      tags: ["Progress", "Growth", "Transformation"]
+      tags: ["Fear", "Growth", "Portal"]
     },
     {
-      id: 17,
-      title: "There is No Normal - Only What's Aligned",
-      excerpt: "Release the pressure to be 'normal' and discover how living in alignment with your authentic self creates a more fulfilling and successful life.",
+      slug: "youre-not-broken-youre-processing",
+      title: "When the Light Feels Dim You're Not Broken, You're Processing",
+      excerpt: "Ever feel like you're moving through fog, even when life looks okay on paper? You're not broken. You're not behind. You're processing.",
       category: "mindset",
       author: "Mithlesh Singh",
-      date: "2024-08-10",
+      date: "August 4, 2025",
       readTime: "6 min read",
       image: "/placeholder.svg",
-      tags: ["Alignment", "Authenticity", "Normal"]
+      tags: ["Processing", "Healing", "Growth"]
     },
     {
-      id: 18,
-      title: "When Fear Speaks, Choose to Move Anyway",
-      excerpt: "Master the art of taking action despite fear and learn practical strategies to move forward when your comfort zone tries to hold you back.",
+      slug: "permission-to-be-messy-because-progress-isnt-always-pretty",
+      title: "Permission to Be Messy: Because Progress Isn't Always Pretty",
+      excerpt: "Let's be honest. Not every day feels clear, productive, or Instagram-worthy. Some days you wake up and nothing feels aligned.",
       category: "mindset",
       author: "Mithlesh Singh",
-      date: "2024-08-08",
+      date: "August 3, 2025",
+      readTime: "7 min read",
+      image: "/placeholder.svg",
+      tags: ["Progress", "Messy", "Growth"]
+    },
+    {
+      slug: "no-normal-only-whats-aligned-for-you",
+      title: "There Is No Normal, Only What's Aligned for You",
+      excerpt: "Let's talk about the pressure to be 'normal.' To follow the script. Fit the mold. Do what everyone else is doing because it's safe.",
+      category: "mindset",
+      author: "Mithlesh Singh",
+      date: "July 31, 2025",
+      readTime: "6 min read",
+      image: "/placeholder.svg",
+      tags: ["Alignment", "Normal", "Authenticity"]
+    },
+    {
+      slug: "when-fear-speaks-choose-to-move-anyway",
+      title: "When Fear Speaks, Choose to Move Anyway",
+      excerpt: "Fear doesn't always mean 'stop.' Sometimes, it means you're standing at the edge of something important. Something that could change everything.",
+      category: "mindset",
+      author: "Mithlesh Singh",
+      date: "July 28, 2025",
       readTime: "8 min read",
       image: "/placeholder.svg",
       tags: ["Fear", "Action", "Courage"]
-    },
-    {
-      id: 19,
-      title: "Top 5 Mistakes New Digital Coaches Make",
-      excerpt: "Avoid the most common pitfalls that new coaches face when building their online presence and learn how to set yourself up for success from day one.",
-      category: "coaching",
-      author: "Mithlesh Singh",
-      date: "2024-08-05",
-      readTime: "9 min read",
-      image: "/placeholder.svg",
-      tags: ["Digital", "Coaching", "Mistakes"]
-    },
-    {
-      id: 20,
-      title: "8 Rules to Create Unstoppable Hope",
-      excerpt: "Build unshakeable hope and resilience with these powerful principles that will keep you moving forward no matter what challenges you face.",
-      category: "mindset",
-      author: "Mithlesh Singh",
-      date: "2024-08-03",
-      readTime: "7 min read",
-      image: "/placeholder.svg",
-      tags: ["Hope", "Resilience", "Rules"]
     }
   ];
 
@@ -335,7 +335,7 @@ const Blog = () => {
                   </div>
                 </div>
                 
-                <Link to={`/blog/${featuredPost.id}`}>
+                <Link to={`/blog/${featuredPost.slug}`}>
                   <Button className="self-start group">
                     Read Full Article
                     <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -352,7 +352,7 @@ const Blog = () => {
         <div className="container mx-auto px-4">
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
             {filteredPosts.slice(1).map((post) => (
-              <Link key={post.id} to={`/blog/${post.id}`}>
+              <Link key={post.slug} to={`/blog/${post.slug}`}>
                 <Card className="overflow-hidden hover:shadow-lg transition-shadow group cursor-pointer">
                   <div className="aspect-video bg-muted"></div>
                   
