@@ -79,7 +79,7 @@ const ConsciousCreatorCircle = () => {
               <span className="font-semibold">5.0 Google Rating</span>
             </div>
             <div className="text-lg font-semibold">
-              £98 Monthly
+              £170 Monthly
             </div>
           </div>
           <Button size="lg" variant="secondary" className="mb-12">
@@ -166,7 +166,7 @@ const ConsciousCreatorCircle = () => {
                 <p className="text-xs text-muted-foreground mt-2">A powerful group coaching experience designed to help you identify and release success saboteurs and inner blocks. Align your life with ease and flow using science-backed techniques, practical tools, and the power of synchronicity.</p>
               </CardHeader>
               <CardContent className="text-center">
-                <div className="text-4xl font-bold text-primary mb-2">£98</div>
+                <div className="text-4xl font-bold text-primary mb-2">£170</div>
                 <div className="text-muted-foreground mb-6">per month</div>
                 <Button size="lg" className="w-full">
                   Start Your Journey
@@ -221,9 +221,9 @@ const ConsciousCreatorCircle = () => {
           <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">
             Experience live group coaching and transform your success saboteurs into strengths.
           </p>
-          <Button size="lg" variant="secondary">
-            Join Now - £98/month
-          </Button>
+           <Button size="lg" variant="secondary">
+             Join Now - £170/month
+           </Button>
         </div>
       </section>
     </div>
