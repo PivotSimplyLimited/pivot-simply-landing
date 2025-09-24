@@ -20,12 +20,24 @@ const Hero = () => {
           {/* Awards and Trust indicators */}
           <div className="flex flex-col items-center justify-center gap-6 mb-8">
             <div className="text-center">
-              <h3 className="text-lg font-semibold mb-2 text-primary">Multi Award Winning</h3>
-              <div className="flex flex-wrap justify-center gap-4 text-xs opacity-90 max-w-3xl">
-                <span>🏆 Award Winning Creative Visionary, British Parliament House, London</span>
-                <span>🎖️ Most Transformative Tech Empowerment Champion 2024 - UK</span>
-                <span>🌟 Finalist - Startups Magazine, Hustle Awards 2025</span>
-                <span>🏅 Finalist - British Business Awards 2024</span>
+              <h3 className="text-xl font-semibold mb-4 text-primary">Multi Award Winning</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3 max-w-4xl mx-auto">
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 border border-white/20">
+                  <span className="text-sm font-medium">🏆 Award Winning Creative Visionary</span>
+                  <p className="text-xs opacity-80 mt-1">British Parliament House, London</p>
+                </div>
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 border border-white/20">
+                  <span className="text-sm font-medium">🎖️ Most Transformative Tech Empowerment Champion 2024</span>
+                  <p className="text-xs opacity-80 mt-1">United Kingdom</p>
+                </div>
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 border border-white/20">
+                  <span className="text-sm font-medium">🌟 Finalist - Startups Magazine</span>
+                  <p className="text-xs opacity-80 mt-1">Hustle Awards 2025</p>
+                </div>
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 border border-white/20">
+                  <span className="text-sm font-medium">🏅 Finalist - British Business Awards</span>
+                  <p className="text-xs opacity-80 mt-1">2024</p>
+                </div>
               </div>
             </div>
             <div className="flex items-center justify-center gap-8 opacity-80">
