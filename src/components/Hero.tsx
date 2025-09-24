@@ -67,7 +67,7 @@ const Hero = () => {
             Master Your Mind, Monetize Your Genius, Lead With Power, Nurture Healthy Relationships, and Thrive in Harmony.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
             <Link to="/contact">
               <Button variant="hero" size="lg" className="group">
                 Start Your Transformation
@@ -88,9 +88,9 @@ const Hero = () => {
           </div>
 
           {/* Value proposition */}
-          <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 max-w-2xl mx-auto shadow-soft">
-            <h3 className="text-xl font-semibold mb-4 text-foreground">Holistic Transformation Includes:</h3>
-            <div className="grid grid-cols-2 md:grid-cols-5 gap-4 text-sm text-muted-foreground">
+          <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 max-w-2xl mx-auto shadow-soft">
+            <h3 className="text-lg font-semibold mb-3 text-foreground">Holistic Transformation Includes:</h3>
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-3 text-sm text-muted-foreground">
               <div>Physical Health</div>
               <div>Emotional Intelligence</div>
               <div>Personal Mastery</div>
