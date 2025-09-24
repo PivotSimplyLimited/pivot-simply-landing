@@ -11,8 +11,11 @@ const AboutUs = () => {
           <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary via-purple-600 to-emerald-500 bg-clip-text text-transparent">
             About PivotSimply
           </h1>
-          <p className="text-xl text-muted-foreground leading-relaxed">
-            A premier global coaching and mentorship company dedicated to igniting personal transformation and business growth
+          <p className="text-xl text-muted-foreground leading-relaxed mb-4">
+            Multi Award Winning premier global coaching and mentorship company, London
+          </p>
+          <p className="text-lg text-muted-foreground italic">
+            You are the architect of your own reality; in alignment, you bring everything to life.
           </p>
         </div>
       </section>
@@ -140,10 +143,11 @@ const AboutUs = () => {
               <h3 className="text-2xl font-bold mb-8">Connect With Us</h3>
               <div className="flex justify-center space-x-6">
                 <a
-                  href="https://www.youtube.com/@PivotSimplywithMithleshSingh"
+                  href="https://youtu.be/pRKppiQYSHM?si=CES4bfMVT3dWY9PV"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group p-4 rounded-full bg-red-500/10 hover:bg-red-500/20 transition-all duration-300 hover:scale-110"
+                  title="Watch Our Mission Statement"
                 >
                   <Youtube className="w-8 h-8 text-red-500 group-hover:text-red-600" />
                 </a>
