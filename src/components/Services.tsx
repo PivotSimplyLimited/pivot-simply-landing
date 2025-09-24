@@ -104,7 +104,7 @@ const Services = () => {
   ];
 
   return (
-    <section className="py-24 bg-gradient-section">
+    <section id="services" className="py-24 bg-gradient-section">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-6">

@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Star, Users, Award } from "lucide-react";
+import { Link } from "react-router-dom";
 import heroBackground from "@/assets/hero-background-emerald.jpg";
 
 const Hero = () => {
@@ -55,12 +56,21 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <Button variant="hero" size="lg" className="group">
-              Start Your Transformation
-              <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
+            <Link to="/contact">
+              <Button variant="hero" size="lg" className="group">
+                Start Your Transformation
+                <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              </Button>
+            </Link>
             
-            <Button variant="heroSecondary" size="lg">
+            <Button 
+              variant="heroSecondary" 
+              size="lg"
+              onClick={() => {
+                const servicesSection = document.getElementById('services');
+                servicesSection?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
               Discover Our Offerings
             </Button>
           </div>
