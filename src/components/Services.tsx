@@ -30,8 +30,8 @@ const Services = () => {
         "Personal Transformation",
         "AI Expert Coach"
       ],
-      link: "/unboundpivot",
-      isExternal: false
+      link: "https://preview--pivot-simply-landing.lovable.app/unbound-pivot",
+      isExternal: true
     },
     {
       icon: wellnessIcon,
