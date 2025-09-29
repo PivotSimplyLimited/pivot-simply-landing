@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Zap, Heart, Target, Brain, Globe, Sparkles, Users } from "lucide-react";
+import { Link } from "react-router-dom";
 import coachingIcon from "@/assets/coaching-icon-emerald.jpg";
 import wellnessIcon from "@/assets/wellness-icon-emerald.jpg";
 import transformationIcon from "@/assets/transformation-icon-emerald.jpg";
@@ -29,7 +30,8 @@ const Services = () => {
         "Personal Transformation",
         "AI Expert Coach"
       ],
-      link: "https://unboundpivot.com/"
+      link: "/unboundpivot",
+      isExternal: false
     },
     {
       icon: wellnessIcon,
@@ -68,7 +70,8 @@ const Services = () => {
         "Inner energy alignment",
         "Science-Backed Techniques"
       ],
-      link: "https://preview--pivot-simply-landing.lovable.app/conscious-creator-circle"
+      link: "/conscious-creator-circle",
+      isExternal: false
     },
     {
       icon: transformationIcon,
@@ -99,7 +102,8 @@ const Services = () => {
         "Social Media Consistency on Autopilot",
         "Podcast & Blog Creation Engines"
       ],
-      link: "https://preview--pivot-simply-landing.lovable.app/business-wealth-building"
+      link: "/business-wealth-building",
+      isExternal: false
     }
   ];
 
@@ -148,14 +152,26 @@ const Services = () => {
                     </li>
                   ))}
                 </ul>
-                <Button 
-                  variant="outline" 
-                  className="w-full group"
-                  onClick={() => window.open(service.link, '_blank')}
-                >
-                  Learn More
-                  <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                </Button>
+                {service.isExternal ? (
+                  <Button 
+                    variant="outline" 
+                    className="w-full group"
+                    onClick={() => window.open(service.link, '_blank')}
+                  >
+                    Learn More
+                    <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                  </Button>
+                ) : (
+                  <Link to={service.link}>
+                    <Button 
+                      variant="outline" 
+                      className="w-full group"
+                    >
+                      Learn More
+                      <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                    </Button>
+                  </Link>
+                )}
               </CardContent>
             </Card>
           ))}
