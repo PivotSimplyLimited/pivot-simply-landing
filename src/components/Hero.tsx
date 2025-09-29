@@ -51,7 +51,7 @@ const Hero = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Award className="w-5 h-5" />
-                <span className="text-sm">Certified Coaches</span>
+                <span className="text-sm">Certified Coaching</span>
               </div>
             </div>
           </div>
