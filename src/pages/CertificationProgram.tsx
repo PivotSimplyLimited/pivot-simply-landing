@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { CheckCircle, Star, Users, BookOpen, Award, Clock, Target, Lightbulb } from "lucide-react";
 import { useAuth } from "@/contexts/AuthContext";
 import { toast } from "sonner";
+import CertificationApplicationForm from "@/components/CertificationApplicationForm";
 
 const CertificationProgram = () => {
   const { user, createCheckout } = useAuth();
@@ -64,14 +65,24 @@ const CertificationProgram = () => {
 
   const testimonials = [
     {
-      name: "Sarah Mitchell",
-      role: "Certified Coach",
-      text: "This certification transformed not only my coaching practice but my entire approach to helping others. The depth of training and ongoing support is unmatched."
+      name: "Maria Rodriguez",
+      role: "Certified Transformation Coach",
+      text: "Simeon's certification program completely transformed my approach to coaching. The depth of knowledge and practical tools I gained have enabled me to help my clients achieve breakthrough results consistently."
     },
     {
-      name: "David Chen", 
-      role: "Business Coach",
-      text: "The business coaching specialization gave me the tools and confidence to work with high-level entrepreneurs. My practice has tripled since certification."
+      name: "James Thompson", 
+      role: "Business & Executive Coach",
+      text: "Working with Simeon and completing this certification gave me the confidence and expertise to launch my own coaching practice. Within 6 months, I was booked solid with high-paying clients."
+    },
+    {
+      name: "Dr. Sarah Williams",
+      role: "Leadership Development Coach", 
+      text: "As a former therapist, I thought I knew about transformation work. Simeon's methods and certification opened up entirely new possibilities for my practice. My clients now experience deeper, lasting change."
+    },
+    {
+      name: "Michael Chen",
+      role: "Entrepreneur & Coach",
+      text: "The business coaching specialization was a game-changer. Simeon's approach to helping entrepreneurs overcome their limiting beliefs and scale their businesses is unlike anything I've seen."
     }
   ];
 
@@ -90,19 +101,7 @@ const CertificationProgram = () => {
             Join our comprehensive 18-week certification program and become a skilled transformation and business coach, 
             equipped to guide others through profound personal and professional breakthroughs.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button 
-              size="lg" 
-              onClick={handleEnrollment}
-              className="bg-primary hover:bg-primary/90"
-            >
-              <Award className="mr-2 h-5 w-5" />
-              Enroll Now
-            </Button>
-            <Button size="lg" variant="outline">
-              Download Curriculum
-            </Button>
-          </div>
+          <CertificationApplicationForm />
         </div>
       </section>
 
@@ -244,20 +243,7 @@ const CertificationProgram = () => {
             Join our next cohort and begin your transformation into a certified professional coach.
             Early bird pricing available for limited time.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button 
-              size="lg" 
-              variant="secondary"
-              onClick={handleEnrollment}
-              className="bg-white text-primary hover:bg-white/90"
-            >
-              <Award className="mr-2 h-5 w-5" />
-              Enroll Today
-            </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
-              Schedule Information Call
-            </Button>
-          </div>
+          <CertificationApplicationForm />
         </div>
       </section>
     </div>
