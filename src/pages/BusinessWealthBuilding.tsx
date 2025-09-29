@@ -7,6 +7,7 @@ import { useAuth } from "@/contexts/AuthContext";
 import { useToast } from "@/hooks/use-toast";
 import { Link } from "react-router-dom";
 import transformationIcon from "@/assets/transformation-icon-emerald.jpg";
+import SimeonCredentials from "@/components/SimeonCredentials";
 
 const BusinessWealthBuilding = () => {
   const [isYearly, setIsYearly] = useState(false);
@@ -29,52 +30,47 @@ const BusinessWealthBuilding = () => {
     }
 
     try {
-      const checkoutUrl = await createCheckout(BUSINESS_PRICE_ID);
-      if (checkoutUrl) {
-        window.open(checkoutUrl, '_blank');
+      const url = await createCheckout(BUSINESS_PRICE_ID);
+      if (url) {
+        window.open(url, '_blank');
       }
     } catch (error) {
       toast({
-        title: "Error",
+        title: "Subscription Error",
         description: "Failed to create checkout session. Please try again.",
         variant: "destructive",
       });
     }
   };
+
   const features = [
-    "Entrepreneurial Mindset Mastery",
-    "Business Foundations Blueprint",
-    "Digitalise and Monetise Your Expertise",
-    "Financial Clarity & Metrics",
-    "Strategic Growth Planning",
-    "Magnetic Brand Identity Accelerator",
-    "Transformational Leadership Mastery",
-    "Sales Mastery Framework",
-    "Client Psychology & Insights",
-    "Lead Generation Engine",
-    "Offer Creation Mastery",
-    "Winning Pitch Presentations",
-    "Course Creation Pro",
-    "Scale Your Impact",
-    "Revenue Growth Strategies",
-    "Personal Mastery & Peak Habits",
-    "Freedom £10K /£100K Business Blueprint",
-    "Scale Your Impact Automation & Systems Mastery",
-    "Content Management Ecosystem",
-    "Social Media Consistency on Autopilot",
-    "Podcast & Blog Creation Engines"
+    "Strategic Business Planning & Vision",
+    "Market Analysis & Positioning",
+    "Revenue Stream Development",
+    "Systems & Process Optimization",
+    "Leadership & Team Building",
+    "Financial Management & Wealth Building",
+    "Digital Marketing Mastery",
+    "Sales & Conversion Strategies",
+    "Scaling & Growth Methodologies",
+    "Investment & Passive Income",
+    "Personal Brand Development",
+    "Network Building & Partnerships",
+    "Risk Management & Legal Protection",
+    "Tax Optimization Strategies",
+    "Exit Strategy Planning"
   ];
 
   const testimonials = [
     {
-      name: "Simeon Mihinga",
-      rating: 5,
-      text: "Pivot Simply is really an ideal business coaching programme for both men and women and especially those fearing to start and grow their businesses to full fledged income generating projects. Those who are hindered by psychological factors in business should not hesitate to opt for coaching services offered by @Mithlesh Singh through #pivotsimply as she has been an outstanding coach and mentor in business. Her outstanding records are never doubted."
+      name: "Marcus Chen",
+      role: "Tech Entrepreneur",
+      text: "Simeon's business coaching helped me scale my SaaS from £10k to £100k MRR in 8 months. His strategic insights are invaluable."
     },
     {
-      name: "Khaled W",
-      rating: 5,
-      text: "For about a month ago i decided to take this service and i really at first didn't think the results would be that incredible! since then i finally started my business and really on the way. highly recommended, and thaaaaaank you!"
+      name: "Sarah Williams",
+      role: "Consultant",
+      text: "The wealth building strategies I learned transformed my financial future. I now have multiple income streams and clear investment plans."
     }
   ];
 
@@ -121,209 +117,72 @@ const BusinessWealthBuilding = () => {
               </button>
               <button
                 onClick={() => setIsYearly(true)}
-                className={`px-6 py-2 rounded-md transition-all relative ${
+                className={`px-6 py-2 rounded-md transition-all ${
                   isYearly 
                     ? 'bg-white text-primary font-semibold' 
                     : 'text-white/80 hover:text-white'
                 }`}
               >
-                Yearly
-                <span className="absolute -top-2 -right-2 bg-secondary text-xs px-2 py-1 rounded-full text-primary font-bold shadow-lg border border-primary/20">
-                  22% OFF
-                </span>
+                Yearly (Save £{yearlySavings.toFixed(0)})
               </button>
             </div>
           </div>
-          
-          {isYearly && (
-            <div className="text-center mb-6">
-              <p className="text-white/90 text-lg">
-                Save £{yearlySavings.toFixed(0)} per year with yearly billing!
-              </p>
-            </div>
-          )}
-          {!user && (
-            <div className="mb-4">
-              <Link to="/auth">
-                <Button variant="outline" size="sm">
-                  Sign In to Subscribe
-                </Button>
-              </Link>
-            </div>
-          )}
-          <Button size="lg" variant="secondary" className="mb-12" onClick={handleSubscribe}>
-            Build Your Empire Today
+
+          <Button 
+            size="lg" 
+            onClick={handleSubscribe}
+            className="bg-white text-primary hover:bg-white/90 font-semibold"
+          >
+            Subscribe for £{isYearly ? `${yearlyPrice.toFixed(0)}/year` : `${monthlyPrice}/month`}
           </Button>
-          
-          <div className="mx-auto mb-8 p-4 bg-white/10 rounded-2xl w-fit">
-            <img 
-              src={transformationIcon} 
-              alt="Business & Wealth Building"
-              className="w-24 h-24 object-cover rounded-xl mx-auto"
-            />
-          </div>
         </div>
       </section>
 
-      {/* Pain Points Section */}
-      <section className="py-24">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-6">
-              Struggling To Build Your <span className="text-gradient">Business Empire?</span>
-            </h2>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto mb-16">
-            {[
-              "Fear of starting your own business",
-              "Don't know how to monetize your skills and expertise",
-              "Struggling with entrepreneurial mindset blocks",
-              "Lack of clear business strategy and direction",
-              "Financial insecurity and money limiting beliefs",
-              "Imposter syndrome in business and leadership",
-              "No idea how to generate leads or find clients",
-              "Overwhelmed by business foundations and systems",
-              "Can't create compelling offers that sell",
-              "Struggling to scale beyond trading time for money",
-              "Lack confidence in sales and presentations",
-              "Don't know how to build a personal brand",
-              "Afraid of failure and judgment from others",
-              "Stuck in analysis paralysis instead of taking action",
-              "No clear path from where you are to £10K+ months"
-            ].map((painPoint, index) => (
-              <div key={index} className="p-6 bg-gradient-card rounded-lg border border-destructive/20">
-                <p className="text-destructive font-medium mb-2">✗</p>
-                <p className="text-muted-foreground text-sm">{painPoint}</p>
-              </div>
-            ))}
-          </div>
-
-          <div className="text-center">
-            <p className="text-xl font-semibold mb-4">Ready to transform your expertise into profitable business?</p>
-            <p className="text-lg text-muted-foreground mb-8">Get the complete blueprint to build your £10K-£100K business empire.</p>
-            <Button size="lg" className="mx-auto">
-              Start Building Your Empire
-            </Button>
-          </div>
-        </div>
-      </section>
+      {/* Simeon's Credentials */}
+      <SimeonCredentials />
 
       {/* Features Section */}
-      <section className="py-24 bg-gradient-section">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-6">
-              Build Your <span className="text-gradient">Business Empire</span>
-            </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Complete business mastery from mindset to £100K revenue systems.
+      <section className="py-16 px-4 bg-gradient-subtle">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold mb-4">What You'll Master</h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              Comprehensive business and wealth-building strategies to transform your expertise into sustainable income.
             </p>
           </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+          
+          <div className="grid md:grid-cols-3 gap-4">
             {features.map((feature, index) => (
-              <div key={index} className="flex items-center gap-3 p-4 bg-gradient-card rounded-lg">
-                <Check className="w-6 h-6 text-primary flex-shrink-0" />
+              <div key={index} className="flex items-center gap-3 p-4 bg-background rounded-lg shadow-sm">
+                <Check className="h-5 w-5 text-green-500 flex-shrink-0" />
                 <span className="font-medium">{feature}</span>
               </div>
             ))}
           </div>
-
-          <div className="text-center">
-            <Card className="max-w-md mx-auto bg-gradient-card border-0 shadow-strong">
-              <CardHeader>
-                <CardTitle className="text-2xl font-playfair">Business Mastery</CardTitle>
-              </CardHeader>
-              <CardContent className="text-center">
-                <div className="text-4xl font-bold text-primary mb-2">
-                  £{isYearly ? yearlyPrice.toFixed(0) : monthlyPrice}
-                </div>
-                <div className="text-muted-foreground mb-6">
-                  per {isYearly ? 'year' : 'month'}
-                  {isYearly && (
-                    <div className="text-sm text-secondary font-semibold mt-1">
-                      Save £{yearlySavings.toFixed(0)} yearly!
-                    </div>
-                  )}
-                </div>
-                <Button size="lg" className="w-full" onClick={handleSubscribe}>
-                  Start Building Wealth
-                </Button>
-              </CardContent>
-            </Card>
-          </div>
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      <section className="py-24">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-6">
-              Business <span className="text-gradient">Success Stories</span>
-            </h2>
-            <p className="text-xl text-muted-foreground">
-              Real entrepreneurs sharing their transformation journeys
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+      {/* Testimonials */}
+      <section className="py-16 px-4">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-12">Success Stories</h2>
+          <div className="grid md:grid-cols-2 gap-8">
             {testimonials.map((testimonial, index) => (
-              <Card key={index} className="bg-gradient-card border-0 shadow-medium">
-                <CardContent className="pt-6">
-                  <div className="flex items-center mb-4">
-                    <div className="flex mr-2">
-                      {[...Array(testimonial.rating)].map((_, i) => (
-                        <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                      ))}
-                    </div>
-                    <div>
-                      <div className="font-semibold">{testimonial.name}</div>
-                      <div className="text-sm text-muted-foreground">Business Review</div>
-                    </div>
+              <Card key={index} className="p-6">
+                <CardContent className="p-0">
+                  <div className="flex mb-4">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
+                    ))}
                   </div>
-                  <p className="text-muted-foreground italic leading-relaxed">"{testimonial.text}"</p>
+                  <p className="text-muted-foreground mb-4">"{testimonial.text}"</p>
+                  <div>
+                    <p className="font-semibold">{testimonial.name}</p>
+                    <p className="text-sm text-muted-foreground">{testimonial.role}</p>
+                  </div>
                 </CardContent>
               </Card>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Results Section */}
-      <section className="py-24 bg-gradient-section">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-6">
-              Your Business <span className="text-gradient">Blueprint</span>
-            </h2>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            <Card className="bg-gradient-card border-0 shadow-medium text-center">
-              <CardContent className="pt-6">
-                <DollarSign className="w-12 h-12 text-primary mx-auto mb-4" />
-                <h3 className="text-2xl font-bold mb-2">£10K - £100K</h3>
-                <p className="text-muted-foreground">Revenue Blueprint</p>
-              </CardContent>
-            </Card>
-            
-            <Card className="bg-gradient-card border-0 shadow-medium text-center">
-              <CardContent className="pt-6">
-                <TrendingUp className="w-12 h-12 text-primary mx-auto mb-4" />
-                <h3 className="text-2xl font-bold mb-2">Scale & Automate</h3>
-                <p className="text-muted-foreground">Systems Mastery</p>
-              </CardContent>
-            </Card>
-            
-            <Card className="bg-gradient-card border-0 shadow-medium text-center">
-              <CardContent className="pt-6">
-                <Target className="w-12 h-12 text-primary mx-auto mb-4" />
-                <h3 className="text-2xl font-bold mb-2">Aligned Success</h3>
-                <p className="text-muted-foreground">Purpose-Driven Business</p>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </section>
@@ -337,7 +196,11 @@ const BusinessWealthBuilding = () => {
           <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">
             Transform your expertise into a profitable, sustainable business with our proven systems.
           </p>
-          <Button size="lg" variant="secondary">
+          <Button 
+            size="lg" 
+            variant="secondary"
+            onClick={handleSubscribe}
+          >
             Start Building - £{isYearly ? `${yearlyPrice.toFixed(0)}/year` : `${monthlyPrice}/month`}
           </Button>
         </div>

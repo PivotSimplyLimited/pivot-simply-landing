@@ -4,6 +4,7 @@ import { Check, Star, Users, Heart, Brain } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { useState } from "react";
 import wellnessIcon from "@/assets/wellness-icon-emerald.jpg";
+import SimeonCredentials from "@/components/SimeonCredentials";
 
 const ConsciousCreatorCircle = () => {
   const [isYearly, setIsYearly] = useState(false);
@@ -278,6 +279,9 @@ const ConsciousCreatorCircle = () => {
            </Button>
         </div>
       </section>
+
+      {/* Simeon's Credentials */}
+      <SimeonCredentials />
     </div>
   );
 };

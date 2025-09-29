@@ -4,6 +4,7 @@ import { Check, Star, Brain, Zap, Heart, Target } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { useState } from "react";
 import coachingIcon from "@/assets/coaching-icon-emerald.jpg";
+import SimeonCredentials from "@/components/SimeonCredentials";
 
 const UnboundPivot = () => {
   const [isYearly, setIsYearly] = useState(false);
@@ -247,6 +248,9 @@ const UnboundPivot = () => {
           </Button>
         </div>
       </section>
+
+      {/* Simeon's Credentials */}
+      <SimeonCredentials />
     </div>
   );
 };

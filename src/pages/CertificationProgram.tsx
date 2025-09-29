@@ -5,6 +5,7 @@ import { CheckCircle, Star, Users, BookOpen, Award, Clock, Target, Lightbulb } f
 import { useAuth } from "@/contexts/AuthContext";
 import { toast } from "sonner";
 import CertificationApplicationForm from "@/components/CertificationApplicationForm";
+import SimeonCredentials from "@/components/SimeonCredentials";
 
 const CertificationProgram = () => {
   const { user, createCheckout } = useAuth();
@@ -26,6 +27,239 @@ const CertificationProgram = () => {
       console.error("Checkout error:", error);
     }
   };
+
+  const detailedCurriculum = [
+    {
+      module: 1,
+      title: "Foundation of Transformational Coaching",
+      duration: "4 weeks",
+      overview: "Master the core principles and ethical foundations of transformational coaching",
+      weeks: [
+        {
+          week: 1,
+          title: "Coaching Foundations & Ethics",
+          topics: [
+            "History and evolution of transformational coaching",
+            "Core principles and methodologies",
+            "Professional ethics and boundaries",
+            "Coach vs. therapist distinctions"
+          ],
+          deliverables: ["Ethics assessment", "Personal coaching philosophy draft"]
+        },
+        {
+          week: 2,
+          title: "Building Powerful Client Relationships", 
+          topics: [
+            "Establishing trust and rapport",
+            "Creating safe spaces for transformation",
+            "Active listening and presence techniques",
+            "Managing resistance and breakthrough moments"
+          ],
+          deliverables: ["Rapport building practice sessions", "Listening skills assessment"]
+        },
+        {
+          week: 3,
+          title: "The Coaching Conversation Structure",
+          topics: [
+            "The GROW model and variations", 
+            "Powerful questioning techniques",
+            "Goal setting and outcome clarification",
+            "Session planning and structure"
+          ],
+          deliverables: ["Practice coaching sessions", "Question bank development"]
+        },
+        {
+          week: 4,
+          title: "Assessment & Integration",
+          topics: [
+            "Foundation skills assessment",
+            "Peer coaching practice",
+            "Feedback and reflection processes",
+            "Personal development planning"
+          ],
+          deliverables: ["Foundation certification exam", "Peer feedback review"]
+        }
+      ]
+    },
+    {
+      module: 2,
+      title: "Advanced Coaching Techniques",
+      duration: "6 weeks",
+      overview: "Deep-dive into breakthrough methodologies and energy alignment techniques",
+      weeks: [
+        {
+          week: 5,
+          title: "Limiting Beliefs & Breakthrough Work",
+          topics: [
+            "Identifying unconscious limiting beliefs",
+            "Root cause analysis techniques", 
+            "Belief transformation protocols",
+            "Working with emotional blocks"
+          ],
+          deliverables: ["Belief assessment tools", "Breakthrough session practice"]
+        },
+        {
+          week: 6,
+          title: "Energy Alignment & Somatic Techniques",
+          topics: [
+            "Understanding energy and vibration in coaching",
+            "Somatic awareness and body wisdom",
+            "Breathing and grounding techniques",
+            "Energy clearing and alignment practices"
+          ],
+          deliverables: ["Energy assessment practice", "Somatic technique demonstrations"]
+        },
+        {
+          week: 7,
+          title: "Neuroscience of Transformation",
+          topics: [
+            "Brain plasticity and habit formation",
+            "Neurological basis of change",
+            "Anchoring new neural pathways",
+            "Visualization and mental rehearsal"
+          ],
+          deliverables: ["Neuroscience-based coaching plan", "Visualization script creation"]
+        },
+        {
+          week: 8,
+          title: "Advanced Communication & Influence",
+          topics: [
+            "Language patterns for transformation",
+            "Metaphor and storytelling in coaching",
+            "Reframing and perspective shifting",
+            "Working with different personality types"
+          ],
+          deliverables: ["Language pattern practice", "Reframing exercise completion"]
+        },
+        {
+          week: 9,
+          title: "Crisis & Resistance Management",
+          topics: [
+            "Handling emotional breakdowns",
+            "Working with resistance and sabotage",
+            "Referral protocols and boundaries",
+            "Emergency intervention strategies"
+          ],
+          deliverables: ["Crisis management protocol", "Resistance handling practice"]
+        },
+        {
+          week: 10,
+          title: "Integration & Advanced Practice",
+          topics: [
+            "Combining multiple techniques",
+            "Creating customized coaching approaches",
+            "Advanced session planning",
+            "Mastery assessment preparation"
+          ],
+          deliverables: ["Advanced technique integration", "Mastery portfolio creation"]
+        }
+      ]
+    },
+    {
+      module: 3,
+      title: "Business & Entrepreneurship Coaching",
+      duration: "4 weeks", 
+      overview: "Specialized training for coaching entrepreneurs and business leaders",
+      weeks: [
+        {
+          week: 11,
+          title: "Business Strategy & Vision Coaching",
+          topics: [
+            "Strategic thinking and planning",
+            "Vision creation and clarity",
+            "Market analysis and positioning",
+            "Competitive advantage development"
+          ],
+          deliverables: ["Business strategy coaching session", "Vision clarity exercise"]
+        },
+        {
+          week: 12,
+          title: "Leadership Development & Team Dynamics",
+          topics: [
+            "Leadership styles and effectiveness",
+            "Team building and motivation",
+            "Conflict resolution in business",
+            "Delegation and empowerment strategies"
+          ],
+          deliverables: ["Leadership assessment tools", "Team dynamics analysis"]
+        },
+        {
+          week: 13,
+          title: "Scaling Mindset & Growth Strategies",
+          topics: [
+            "Mindset blocks to business growth",
+            "Financial abundance and money beliefs",
+            "Systems thinking and automation",
+            "Sustainable growth planning"
+          ],
+          deliverables: ["Growth mindset assessment", "Scaling strategy development"]
+        },
+        {
+          week: 14,
+          title: "Business Coaching Integration",
+          topics: [
+            "Combining personal and business transformation",
+            "Industry-specific coaching approaches",
+            "ROI measurement and business impact",
+            "Business coaching case studies"
+          ],
+          deliverables: ["Business coaching case study", "ROI measurement plan"]
+        }
+      ]
+    },
+    {
+      module: 4,
+      title: "Certification & Professional Practice",
+      duration: "4 weeks",
+      overview: "Real client practice, business building, and final certification",
+      weeks: [
+        {
+          week: 15,
+          title: "Supervised Client Practice",
+          topics: [
+            "Live coaching with real clients",
+            "Supervisor feedback and guidance",
+            "Session recording and analysis",
+            "Continuous improvement protocols"
+          ],
+          deliverables: ["Supervised coaching sessions", "Practice reflection journal"]
+        },
+        {
+          week: 16,
+          title: "Building Your Coaching Business",
+          topics: [
+            "Niche identification and positioning",
+            "Marketing and client acquisition",
+            "Pricing strategies and packages",
+            "Legal and business setup"
+          ],
+          deliverables: ["Business plan draft", "Marketing strategy outline"]
+        },
+        {
+          week: 17,
+          title: "Professional Development & Networks",
+          topics: [
+            "Continuing education requirements",
+            "Professional coaching organizations",
+            "Mentorship and peer support",
+            "Advanced specialization options"
+          ],
+          deliverables: ["Professional development plan", "Network building strategy"]
+        },
+        {
+          week: 18,
+          title: "Final Certification & Graduation",
+          topics: [
+            "Comprehensive skill demonstration",
+            "Final certification examination",
+            "Portfolio presentation",
+            "Graduation ceremony and recognition"
+          ],
+          deliverables: ["Final certification exam", "Master portfolio submission"]
+        }
+      ]
+    }
+  ];
 
   const modules = [
     {
@@ -105,6 +339,9 @@ const CertificationProgram = () => {
         </div>
       </section>
 
+      {/* Simeon's Credentials */}
+      <SimeonCredentials />
+
       {/* Program Overview */}
       <section className="py-16 px-4">
         <div className="max-w-6xl mx-auto">
@@ -173,6 +410,77 @@ const CertificationProgram = () => {
                       <Badge key={topicIndex} variant="secondary" className="text-xs">
                         {topic}
                       </Badge>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Detailed Curriculum */}
+      <section className="py-16 px-4">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold mb-4">Detailed 18-Week Curriculum</h2>
+            <p className="text-muted-foreground max-w-3xl mx-auto">
+              A comprehensive week-by-week breakdown of what you'll learn, practice, and master in our certification program.
+              Each module builds upon the previous, ensuring a solid foundation for your coaching expertise.
+            </p>
+          </div>
+
+          <div className="space-y-8">
+            {detailedCurriculum.map((module, moduleIndex) => (
+              <Card key={moduleIndex} className="overflow-hidden">
+                <CardHeader className="bg-primary/10">
+                  <div className="flex justify-between items-start">
+                    <div>
+                      <CardTitle className="flex items-center gap-3 text-xl">
+                        <Badge className="bg-primary text-primary-foreground">
+                          Module {module.module}
+                        </Badge>
+                        {module.title}
+                      </CardTitle>
+                      <CardDescription className="mt-2 text-base">{module.overview}</CardDescription>
+                    </div>
+                    <Badge variant="outline" className="text-sm">{module.duration}</Badge>
+                  </div>
+                </CardHeader>
+                <CardContent className="p-0">
+                  <div className="grid gap-4 p-6">
+                    {module.weeks.map((week, weekIndex) => (
+                      <div key={weekIndex} className="border rounded-lg p-4 hover:bg-muted/30 transition-colors">
+                        <div className="flex justify-between items-start mb-3">
+                          <h4 className="font-semibold text-primary">Week {week.week}: {week.title}</h4>
+                        </div>
+                        
+                        <div className="grid md:grid-cols-2 gap-4">
+                          <div>
+                            <h5 className="font-medium mb-2 text-sm uppercase tracking-wide text-muted-foreground">Learning Topics</h5>
+                            <ul className="space-y-1">
+                              {week.topics.map((topic, topicIndex) => (
+                                <li key={topicIndex} className="flex items-start gap-2 text-sm">
+                                  <CheckCircle className="h-3 w-3 text-green-500 mt-1 flex-shrink-0" />
+                                  {topic}
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                          
+                          <div>
+                            <h5 className="font-medium mb-2 text-sm uppercase tracking-wide text-muted-foreground">Deliverables</h5>
+                            <ul className="space-y-1">
+                              {week.deliverables.map((deliverable, deliverableIndex) => (
+                                <li key={deliverableIndex} className="flex items-start gap-2 text-sm">
+                                  <Target className="h-3 w-3 text-blue-500 mt-1 flex-shrink-0" />
+                                  {deliverable}
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
                     ))}
                   </div>
                 </CardContent>
