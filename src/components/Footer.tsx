@@ -224,7 +224,7 @@ const Footer = () => {
         <div className="border-t border-background/20 pt-8">
           <div className="flex flex-col lg:flex-row justify-between items-center gap-4">
             <div className="text-background/60 text-sm text-center lg:text-left">
-              © 2024 PivotSimply. All rights reserved.
+              © 2025 PivotSimply. All rights reserved.
             </div>
             <div className="flex flex-wrap justify-center gap-2 text-background/60 text-sm">
               <a href="/privacy-policy" className="hover:text-secondary transition-colors">Privacy Policy</a>
