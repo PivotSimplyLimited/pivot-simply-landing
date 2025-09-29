@@ -20,6 +20,7 @@ import Copyrights from "./pages/Copyrights";
 import RefundsPolicy from "./pages/RefundsPolicy";
 import Disclaimer from "./pages/Disclaimer";
 import AboutUs from "./pages/AboutUs";
+import CertificationProgram from "./pages/CertificationProgram";
 
 const queryClient = new QueryClient();
 
@@ -39,6 +40,7 @@ const App = () => (
             <Route path="/podcast" element={<Podcast />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/about-us" element={<AboutUs />} />
+            <Route path="/certification" element={<CertificationProgram />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
