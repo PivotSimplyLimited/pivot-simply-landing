@@ -55,7 +55,6 @@ const SimeonCredentials = () => {
           <Badge className="mb-2 bg-yellow-500/20 text-yellow-700 hover:bg-yellow-500/30">
             Multi Award Winning
           </Badge>
-          <h3 className="text-2xl font-bold mb-2">Simeon Mihinga - Certified Transformation Expert</h3>
           <p className="text-muted-foreground">Internationally recognized for excellence in transformation coaching</p>
         </div>
 
