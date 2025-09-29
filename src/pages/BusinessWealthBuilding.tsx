@@ -3,14 +3,44 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Check, Star, Target, TrendingUp, DollarSign } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { useState } from "react";
+import { useAuth } from "@/contexts/AuthContext";
+import { useToast } from "@/hooks/use-toast";
+import { Link } from "react-router-dom";
 import transformationIcon from "@/assets/transformation-icon-emerald.jpg";
 
 const BusinessWealthBuilding = () => {
   const [isYearly, setIsYearly] = useState(false);
+  const { user, createCheckout } = useAuth();
+  const { toast } = useToast();
   
   const monthlyPrice = 99;
   const yearlyPrice = 926.64;
   const yearlySavings = (monthlyPrice * 12) - yearlyPrice;
+  const BUSINESS_PRICE_ID = "price_1SChNsBtVYs7F0sEUt9REzYM";
+  
+  const handleSubscribe = async () => {
+    if (!user) {
+      toast({
+        title: "Authentication Required",
+        description: "Please sign in to subscribe to our services.",
+        variant: "destructive",
+      });
+      return;
+    }
+
+    try {
+      const checkoutUrl = await createCheckout(BUSINESS_PRICE_ID);
+      if (checkoutUrl) {
+        window.open(checkoutUrl, '_blank');
+      }
+    } catch (error) {
+      toast({
+        title: "Error",
+        description: "Failed to create checkout session. Please try again.",
+        variant: "destructive",
+      });
+    }
+  };
   const features = [
     "Entrepreneurial Mindset Mastery",
     "Business Foundations Blueprint",
@@ -112,7 +142,16 @@ const BusinessWealthBuilding = () => {
               </p>
             </div>
           )}
-          <Button size="lg" variant="secondary" className="mb-12">
+          {!user && (
+            <div className="mb-4">
+              <Link to="/auth">
+                <Button variant="outline" size="sm">
+                  Sign In to Subscribe
+                </Button>
+              </Link>
+            </div>
+          )}
+          <Button size="lg" variant="secondary" className="mb-12" onClick={handleSubscribe}>
             Build Your Empire Today
           </Button>
           
@@ -208,7 +247,7 @@ const BusinessWealthBuilding = () => {
                     </div>
                   )}
                 </div>
-                <Button size="lg" className="w-full">
+                <Button size="lg" className="w-full" onClick={handleSubscribe}>
                   Start Building Wealth
                 </Button>
               </CardContent>
