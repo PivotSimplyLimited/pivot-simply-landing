@@ -120,6 +120,9 @@ const UnboundPivot = () => {
         </div>
       </section>
 
+      {/* Simeon's Credentials */}
+      <SimeonCredentials />
+
       {/* Pain Points Section */}
       <section className="py-24">
         <div className="container mx-auto px-4">
@@ -248,9 +251,6 @@ const UnboundPivot = () => {
           </Button>
         </div>
       </section>
-
-      {/* Simeon's Credentials */}
-      <SimeonCredentials />
     </div>
   );
 };
