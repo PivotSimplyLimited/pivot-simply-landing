@@ -68,7 +68,7 @@ const Services = () => {
         "Inner energy alignment",
         "Science-Backed Techniques"
       ],
-      link: "https://preview--pivot-simply-landing.lovable.app/conscious-creator-circle"
+      link: "https://academy.pivotsimply.com/awakenedyou"
     },
     {
       icon: transformationIcon,
@@ -99,7 +99,7 @@ const Services = () => {
         "Social Media Consistency on Autopilot",
         "Podcast & Blog Creation Engines"
       ],
-      link: "https://preview--pivot-simply-landing.lovable.app/business-wealth-building"
+      link: "https://academy.pivotsimply.com/highimpactbusinessmembership"
     }
   ];
 
