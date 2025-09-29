@@ -106,7 +106,7 @@ const Footer = () => {
                 </div>
                 
                 <div>
-                  <a href="https://academy.pivotsimply.com/technicalbusinessmembership" target="_blank" rel="noopener noreferrer" className="font-medium text-background mb-1 hover:text-secondary transition-colors block">Business & Wealth Building – Live Weekly Coaching</a>
+                  <a href="https://preview--pivot-simply-landing.lovable.app/business-wealth-building" target="_blank" rel="noopener noreferrer" className="font-medium text-background mb-1 hover:text-secondary transition-colors block">Business & Wealth Building – Live Weekly Coaching</a>
                   <p className="text-background/70 text-xs italic">Grow your business with step-by-step strategies, technical guidance, and wealth-building tools.</p>
                 </div>
                 
