@@ -58,10 +58,12 @@ const SimeonCredentials = () => {
     <section className="py-8 px-4 bg-gradient-to-r from-primary/5 to-secondary/5 border-y">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-8">
-          <Badge className="mb-2 bg-yellow-500/20 text-yellow-700 hover:bg-yellow-500/30">
-            Multi Award Winning
-          </Badge>
-          <p className="text-muted-foreground">Internationally recognized for excellence in transformation coaching</p>
+          <h2 className="text-2xl md:text-3xl font-bold mb-3 text-primary">
+            Multi-Award Winning Coaching & Mentorship Organisation, UK
+          </h2>
+          <p className="text-muted-foreground text-lg">
+            Internationally recognised for excellence in Business transformation & Life transformation coaching and social change
+          </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
