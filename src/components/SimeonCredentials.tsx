@@ -5,6 +5,12 @@ import { Star, Trophy, Award, Users, CheckCircle } from "lucide-react";
 const SimeonCredentials = () => {
   const awards = [
     {
+      icon: <Trophy className="h-5 w-5 text-emerald-500" />,
+      title: "Elite International IE 100 Awards",
+      organization: "PivotSimply - Coaching & Mentorship Company of the Year - UK",
+      badge: "🏆"
+    },
+    {
       icon: <Trophy className="h-5 w-5 text-yellow-500" />,
       title: "Award Winning Creative Visionary",
       organization: "British Parliament House, London",
@@ -15,12 +21,6 @@ const SimeonCredentials = () => {
       title: "Most Transformative Tech Empowerment Champion 2024",
       organization: "United Kingdom",
       badge: "🎖️"
-    },
-    {
-      icon: <Trophy className="h-5 w-5 text-emerald-500" />,
-      title: "Elite International IE 100 Awards",
-      organization: "PivotSimply - Coaching & Mentorship Company of the Year - UK",
-      badge: "🏆"
     },
     {
       icon: <Star className="h-5 w-5 text-purple-500" />,
