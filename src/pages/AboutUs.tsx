@@ -123,7 +123,11 @@ const AboutUs = () => {
                 </p>
                 
                 <p>
-                  Mithlesh's journey is a testament to resilience. Once a quiet child who went through bullying experience at school, when she was forming the world view, with physical challenges and suppressed self-expression, she transformed her pain into purpose. Through healing her body and studying human behavior, emotions, psychology, manifestation, and transformational healing, she unlocked her inner strength.
+                  Mithlesh's journey is a testament to resilience. Once a quiet child who went through bullying experiences at school and from neighbours when she was forming her world view, with physical challenges and suppressed self-expression, she transformed her pain into purpose. Through healing her body and studying human behavior, emotions, psychology, manifestation, and transformational healing, she unlocked her inner strength.
+                </p>
+                
+                <p>
+                  Now based in London, Mithlesh connects with people from diverse backgrounds and has contributed to non-profit organizations across the city. Her impact extends globally—she has delivered transformative speeches in Tanzania and continues to inspire audiences worldwide.
                 </p>
                 
                 <blockquote className="text-center text-xl font-semibold text-primary italic border border-primary/20 bg-primary/5 p-6 rounded-lg">
