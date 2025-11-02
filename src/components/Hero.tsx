@@ -23,6 +23,10 @@ const Hero = () => {
               <h3 className="text-xl font-semibold mb-4 text-primary">Multi Award Winning</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3 max-w-4xl mx-auto">
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 border border-white/20">
+                  <span className="text-sm font-medium">🏆 Elite International IE 100 Awards</span>
+                  <p className="text-xs opacity-80 mt-1">PivotSimply - Coaching & Mentorship Company of the Year - UK</p>
+                </div>
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 border border-white/20">
                   <span className="text-sm font-medium">🏆 Award Winning Creative Visionary</span>
                   <p className="text-xs opacity-80 mt-1">British Parliament House, London</p>
                 </div>
