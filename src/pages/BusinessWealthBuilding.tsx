@@ -63,14 +63,22 @@ const BusinessWealthBuilding = () => {
 
   const testimonials = [
     {
-      name: "Marcus Chen",
-      role: "Tech Entrepreneur",
-      text: "Simeon's business coaching helped me scale my SaaS from £10k to £100k MRR in 8 months. His strategic insights are invaluable."
+      name: "Virgi J",
+      role: "Conscious Creator Circle Member",
+      text: "Something within me is shifting—quietly, but with real power. My world feels lighter, clearer. I approach life and business with a sharper focus and deeper sense of purpose. Mithlesh helped me uncover the part of me I couldn't reach alone and guided me out of unhelpful patterns into a space where joy, clarity, and progress feel natural.",
+      transformation: "From Hidden Potential to Authentic Power"
     },
     {
-      name: "Sarah Williams",
-      role: "Consultant",
-      text: "The wealth building strategies I learned transformed my financial future. I now have multiple income streams and clear investment plans."
+      name: "Simeon Mihinga",
+      role: "Business Coaching Client",
+      text: "Pivot Simply is really an ideal business coaching programme for both men and women, especially those fearing to start and grow their businesses. Mithlesh has been an outstanding coach and mentor in business with never-doubted outstanding records.",
+      transformation: "From Fear to Flourishing Business"
+    },
+    {
+      name: "Caroline Beattie",
+      role: "Conscious Creator Circle Member",
+      text: "I joined the Conscious Creator Membership and this is the best way I have invested in myself. An interesting road to discovery with usable tools for everyday self care and healing. I have achieved some personal goals that I didn't think were possible.",
+      transformation: "From Self-Doubt to Personal Achievement"
     }
   ];
 
@@ -166,7 +174,7 @@ const BusinessWealthBuilding = () => {
       <section className="py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-12">Success Stories</h2>
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             {testimonials.map((testimonial, index) => (
               <Card key={index} className="p-6">
                 <CardContent className="p-0">
@@ -175,7 +183,10 @@ const BusinessWealthBuilding = () => {
                       <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
                     ))}
                   </div>
-                  <p className="text-muted-foreground mb-4">"{testimonial.text}"</p>
+                  <p className="text-muted-foreground mb-4 italic">"{testimonial.text}"</p>
+                  <div className="bg-primary/10 text-primary px-3 py-1 rounded-full text-xs font-medium mb-4 inline-block">
+                    {testimonial.transformation}
+                  </div>
                   <div>
                     <p className="font-semibold">{testimonial.name}</p>
                     <p className="text-sm text-muted-foreground">{testimonial.role}</p>
