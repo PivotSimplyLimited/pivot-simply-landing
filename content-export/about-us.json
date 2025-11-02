@@ -1,0 +1,79 @@
+{
+  "page": "About Us",
+  "hero": {
+    "heading": "About PivotSimply",
+    "tagline": "Multi Award Winning premier global coaching and mentorship company, London",
+    "quote": "You are the architect of your own reality; in alignment, you bring everything to life."
+  },
+  "whoWeAre": {
+    "heading": "Who We Are",
+    "paragraphs": [
+      "PivotSimply is a premier global coaching and mentorship company dedicated to igniting personal transformation and business growth. With a comprehensive suite of programs and services, PivotSimply empowers individuals and organizations to unlock their full potential and achieve remarkable success.",
+      "Offering high-impact technical business mentorship, PivotSimply guides coaches, consultants, and entrepreneurs in harnessing cutting-edge technologies like Artificial Intelligence to gain a competitive edge. Additionally, their tailored personal development programs foster confidence building, self-esteem enhancement, and inner work alignment, enabling high achievers to overcome limiting beliefs and embrace their authentic selves.",
+      "From self-discovery coaching to strategic business planning, PivotSimply's holistic approach combines personal growth, mindset shifts, technical training, and accountability measures. Their expertise lies in transforming knowledge and experiences into thriving digital businesses, helping clients manifest their destinies and monetize their expertise through digital products and services."
+    ]
+  },
+  "mission": {
+    "heading": "Our Mission",
+    "text": "We are on a mission to help you tap into your true potential. You are just one decision away from making a huge shift in your Life. It's time for you to rewrite your Story! At PivotSimply, we believe in simplifying life and Business by taking it back to its basics—the essence of what humans truly need."
+  },
+  "vision": {
+    "heading": "Our Vision",
+    "text": "Empowering Individuals to Embrace Their Values, Cultivate Skills, Maintain Alignment with Core Principles, and Create Meaningful Impact with their presence"
+  },
+  "values": {
+    "heading": "Our Values",
+    "items": [
+      "Alignment is the Key for your Creation and Success",
+      "It's alright to accept your Vulnerability",
+      "Be Kind to Yourself and Others",
+      "Love Your Parents Unconditionally",
+      "Learn & Grow with your Mistakes",
+      "Embrace the Diversity & the Cultures",
+      "Stay Grounded and Be 'You'",
+      "Education, Experiences, Exploration & Empathy can help you transform"
+    ]
+  },
+  "founderStory": {
+    "heading": "Founder's Story",
+    "name": "Mithlesh Singh",
+    "quote": "You are the source of your creation—whether it's your life, your business, or your content.",
+    "mission": "My mission is to help you step into your power, realize your self-worth, and align with your true self so you can transform both your personal and professional life with ease and minimal resistance.",
+    "description": "A leading millennial voice in personal growth, self-discovery, life transformation, and creative thought leadership. She's not just a successful entrepreneur—she also has a background in Engineering, holds an MBA, and brings years of experience working with global organizations.",
+    "paragraphs": [
+      "Mithlesh is passionate about connecting with like-minded people—especially the youth—working to boost self-esteem, nurture resilient and positive mindsets, and promote conscious living. She also engages with thought leaders, entrepreneurs, executives, and parents, sharing insights that inspire action.",
+      "Through her impactful speeches and programs, Mithlesh encourages her audience to rediscover their true selves, unlock their full potential, clarify their values, and define their life's purpose. Her unique blend of introspection, science-backed techniques, and ancient wisdom enables individuals to overcome challenges and lead purposeful, conscious lives.",
+      "Mithlesh's journey is a testament to resilience. Once a quiet child who went through bullying experiences at school and from neighbours when she was forming her world view, with physical challenges and suppressed self-expression, she transformed her pain into purpose. Through healing her body and studying human behavior, emotions, psychology, manifestation, and transformational healing, she unlocked her inner strength.",
+      "Now based in London, Mithlesh connects with people from diverse backgrounds and has contributed to non-profit organizations across the city. Her impact extends globally—she has delivered transformative speeches in Tanzania and continues to inspire audiences worldwide.",
+      "Today, her storytelling and transformative methods inspire millions worldwide. Her mission remains clear: to change lives through the powerful fusion of science-backed strategies, spirituality, and self-discovery."
+    ],
+    "inspirationalQuote": "Every moment carries a hidden lesson. The choice is yours: extract the wisdom or remain stuck in the pain."
+  },
+  "socialMedia": {
+    "heading": "Connect With Us",
+    "description": "Follow us on social media for daily inspiration, tips, and updates on our latest programs",
+    "platforms": [
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/pRKppiQYSHM?si=CES4bfMVT3dWY9PV",
+        "specialNote": "Watch Our Mission Statement"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/company/pivotsimply"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/pivotsimply"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/pivotsimply"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/pivotsimply"
+      }
+    ]
+  }
+}

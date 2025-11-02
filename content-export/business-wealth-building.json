@@ -1,0 +1,61 @@
+{
+  "page": "Business & Wealth Building",
+  "hero": {
+    "badge": "BUSINESS MASTERY",
+    "heading": "Business & Wealth Building",
+    "description": "Productize your knowledge and skills while building sustainable wealth through aligned business practices.",
+    "pricing": {
+      "monthly": "£99",
+      "yearly": "£926.64",
+      "savings": "£261.36"
+    },
+    "rating": "5.0 Business Rating",
+    "cta": "Subscribe"
+  },
+  "features": {
+    "heading": "What You'll Master",
+    "description": "Comprehensive business and wealth-building strategies to transform your expertise into sustainable income.",
+    "items": [
+      "Strategic Business Planning & Vision",
+      "Market Analysis & Positioning",
+      "Revenue Stream Development",
+      "Systems & Process Optimization",
+      "Leadership & Team Building",
+      "Financial Management & Wealth Building",
+      "Digital Marketing Mastery",
+      "Sales & Conversion Strategies",
+      "Scaling & Growth Methodologies",
+      "Investment & Passive Income",
+      "Personal Brand Development",
+      "Network Building & Partnerships",
+      "Risk Management & Legal Protection",
+      "Tax Optimization Strategies",
+      "Exit Strategy Planning"
+    ]
+  },
+  "testimonials": [
+    {
+      "name": "Virgi J",
+      "role": "Conscious Creator Circle Member",
+      "text": "Something within me is shifting—quietly, but with real power. My world feels lighter, clearer. I approach life and business with a sharper focus and deeper sense of purpose.",
+      "transformation": "From Hidden Potential to Authentic Power"
+    },
+    {
+      "name": "Simeon Mihinga",
+      "role": "Business Coaching Client",
+      "text": "Pivot Simply is really an ideal business coaching programme for both men and women, especially those fearing to start and grow their businesses.",
+      "transformation": "From Fear to Flourishing Business"
+    },
+    {
+      "name": "Caroline Beattie",
+      "role": "Conscious Creator Circle Member",
+      "text": "I joined the Conscious Creator Membership and this is the best way I have invested in myself. An interesting road to discovery with usable tools for everyday self care and healing.",
+      "transformation": "From Self-Doubt to Personal Achievement"
+    }
+  ],
+  "finalCTA": {
+    "heading": "Ready to Build Your Business?",
+    "description": "Transform your expertise into a profitable, sustainable business with our proven systems.",
+    "button": "Start Building"
+  }
+}

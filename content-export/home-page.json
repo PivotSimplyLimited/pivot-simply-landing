@@ -1,0 +1,197 @@
+{
+  "page": "Home",
+  "hero": {
+    "topHeading": "Multi-Award Winning Coaching and Mentorship Organisation, UK",
+    "mainHeading": "You Are Just One Decision Away From Embracing Your Full Potential",
+    "description": "Master Your Mind, Monetize Your Genius, Lead With Power, Nurture Healthy Relationships, and Thrive in Harmony.",
+    "ctaButtons": [
+      {
+        "text": "Start Your Transformation",
+        "link": "/contact"
+      },
+      {
+        "text": "Discover Our Offerings",
+        "link": "#services"
+      }
+    ],
+    "valueProposition": {
+      "heading": "Holistic Transformation Includes:",
+      "items": [
+        "Physical Health",
+        "Emotional Intelligence",
+        "Personal Mastery",
+        "Wealth Building",
+        "Personal Relationships"
+      ]
+    },
+    "backgroundImage": "hero-background-emerald.jpg"
+  },
+  "credentials": {
+    "mainHeading": "Multi-Award Winning Coaching & Mentorship Organisation, UK",
+    "description": "Internationally recognised for excellence in Business transformation & Life transformation coaching and social change",
+    "awards": [
+      {
+        "badge": "🏆",
+        "title": "Elite International IE 100 Awards",
+        "organization": "PivotSimply - Coaching & Mentorship Company of the Year - UK"
+      },
+      {
+        "badge": "🏆",
+        "title": "Award Winning Creative Visionary",
+        "organization": "British Parliament House, London"
+      },
+      {
+        "badge": "🎖️",
+        "title": "Most Transformative Tech Empowerment Champion 2024",
+        "organization": "United Kingdom"
+      },
+      {
+        "badge": "🌟",
+        "title": "Finalist - Startups Magazine",
+        "organization": "Hustle Awards 2025"
+      },
+      {
+        "badge": "🏅",
+        "title": "Finalist - British Business Awards",
+        "organization": "2024"
+      }
+    ],
+    "achievements": [
+      {
+        "badge": "⭐",
+        "text": "5-Star Google Transformations"
+      },
+      {
+        "badge": "👥",
+        "text": "1000+ Lives Changed"
+      },
+      {
+        "badge": "✅",
+        "text": "Certified Coaching Professional"
+      }
+    ]
+  },
+  "services": {
+    "heading": "PivotSimply Services & Platforms",
+    "description": "Choose from our comprehensive range of services designed to facilitate your complete inner mastery and life transformation journey.",
+    "items": [
+      {
+        "title": "Unbound Pivot",
+        "price": "£44 Monthly",
+        "description": "A comprehensive platform for self inner mastery that helps you break free from limitations and step into your authentic power.",
+        "features": [
+          "Know Your Thyself",
+          "Inner Mastery Self Coaching",
+          "Goal Setting & Strategy",
+          "Habit Building and Transformation",
+          "Heal Confidence, Anxiety, Loneliness, Self Doubt Issues",
+          "Build a Resilient Growth Mindset",
+          "Mindfulness Practices",
+          "Stress Management",
+          "Master the Art of Meditation",
+          "Emotional Regulation",
+          "Inner Energy Alignment",
+          "Health Building Exercises",
+          "Personal Transformation",
+          "AI Expert Coach"
+        ],
+        "link": "https://unboundpivot.com/"
+      },
+      {
+        "title": "Aligned Conscious Creators",
+        "price": "£170 Monthly",
+        "description": "Radical Life Transformation – Live Group Coaching Membership. A powerful group coaching experience designed to help you identify and release success saboteurs and inner blocks.",
+        "features": [
+          "Live Weekly Group Coaching",
+          "Honour Your True Self",
+          "Expand Self-Awareness",
+          "Success Saboteur & Inner Blocks Release",
+          "Synchronicity-Based Self-Discovery Methods",
+          "Align Inner & Outer Worlds",
+          "Cultivate an Unshakeable Growth Mindset",
+          "Relationship Building",
+          "Transform Your Life: Identify → Shift",
+          "Live Consciously, Not on Autopilot",
+          "Build Lasting Confidence & Resilience",
+          "Heal Burnout & Overthinking",
+          "Overcome Success Saboteurs",
+          "Science-Backed Techniques"
+        ],
+        "link": "/conscious-creator-circle"
+      },
+      {
+        "title": "Business & Wealth Building",
+        "price": "£99 Monthly",
+        "description": "Productize your knowledge and skills while building sustainable wealth through aligned business practices.",
+        "features": [
+          "Entrepreneurial Mindset Mastery",
+          "Business Foundations Blueprint",
+          "Digitalise and Monetise Your Expertise",
+          "Financial Clarity & Metrics",
+          "Strategic Growth Planning",
+          "Magnetic Brand Identity Accelerator",
+          "Transformational Leadership Mastery",
+          "Sales Mastery Framework",
+          "Revenue Growth Strategies",
+          "Scale Your Impact"
+        ],
+        "link": "/business-wealth-building"
+      }
+    ],
+    "cta": "Schedule Your Discovery Call"
+  },
+  "testimonials": {
+    "heading": "Real Transformations, Real Results",
+    "description": "Discover how our clients have pivoted from limitation to limitless potential through inner mastery and holistic transformation.",
+    "stats": [
+      {
+        "number": "1000+",
+        "label": "Lives Transformed"
+      },
+      {
+        "number": "95%",
+        "label": "Success Rate"
+      },
+      {
+        "number": "4.9/5",
+        "label": "Average Rating"
+      },
+      {
+        "number": "24/7",
+        "label": "Support Available"
+      }
+    ],
+    "items": [
+      {
+        "name": "Virgi J",
+        "role": "Conscious Creator Circle Member",
+        "rating": 5,
+        "content": "Something within me is shifting—quietly, but with real power. My world feels lighter, clearer. I approach life and business with a sharper focus and deeper sense of purpose. Mithlesh helped me uncover the part of me I couldn't reach alone and guided me out of unhelpful patterns into a space where joy, clarity, and progress feel natural.",
+        "transformation": "From Hidden Potential to Authentic Power"
+      },
+      {
+        "name": "Simeon Mihinga",
+        "role": "Business Coaching Client",
+        "rating": 5,
+        "content": "Pivot Simply is really an ideal business coaching programme for both men and women, especially those fearing to start and grow their businesses. Mithlesh has been an outstanding coach and mentor in business with never-doubted outstanding records.",
+        "transformation": "From Fear to Flourishing Business"
+      },
+      {
+        "name": "Caroline Beattie",
+        "role": "Conscious Creator Circle Member",
+        "rating": 5,
+        "content": "I joined the Conscious Creator Membership and this is the best way I have invested in myself. An interesting road to discovery with usable tools for everyday self care and healing. I have achieved some personal goals that I didn't think were possible.",
+        "transformation": "From Self-Doubt to Personal Achievement"
+      }
+    ],
+    "cta": {
+      "heading": "Ready to Write Your Success Story?",
+      "description": "Join our community of transformation champions and unlock your full potential with personalized inner mastery coaching.",
+      "benefits": [
+        "✓ Free Discovery Call",
+        "✓ Personalized Assessment",
+        "✓ No Commitment Required"
+      ]
+    }
+  }
+}

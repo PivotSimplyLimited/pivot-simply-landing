@@ -1,0 +1,83 @@
+{
+  "page": "Unbound Pivot",
+  "hero": {
+    "badge": "SELF MASTERY PLATFORM",
+    "heading": "Unbound Pivot",
+    "description": "Break free from limitations and step into your authentic power with our comprehensive platform for self inner mastery.",
+    "pricing": {
+      "monthly": "£44",
+      "yearly": "£411.84",
+      "savings": "£116.16",
+      "discount": "22% OFF"
+    },
+    "rating": "5.0 Rating",
+    "cta": "Start Your Transformation Today"
+  },
+  "painPoints": {
+    "heading": "Are You Struggling With Any Of These?",
+    "items": [
+      "Feeling stuck and unfulfilled in life",
+      "Self-doubt and imposter syndrome holding you back",
+      "Anxiety and stress overwhelming your daily life",
+      "Lack of clear direction or life purpose",
+      "Struggling with confidence and self-worth",
+      "Feeling disconnected from your authentic self",
+      "Procrastination and lack of motivation",
+      "Negative thought patterns you can't break",
+      "Feeling lost and unsure of your next steps"
+    ],
+    "cta": {
+      "tagline": "If any of these resonate with you...",
+      "description": "Unbound Pivot is designed to help you break free and step into your power.",
+      "button": "Transform Your Life Today"
+    }
+  },
+  "features": {
+    "heading": "What's Included",
+    "description": "Everything you need for complete inner mastery and personal transformation.",
+    "items": [
+      "Know Your Thyself",
+      "Inner Mastery Self Coaching",
+      "Goal Setting & Strategy",
+      "Habit Building and Transformation",
+      "Heal Confidence, Anxiety, Loneliness, Self Doubt Issues",
+      "Build a Resilient Growth Mindset",
+      "Mindfulness Practices",
+      "Stress Management",
+      "Master the Art of Meditation",
+      "Emotional Regulation",
+      "Inner Energy Alignment",
+      "Health Building Exercises",
+      "Personal Transformation",
+      "AI Expert Coach"
+    ]
+  },
+  "testimonials": [
+    {
+      "name": "Virgi J",
+      "rating": 5,
+      "role": "Conscious Creator Circle Member",
+      "text": "Something within me is shifting—quietly, but with real power. My world feels lighter, clearer. I approach life and business with a sharper focus and deeper sense of purpose.",
+      "transformation": "From Hidden Potential to Authentic Power"
+    },
+    {
+      "name": "Simeon Mihinga",
+      "rating": 5,
+      "role": "Business Coaching Client",
+      "text": "Pivot Simply is really an ideal business coaching programme for both men and women, especially those fearing to start and grow their businesses.",
+      "transformation": "From Fear to Flourishing Business"
+    },
+    {
+      "name": "Caroline Beattie",
+      "rating": 5,
+      "role": "Conscious Creator Circle Member",
+      "text": "I joined the Conscious Creator Membership and this is the best way I have invested in myself. An interesting road to discovery with usable tools for everyday self care and healing.",
+      "transformation": "From Self-Doubt to Personal Achievement"
+    }
+  ],
+  "finalCTA": {
+    "heading": "Ready to Transform Your Life?",
+    "description": "Join thousands who have already started their inner mastery journey.",
+    "button": "Start Your Transformation"
+  }
+}

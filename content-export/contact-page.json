@@ -1,0 +1,111 @@
+{
+  "page": "Contact",
+  "hero": {
+    "heading": "Get In Touch",
+    "description": "Ready to start your transformation journey? We're here to support you every step of the way."
+  },
+  "contactForm": {
+    "heading": "Send Us a Message",
+    "description": "Fill out the form below and we'll get back to you within 24 hours.",
+    "fields": [
+      {
+        "label": "First Name",
+        "type": "text",
+        "placeholder": "Your first name"
+      },
+      {
+        "label": "Last Name",
+        "type": "text",
+        "placeholder": "Your last name"
+      },
+      {
+        "label": "Email",
+        "type": "email",
+        "placeholder": "your.email@example.com"
+      },
+      {
+        "label": "Subject",
+        "type": "text",
+        "placeholder": "What is this regarding?"
+      },
+      {
+        "label": "Message",
+        "type": "textarea",
+        "placeholder": "Tell us about your goals, challenges, or any questions you have..."
+      }
+    ],
+    "submitButton": "Send Message"
+  },
+  "contactInformation": {
+    "heading": "Contact Information",
+    "details": [
+      {
+        "icon": "Mail",
+        "title": "Email",
+        "value": "hello@pivotsimply.com"
+      },
+      {
+        "icon": "MapPin",
+        "title": "Location",
+        "value": "London, United Kingdom"
+      },
+      {
+        "icon": "Clock",
+        "title": "Response Time",
+        "value": "Within 24 hours"
+      }
+    ]
+  },
+  "quickActions": {
+    "heading": "Quick Actions",
+    "buttons": [
+      {
+        "text": "Book a Discovery Call",
+        "icon": "Calendar"
+      },
+      {
+        "text": "Join Our Community",
+        "icon": "MessageCircle"
+      }
+    ]
+  },
+  "supportHours": {
+    "heading": "Support Hours",
+    "schedule": [
+      {
+        "days": "Monday - Friday",
+        "hours": "9:00 AM - 6:00 PM GMT"
+      },
+      {
+        "days": "Saturday",
+        "hours": "10:00 AM - 4:00 PM GMT"
+      },
+      {
+        "days": "Sunday",
+        "hours": "Closed"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Frequently Asked Questions",
+    "description": "Quick answers to common questions about our services",
+    "items": [
+      {
+        "question": "How quickly will I see results?",
+        "answer": "Most clients begin experiencing shifts within the first few weeks. Significant transformations typically occur within 3-6 months of consistent engagement."
+      },
+      {
+        "question": "What makes PivotSimply different?",
+        "answer": "Our holistic approach combines evidence-based practices with spiritual alignment, addressing all dimensions of life for complete transformation."
+      },
+      {
+        "question": "Can I switch between membership tiers?",
+        "answer": "Yes, you can upgrade or change your membership at any time. We'll help you find the right tier for your current goals and situation."
+      },
+      {
+        "question": "Is there a community aspect?",
+        "answer": "Absolutely! Our Conscious Creator Circle and higher tiers include access to our supportive community of like-minded individuals on similar journeys."
+      }
+    ]
+  }
+}

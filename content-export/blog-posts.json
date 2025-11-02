@@ -1,0 +1,131 @@
+{
+  "page": "Blog",
+  "hero": {
+    "heading": "Insights & Wisdom",
+    "description": "Explore transformative insights on conscious living, business growth, and personal development"
+  },
+  "categories": [
+    {
+      "id": "all",
+      "label": "All Posts"
+    },
+    {
+      "id": "business",
+      "label": "Business Growth"
+    },
+    {
+      "id": "manifestation",
+      "label": "Manifestation"
+    },
+    {
+      "id": "mindset",
+      "label": "Mindset & Success"
+    },
+    {
+      "id": "coaching",
+      "label": "Coaching"
+    }
+  ],
+  "posts": [
+    {
+      "slug": "5-key-reasons-why-introverts-are-often-misunderstood-by-society",
+      "title": "5 Key Reasons Why Introverts Are Often Misunderstood by Society",
+      "excerpt": "Introverts are frequently mislabeled as shy or antisocial simply because they are quieter and prefer less social stimulation. However, introversion is not the same as shyness.",
+      "category": "mindset",
+      "author": "Mithlesh Singh",
+      "date": "July 11, 2024",
+      "readTime": "6 min read",
+      "tags": ["Introversion", "Society", "Personality"]
+    },
+    {
+      "slug": "5-hidden-success-saboteurs-you-need-to-overcome",
+      "title": "5 Hidden Success Saboteurs You Need to Overcome",
+      "excerpt": "Are you a goal-oriented professional feeling stuck on your path to success? You might be falling prey to hidden success saboteurs - sneaky mental blocks that can hold you back.",
+      "category": "mindset",
+      "author": "Mithlesh Singh",
+      "date": "July 10, 2024",
+      "readTime": "8 min read",
+      "tags": ["Success", "Saboteurs", "Mindset"]
+    },
+    {
+      "slug": "7-signs-that-shows-you-are-a-great-genuine-person-at-heart",
+      "title": "7 Signs That Show You Are a Great, Genuine Person at Heart",
+      "excerpt": "You embrace your imperfections. Genuine people are comfortable with their flaws and don't try to hide them from others.",
+      "category": "mindset",
+      "author": "Mithlesh Singh",
+      "date": "June 16, 2024",
+      "readTime": "5 min read",
+      "tags": ["Authenticity", "Character", "Self-Development"]
+    },
+    {
+      "slug": "15-life-skills-you-need-in-your-life",
+      "title": "15 Life Skills You Need in Your Life",
+      "excerpt": "Remember this: Your life skills are challenged as you face the world. School cannot wholly prepare you for the realities of adult life.",
+      "category": "mindset",
+      "author": "Mithlesh Singh",
+      "date": "April 12, 2024",
+      "readTime": "12 min read",
+      "tags": ["Life Skills", "Personal Development", "Growth"]
+    },
+    {
+      "slug": "energetic-alignment-manifestation-results",
+      "title": "Energetic Alignment: The Missing Link Between Manifestation and Results",
+      "excerpt": "Ever wondered why some people manifest effortlessly while others keep trying but see little progress? The secret lies in energetic alignment.",
+      "category": "manifestation",
+      "author": "Mithlesh Singh",
+      "date": "September 22, 2025",
+      "readTime": "10 min read",
+      "tags": ["Energy", "Alignment", "Manifestation"]
+    },
+    {
+      "slug": "quantum-manifestation-collapse-timelines",
+      "title": "Quantum Manifestation: How to Collapse Timelines and Attract Faster",
+      "excerpt": "Most people think manifestation is about waiting - waiting for the universe, waiting for signs, waiting for results. But what if you could collapse timelines?",
+      "category": "manifestation",
+      "author": "Mithlesh Singh",
+      "date": "September 21, 2025",
+      "readTime": "9 min read",
+      "tags": ["Quantum", "Manifestation", "Timelines"]
+    },
+    {
+      "slug": "manifestation-synchronicity-universe-signs",
+      "title": "Manifestation and Synchronicity: How to Recognize the Signs the Universe Sends You",
+      "excerpt": "When people think of manifestation, they often imagine vision boards, affirmations, or scripting. But what about the signs the universe sends back?",
+      "category": "manifestation",
+      "author": "Mithlesh Singh",
+      "date": "September 18, 2025",
+      "readTime": "8 min read",
+      "tags": ["Synchronicity", "Signs", "Universe"]
+    },
+    {
+      "slug": "identity-alchemy-manifestation-secret",
+      "title": "Identity Alchemy: Why Becoming Is the Real Secret to Manifestation",
+      "excerpt": "Most people approach manifestation as if it's a wish-list exercise: write down affirmations, visualize outcomes, hope for the best. But there's a deeper secret.",
+      "category": "manifestation",
+      "author": "Mithlesh Singh",
+      "date": "September 15, 2025",
+      "readTime": "11 min read",
+      "tags": ["Identity", "Alchemy", "Becoming"]
+    },
+    {
+      "slug": "hire-a-manifestation-coach-online",
+      "title": "What to Know Before You Hire a Manifestation Coach Online",
+      "excerpt": "If you're considering working with a manifestation coach online, you're not alone and you're not crazy. Here's what you need to know first.",
+      "category": "coaching",
+      "author": "Mithlesh Singh",
+      "date": "September 8, 2025",
+      "readTime": "10 min read",
+      "tags": ["Coaching", "Online", "Manifestation"]
+    },
+    {
+      "slug": "5-common-business-problems-and-how-pivotsimply-solves-them",
+      "title": "5 Common Business Problems (and How PivotSimply Solves Them)",
+      "excerpt": "Running a coaching business shouldn't feel like you're barely keeping up. But for so many coaches and entrepreneurs, that's exactly how it feels.",
+      "category": "business",
+      "author": "Mithlesh Singh",
+      "date": "August 14, 2025",
+      "readTime": "9 min read",
+      "tags": ["Business", "Problems", "Solutions"]
+    }
+  ]
+}

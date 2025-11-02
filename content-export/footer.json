@@ -1,0 +1,133 @@
+{
+  "brand": {
+    "name": "PivotSimply",
+    "description": "Empowering individuals to master their inner world and transform their lives through science-backed coaching, holistic wellness, and spiritual growth practices."
+  },
+  "contactInfo": {
+    "email": "hello@pivotsimply.com",
+    "phone": "+44-02035350170",
+    "location": "Serving clients worldwide"
+  },
+  "socialMedia": [
+    {
+      "platform": "Facebook",
+      "url": "https://www.facebook.com/Pivotsimply-102728118717286/"
+    },
+    {
+      "platform": "Instagram",
+      "url": "https://www.instagram.com/pivotsimplyofficial"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/mithleshsingh/"
+    },
+    {
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/@pivotsimply"
+    },
+    {
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@pivotsimply"
+    }
+  ],
+  "missionVideo": {
+    "text": "Watch Our Mission Statement",
+    "url": "https://youtu.be/pRKppiQYSHM?si=o8ROgVFIPXP4sKCB"
+  },
+  "services": [
+    {
+      "name": "UnboundPivot – Holistic Wellness Platform",
+      "url": "https://unboundpivot.com/",
+      "description": "Your all-in-one platform for emotional healing, self-mastery, and personal growth resources."
+    },
+    {
+      "name": "Aligned Conscious Creators – Radical Life Transformation",
+      "url": "https://preview--pivot-simply-landing.lovable.app/conscious-creator-circle",
+      "description": "A powerful group coaching experience designed to help you identify and release success saboteurs and inner blocks. Align your life with ease and flow using science-backed techniques, practical tools, and the power of synchronicity."
+    },
+    {
+      "name": "Business & Wealth Building – Live Weekly Coaching",
+      "url": "https://academy.pivotsimply.com/technicalbusinessmembership",
+      "description": "Grow your business with step-by-step strategies, technical guidance, and wealth-building tools."
+    },
+    {
+      "name": "PivotSimply Digital – AI Automation Agency",
+      "url": "https://pivotsimplydigital.com/",
+      "description": "Done-for-you automation, AI workflows, and digital growth systems for entrepreneurs."
+    },
+    {
+      "name": "PivotSimply Merch & Templates (Etsy Shop)",
+      "url": "https://www.etsy.com/uk/shop/PivotSimply",
+      "description": "Editable templates, workbooks, planners, and digital products to simplify your business and life."
+    }
+  ],
+  "awards": [
+    {
+      "name": "British Business Awards Finalist",
+      "url": "https://smallbusiness.co.uk/british-business-awards-2024-final-shortlist-revealed-2591088/"
+    },
+    {
+      "name": "Social Impact Heroes Finalist",
+      "url": "https://thehustleawards.co.uk/shortlist-2025/"
+    },
+    {
+      "name": "Business Show Keynote Speaker",
+      "url": "https://www.retrainexpo.co.uk/speakers/mithlesh-singh"
+    },
+    {
+      "name": "London Tech Week",
+      "url": "https://londontechweek.com/exhibitor-list/pivotsimply"
+    }
+  ],
+  "podcast": {
+    "name": "The PivotSimply Podcast",
+    "platforms": [
+      {
+        "name": "Spotify",
+        "url": "https://open.spotify.com/show/4hohCO69KurVGBn9j3TiWZ?si=79c765a96b664562"
+      },
+      {
+        "name": "Apple Podcasts",
+        "url": "https://podcasts.apple.com/gb/podcast/thepivotsimplypodcast/id1828634193"
+      },
+      {
+        "name": "Amazon Music",
+        "url": "https://music.amazon.co.uk/podcasts/d11589e1-8995-4333-84bd-94577d1de1e0/thepivotsimplypodcast"
+      },
+      {
+        "name": "YouTube Music",
+        "url": "https://music.youtube.com/playlist?list=PL1A95QHNyCgZKG3Vu9VQLs8xEWyKemsx_&si=G16lryUznrPkIxZi"
+      }
+    ]
+  },
+  "newsletter": {
+    "heading": "Join Our Transformation Community",
+    "description": "Get weekly insights, transformation tips, and exclusive resources delivered to your inbox."
+  },
+  "legal": {
+    "copyright": "© 2025 PivotSimply. All rights reserved.",
+    "links": [
+      {
+        "text": "Privacy Policy",
+        "url": "/privacy-policy"
+      },
+      {
+        "text": "Terms of Service",
+        "url": "/terms-of-service"
+      },
+      {
+        "text": "Copyrights",
+        "url": "/copyrights"
+      },
+      {
+        "text": "Refunds Policy",
+        "url": "/refunds-policy"
+      },
+      {
+        "text": "Disclaimer",
+        "url": "/disclaimer"
+      }
+    ],
+    "tagline": "Made with ❤️ for transformation"
+  }
+}

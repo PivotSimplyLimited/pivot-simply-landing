@@ -1,0 +1,101 @@
+{
+  "page": "Conscious Creator Circle",
+  "hero": {
+    "badge": "LIVE GROUP COACHING",
+    "subtitle": "Radical Life Transformation – Live Group Coaching Membership",
+    "heading": "Aligned Conscious Creators",
+    "description": "A powerful group coaching experience designed to help you identify and release success saboteurs and inner blocks. Align your life with ease and flow using science-backed techniques, practical tools, and the power of synchronicity.",
+    "pricing": {
+      "monthly": "£170",
+      "yearly": "£1591.20",
+      "savings": "£448.80",
+      "discount": "22% OFF"
+    },
+    "rating": "5.0 Google Rating",
+    "cta": "Join the Circle Today"
+  },
+  "painPoints": {
+    "heading": "Ready For Radical Life Transformation?",
+    "items": [
+      "Chronic burnout and overwhelming stress",
+      "Success saboteurs blocking your potential",
+      "Living on autopilot instead of consciously",
+      "Performance anxiety and persistent low mood",
+      "Loneliness and feeling disconnected from others",
+      "Overthinking that paralyzes your progress",
+      "Self-doubt undermining your achievements",
+      "Struggling to regulate emotions in tough times",
+      "Lack of clear life direction and purpose",
+      "Limiting beliefs keeping you small",
+      "Feeling like you're not living authentically",
+      "Unable to break destructive patterns"
+    ],
+    "cta": {
+      "tagline": "Transform these blocks into breakthrough moments with Aligned Conscious Creators...",
+      "description": "A powerful group coaching experience designed to help you identify and release success saboteurs and inner blocks.",
+      "button": "Join The Circle Today"
+    }
+  },
+  "features": {
+    "heading": "Transform Your Reality",
+    "description": "Comprehensive live coaching with science-backed techniques for lasting transformation.",
+    "items": [
+      "Live Weekly Group Coaching",
+      "Honour Your True Self",
+      "Expand Self-Awareness",
+      "Success Saboteur & Inner Blocks Release",
+      "Synchronicity-Based Self-Discovery Methods",
+      "Align Inner & Outer Worlds",
+      "Cultivate an Unshakeable Growth Mindset",
+      "Relationship Building",
+      "Transform Your Life: Identify → Shift",
+      "Live Consciously, Not on Autopilot",
+      "Build Lasting Confidence & Resilience",
+      "Heal Burnout & Overthinking",
+      "Overcome Success Saboteurs",
+      "Release Performance Anxiety & Low Mood",
+      "Move from Loneliness to Self-Love",
+      "Discover Your True Purpose",
+      "Practice Cognitive-Behavioural Alignment",
+      "Regulate Your Nervous System in Tough Times",
+      "Build and Track Transformational Habits",
+      "Learn the Art of Meditation",
+      "Transform Self-Doubt into Self-Belief",
+      "Master Science-Backed Manifestation",
+      "Activate Visualisation Techniques",
+      "Become an Extraordinary Champion",
+      "Achieve Aligned Success",
+      "Lead with Core Values",
+      "Building an effective Women's Leadership",
+      "Inner energy alignment",
+      "Science-Backed Techniques"
+    ]
+  },
+  "testimonials": [
+    {
+      "name": "Virgi J",
+      "rating": 5,
+      "role": "Conscious Creator Circle Member",
+      "text": "Something within me is shifting—quietly, but with real power. My world feels lighter, clearer. I approach life and business with a sharper focus and deeper sense of purpose.",
+      "transformation": "From Hidden Potential to Authentic Power"
+    },
+    {
+      "name": "Simeon Mihinga",
+      "rating": 5,
+      "role": "Business Coaching Client",
+      "text": "Pivot Simply is really an ideal business coaching programme for both men and women, especially those fearing to start and grow their businesses.",
+      "transformation": "From Fear to Flourishing Business"
+    },
+    {
+      "name": "Caroline Beattie",
+      "rating": 5,
+      "role": "Conscious Creator Circle Member",
+      "text": "I joined the Conscious Creator Membership and this is the best way I have invested in myself. An interesting road to discovery with usable tools for everyday self care and healing.",
+      "transformation": "From Self-Doubt to Personal Achievement"
+    }
+  ],
+  "finalCTA": {
+    "heading": "Ready to Join the Circle?",
+    "description": "Experience live group coaching and transform your success saboteurs into strengths."
+  }
+}
