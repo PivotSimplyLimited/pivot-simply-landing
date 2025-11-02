@@ -17,6 +17,11 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center text-foreground">
         <div className="max-w-4xl mx-auto animate-fade-in-up">
+          {/* Top heading */}
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-primary">
+            Multi-Award Winning Coaching and Mentorship Organisation, UK
+          </h2>
+          
           {/* Awards and Trust indicators */}
           <div className="flex flex-col items-center justify-center gap-6 mb-8">
             <div className="text-center">
