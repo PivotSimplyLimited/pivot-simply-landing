@@ -22,48 +22,6 @@ const Hero = () => {
             Multi-Award Winning Coaching and Mentorship Organisation, UK
           </h2>
           
-          {/* Awards and Trust indicators */}
-          <div className="flex flex-col items-center justify-center gap-6 mb-8">
-            <div className="text-center">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-3 max-w-4xl mx-auto">
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 border border-white/20">
-                  <span className="text-sm font-medium">🏆 Elite International IE 100 Awards</span>
-                  <p className="text-xs opacity-80 mt-1">PivotSimply - Coaching & Mentorship Company of the Year - UK</p>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 border border-white/20">
-                  <span className="text-sm font-medium">🏆 Award Winning Creative Visionary</span>
-                  <p className="text-xs opacity-80 mt-1">British Parliament House, London</p>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 border border-white/20">
-                  <span className="text-sm font-medium">🎖️ Most Transformative Tech Empowerment Champion 2024</span>
-                  <p className="text-xs opacity-80 mt-1">United Kingdom</p>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 border border-white/20">
-                  <span className="text-sm font-medium">🌟 Finalist - Startups Magazine</span>
-                  <p className="text-xs opacity-80 mt-1">Hustle Awards 2025</p>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 border border-white/20">
-                  <span className="text-sm font-medium">🏅 Finalist - British Business Awards</span>
-                  <p className="text-xs opacity-80 mt-1">2024</p>
-                </div>
-              </div>
-            </div>
-            <div className="flex items-center justify-center gap-8 opacity-80">
-              <div className="flex items-center gap-2">
-                <Star className="w-5 h-5 fill-current text-primary" />
-                <span className="text-sm">5-Star Transformations</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Users className="w-5 h-5" />
-                <span className="text-sm">1000+ Lives Changed</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Award className="w-5 h-5" />
-                <span className="text-sm">Certified Coaching</span>
-              </div>
-            </div>
-          </div>
-
           <h1 className="text-5xl md:text-7xl font-playfair font-bold mb-6 leading-tight">
             You Are Just One Decision Away From
             <span className="block text-gradient-hero">
