@@ -17,6 +17,12 @@ const SimeonCredentials = () => {
       badge: "🎖️"
     },
     {
+      icon: <Trophy className="h-5 w-5 text-emerald-500" />,
+      title: "Elite International IE 100 Awards",
+      organization: "PivotSimply - Coaching & Mentorship Company of the Year - UK",
+      badge: "🏆"
+    },
+    {
       icon: <Star className="h-5 w-5 text-purple-500" />,
       title: "Finalist - Startups Magazine",
       organization: "Hustle Awards 2025",
