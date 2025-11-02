@@ -31,14 +31,25 @@ const UnboundPivot = () => {
 
   const testimonials = [
     {
-      name: "Sarah M.",
+      name: "Virgi J",
       rating: 5,
-      text: "Unbound Pivot transformed my entire approach to self-development. The inner mastery techniques are life-changing."
+      role: "Conscious Creator Circle Member",
+      text: "Something within me is shifting—quietly, but with real power. My world feels lighter, clearer. I approach life and business with a sharper focus and deeper sense of purpose. Mithlesh helped me uncover the part of me I couldn't reach alone and guided me out of unhelpful patterns into a space where joy, clarity, and progress feel natural.",
+      transformation: "From Hidden Potential to Authentic Power"
     },
     {
-      name: "James K.", 
+      name: "Simeon Mihinga",
       rating: 5,
-      text: "The AI Expert Coach feature is incredible. It's like having a personal mentor available 24/7."
+      role: "Business Coaching Client",
+      text: "Pivot Simply is really an ideal business coaching programme for both men and women, especially those fearing to start and grow their businesses. Mithlesh has been an outstanding coach and mentor in business with never-doubted outstanding records.",
+      transformation: "From Fear to Flourishing Business"
+    },
+    {
+      name: "Caroline Beattie",
+      rating: 5,
+      role: "Conscious Creator Circle Member",
+      text: "I joined the Conscious Creator Membership and this is the best way I have invested in myself. An interesting road to discovery with usable tools for everyday self care and healing. I have achieved some personal goals that I didn't think were possible.",
+      transformation: "From Self-Doubt to Personal Achievement"
     }
   ];
 
@@ -217,19 +228,23 @@ const UnboundPivot = () => {
             </h2>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {testimonials.map((testimonial, index) => (
               <Card key={index} className="bg-gradient-card border-0 shadow-medium">
                 <CardContent className="pt-6">
-                  <div className="flex items-center mb-4">
-                    <div className="flex mr-2">
-                      {[...Array(testimonial.rating)].map((_, i) => (
-                        <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                      ))}
-                    </div>
-                    <span className="font-semibold">{testimonial.name}</span>
+                  <div className="flex mb-4">
+                    {[...Array(testimonial.rating)].map((_, i) => (
+                      <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+                    ))}
                   </div>
-                  <p className="text-muted-foreground italic">"{testimonial.text}"</p>
+                  <p className="text-muted-foreground italic mb-4">"{testimonial.text}"</p>
+                  <div className="bg-primary/10 text-primary px-3 py-1 rounded-full text-xs font-medium mb-4 inline-block">
+                    {testimonial.transformation}
+                  </div>
+                  <div>
+                    <div className="font-semibold">{testimonial.name}</div>
+                    <div className="text-sm text-muted-foreground">{testimonial.role}</div>
+                  </div>
                 </CardContent>
               </Card>
             ))}

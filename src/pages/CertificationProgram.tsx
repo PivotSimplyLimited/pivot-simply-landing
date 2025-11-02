@@ -299,24 +299,22 @@ const CertificationProgram = () => {
 
   const testimonials = [
     {
-      name: "Maria Rodriguez",
-      role: "Certified Transformation Coach",
-      text: "Simeon's certification program completely transformed my approach to coaching. The depth of knowledge and practical tools I gained have enabled me to help my clients achieve breakthrough results consistently."
+      name: "Virgi J",
+      role: "Conscious Creator Circle Member",
+      text: "Something within me is shifting—quietly, but with real power. My world feels lighter, clearer. I approach life and business with a sharper focus and deeper sense of purpose. Mithlesh helped me uncover the part of me I couldn't reach alone and guided me out of unhelpful patterns into a space where joy, clarity, and progress feel natural.",
+      transformation: "From Hidden Potential to Authentic Power"
     },
     {
-      name: "James Thompson", 
-      role: "Business & Executive Coach",
-      text: "Working with Simeon and completing this certification gave me the confidence and expertise to launch my own coaching practice. Within 6 months, I was booked solid with high-paying clients."
+      name: "Simeon Mihinga",
+      role: "Business Coaching Client",
+      text: "Pivot Simply is really an ideal business coaching programme for both men and women, especially those fearing to start and grow their businesses. Mithlesh has been an outstanding coach and mentor in business with never-doubted outstanding records.",
+      transformation: "From Fear to Flourishing Business"
     },
     {
-      name: "Dr. Sarah Williams",
-      role: "Leadership Development Coach", 
-      text: "As a former therapist, I thought I knew about transformation work. Simeon's methods and certification opened up entirely new possibilities for my practice. My clients now experience deeper, lasting change."
-    },
-    {
-      name: "Michael Chen",
-      role: "Entrepreneur & Coach",
-      text: "The business coaching specialization was a game-changer. Simeon's approach to helping entrepreneurs overcome their limiting beliefs and scale their businesses is unlike anything I've seen."
+      name: "Caroline Beattie",
+      role: "Conscious Creator Circle Member",
+      text: "I joined the Conscious Creator Membership and this is the best way I have invested in myself. An interesting road to discovery with usable tools for everyday self care and healing. I have achieved some personal goals that I didn't think were possible.",
+      transformation: "From Self-Doubt to Personal Achievement"
     }
   ];
 
@@ -521,7 +519,7 @@ const CertificationProgram = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             {testimonials.map((testimonial, index) => (
               <Card key={index}>
                 <CardContent className="pt-6">
@@ -530,7 +528,10 @@ const CertificationProgram = () => {
                       <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
                     ))}
                   </div>
-                  <p className="text-muted-foreground mb-4">"{testimonial.text}"</p>
+                  <p className="text-muted-foreground mb-4 italic">"{testimonial.text}"</p>
+                  <div className="bg-primary/10 text-primary px-3 py-1 rounded-full text-xs font-medium mb-4 inline-block">
+                    {testimonial.transformation}
+                  </div>
                   <div>
                     <p className="font-semibold">{testimonial.name}</p>
                     <p className="text-sm text-muted-foreground">{testimonial.role}</p>
