@@ -123,7 +123,7 @@ const AboutUs = () => {
                 </p>
                 
                 <p>
-                  Mithlesh's journey is a testament to resilience. Once a quiet, bullied child with physical challenges and suppressed self-expression, she transformed her pain into purpose. Through healing her body and studying human behavior, emotions, psychology, manifestation, and transformational healing, she unlocked her inner strength.
+                  Mithlesh's journey is a testament to resilience. Once a quiet child who went through bullying experience at school, when she was forming the world view, with physical challenges and suppressed self-expression, she transformed her pain into purpose. Through healing her body and studying human behavior, emotions, psychology, manifestation, and transformational healing, she unlocked her inner strength.
                 </p>
                 
                 <blockquote className="text-center text-xl font-semibold text-primary italic border border-primary/20 bg-primary/5 p-6 rounded-lg">
