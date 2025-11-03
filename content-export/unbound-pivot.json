@@ -1,10 +1,10 @@
 {
   "page": "Unbound Pivot",
-  "hero": {
+  "hero":{
     "badge": "SELF MASTERY PLATFORM",
     "heading": "Unbound Pivot",
     "description": "Break free from limitations and step into your authentic power with our comprehensive platform for self inner mastery.",
-    "pricing": {
+    "pricing":{
       "monthly": "£44",
       "yearly": "£411.84",
       "savings": "£116.16",
@@ -13,7 +13,7 @@
     "rating": "5.0 Rating",
     "cta": "Start Your Transformation Today"
   },
-  "painPoints": {
+  "painPoints":{
     "heading": "Are You Struggling With Any Of These?",
     "items": [
       "Feeling stuck and unfulfilled in life",
@@ -26,13 +26,13 @@
       "Negative thought patterns you can't break",
       "Feeling lost and unsure of your next steps"
     ],
-    "cta": {
+    "cta":{
       "tagline": "If any of these resonate with you...",
       "description": "Unbound Pivot is designed to help you break free and step into your power.",
       "button": "Transform Your Life Today"
     }
   },
-  "features": {
+  "features":{
     "heading": "What's Included",
     "description": "Everything you need for complete inner mastery and personal transformation.",
     "items": [
@@ -75,7 +75,7 @@
       "transformation": "From Self-Doubt to Personal Achievement"
     }
   ],
-  "finalCTA": {
+  "finalCTA":{
     "heading": "Ready to Transform Your Life?",
     "description": "Join thousands who have already started their inner mastery journey.",
     "button": "Start Your Transformation"
